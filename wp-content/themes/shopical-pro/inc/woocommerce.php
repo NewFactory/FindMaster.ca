@@ -790,24 +790,31 @@ if (!function_exists('shopical_add_to_cart_text')) {
     {
         global $product;
 
+        if(method_exists('WC_Product','get_type')){
+            $product_type = $product->get_type();
+        }else{
+            $product_type = $product->product_type;
+        }
+
+
         $simple = shopical_get_option('store_simple_add_to_cart_text');
         $variable = shopical_get_option('store_variable_add_to_cart_text');
         $grouped = shopical_get_option('store_grouped_add_to_cart_text');
         $external = shopical_get_option('store_external_add_to_cart_text');
 
-        if ($product->is_type('simple')) {
+        if ($product_type == 'simple') {
             return $simple;
         }
 
-        if ($product->is_type('variable')) {
+        if ($product_type == 'variable') {
             return $variable;
         }
 
-        if ($product->is_type('grouped')) {
+        if ($product_type == 'grouped') {
             return $grouped;
         }
 
-        if ($product->is_type('external')) {
+        if ($product_type == 'external' ) {
             return $external;
         }
 

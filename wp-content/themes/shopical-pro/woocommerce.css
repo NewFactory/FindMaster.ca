@@ -2415,12 +2415,16 @@ table.compare-list tbody tr:last-child td {
 .woocommerce a.button,
 .woocommerce button.button,
 .woocommerce input.button {
-	color: #fff;
 	background: transparent;
 	border-radius: 0;
 	font-size: 12px;
 	font-weight: normal;
 	text-transform: uppercase;
+}
+.woocommerce #respond input#submit,
+.woocommerce button.button,
+.woocommerce input.button {
+	color: #fff;
 }
 .woocommerce button[type="submit"]{
 	border: 0;

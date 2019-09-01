@@ -5,7 +5,7 @@ Theme URI: https://afthemes.com/products/shopical-pro/
 Author: AF themes
 Author URI: https://afthemes.com/
 Description: Shopical Pro is a powerful, flexible and advanced, premium WordPress multipurpose theme having intense integration with the popular eCommerce plugin; WooCommerce. After an immense research on modern online shopping sites, it has been built with eCommerce functionality in mind. It is a fully responsive WordPress WooCommerce theme having RTL and Gutenberg compatibility along with an elegant design, extensive functionality and incredible user experience. You can start building an awesome store with the help of live customizer options, widgets and settings. it can be implemented as a fashionable clothing store, gadgets shop, online store for  interior and home appliances, automobile shopping site, books store, photo store, movies store, foods and restaurants online order sites and more. The theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are number of demos available for this theme so choose the one you like and start to build a website. See our demos: https://demo.afthemes.com/shopical-pro/, https://demo.afthemes.com/shopical-pro/gadgets-pro/, https://demo.afthemes.com/shopical-pro/automobile-pro/, https://demo.afthemes.com/shopical-pro/interior-pro/, https://demo.afthemes.com/shopical-pro/restaurant-pro/, https://demo.afthemes.com/shopical-pro/minimal-pro/
-Version: 1.1.6
+Version: 1.1.7
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: shopical
@@ -3380,13 +3380,7 @@ i.fa.fa-heart-o.aft-alt-icon{
 	background: #cc0000;;
 	border-color: #cc0000;;
 }
-.woocommerce #respond input#submit:hover,
-.woocommerce a.button:hover, 
-.woocommerce button.button:hover,
-.woocommerce input.button:hover,
-.btn-style1 a:hover{
-	color: #fff;
-}
+
 .content-caption .cat-links li {
 	display: inline-block;
 	margin-right: 15px;

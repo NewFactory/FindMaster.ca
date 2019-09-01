@@ -3,7 +3,7 @@
 Contributors: AF themes
 Requires at least: 4.0
 Tested up to: 5
-Stable tag: 1.1.6
+Stable tag: 1.1.7
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments, rtl-language-support
@@ -27,6 +27,10 @@ Shopical Pro is an advanced, powerful and flexible, free multipurpose WordPress 
 Shopical Pro includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 1.1.7 - Aug 28 2019 =
+* Updated fallback function button texts
+* Fixed some design glitch
+
 = 1.1.6 - Aug 06 2019 =
 * New - New body open hook added
 * New - New skip link functionality added
