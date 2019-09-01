@@ -6,16 +6,16 @@ function fng_get_task_default_fields(){
         array(
             'slug' => 'fng-price',
             'type' => 'number',
-            'title' => __('Стоимость задания ('.rcl_get_primary_currency(1).')'),
-            'notice' => __('укажите стоимость задания целым числом, может быть изменено при утверждении исполнителя'),
+            'title' => __('Job cost ('.rcl_get_primary_currency(1).')'),
+            'notice' => __('indicate the cost of the job as an integer, it can be changed when approving the contractor'),
             'required' => 1,
             'value_min' => 0
         ),
         array(
             'slug' => 'fng-days',
             'type' => 'number',
-            'title' => __('Срок выполнения (в днях)'),
-            'notice' => __('укажите срок выполнения задания после которого поднимается вопрос о смене исполнителя или продлении срока выполнения'),
+            'title' => __('Deadline (in days)'),
+            'notice' => __('indicate the deadline for completing the task after which the question arises of changing the contractor or extending the deadline'),
             'required' => 1,
             'default' => 1,
             'value_min' => 1

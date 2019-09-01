@@ -11,7 +11,7 @@
 ?>
 
 <div class="uit_basic_info">
-    <div class="uit_general_title">Информация о пользователе:</div>
+    <div class="uit_general_title">User information:</div>
 
     <?php  // отображаемое имя
         uit_display_name($user_LK);
@@ -20,7 +20,7 @@
     <?php // информация видна только автору кабинета. Ссылка на редактирование профиля
           // Здесь и ниже мы видим что можно передавать в функцию свой текст и название иконки Font Awesome
           // иконки можно выбрать здесь http://fontawesome.io/icons/
-        uit_user_message($user_LK, $title='Эти данные вы можете заполнить/изменить в своем профиле. Перейти <i class="rcli fa-angle-double-right"></i>', $fa_icon='fa-wrench');
+        uit_user_message($user_LK, $title='You can fill in / change this data in your profile. Go to <i class="rcli fa-angle-double-right"></i>', $fa_icon='fa-wrench');
     ?>
 
     <?php  // экшен до блока информации. Передает id кабинета
@@ -43,41 +43,41 @@
     ?>
 
     <?php // баланс - если активен user-account
-        uit_get_balance($user_LK, $title='Баланс:', $fa_icon='fa-money');
+        uit_get_balance($user_LK, $title='Account:', $fa_icon='fa-money');
     ?>
 
     <?php // Эта функция выводит все произвольные поля профиля.
           // если все поля профиля массово не надо выводить - и вы хотите вывести и оформить каждое поле в отдельности
           // - используйте функцию get_user_meta() http://wp-kama.ru/function/get_user_meta
           // а строчку ниже закомментируйте
-        uit_all_custom_field($user_LK, $title='Анкета:', $fa_icon='fa-id-card-o');
+        uit_all_custom_field($user_LK, $title='Details:', $fa_icon='fa-id-card-o');
     ?>
 
     <?php // последняя страница - если активен доп LastPage https://codeseller.ru/?p=8190
-        uit_last_page($user_LK, $title='Активность:', $fa_icon='fa-eye');
+        uit_last_page($user_LK, $title='Activity:', $fa_icon='fa-eye');
     ?>
 
     <?php // Статус пользователя
-        uit_description($user_LK, $title='Дополнительно:', $fa_icon='fa-info');
+        uit_description($user_LK, $title='Additionally:', $fa_icon='fa-info');
     ?>
 
     <?php // Соц ссылки - если активен доп Social Recall https://codeseller.ru/?p=4637
-        uit_social($user_LK, $title='Контакты:', $fa_icon='fa-envelope-open-o');
+        uit_social($user_LK, $title='Contacts:', $fa_icon='fa-envelope-open-o');
     ?>
 
     <?php do_action('uit_after_info',$user_LK); // экшен после блока информации ?>
 </div><!-- end uit_basic_info -->
 
 <div class="uit_statistics"><!-- блок статистики -->
-    <div class="uit_activity"><i class="rcli fa-heartbeat"></i><span>Активность пользователя:</span></div>
+    <div class="uit_activity"><i class="rcli fa-heartbeat"></i><span>User Activity:</span></div>
 
     <?php do_action('uit_before_stats',$user_LK); // экшен до блока статистики ?>
 
-    <?php uit_registration_date($user_LK, $title='Регистрация', $fa_icon='fa-child'); // дата регистрации ?>
+    <?php uit_registration_date($user_LK, $title='Check in', $fa_icon='fa-child'); // дата регистрации ?>
 
-    <?php uit_day_after_registration($user_LK, $title='На сайте, дней', $fa_icon='fa-calendar-check-o'); // считаем дни на сайте ?>
+    <?php uit_day_after_registration($user_LK, $title='On the site, days', $fa_icon='fa-calendar-check-o'); // считаем дни на сайте ?>
 
-    <?php uit_comments_count($user_LK, $title='Комментариев', $fa_icon='fa-comments-o'); // оставил комментариев ?>
+    <?php// uit_comments_count($user_LK, $title='Комментариев', $fa_icon='fa-comments-o'); // оставил комментариев ?>
 
     <?php uit_count_type_post($user_LK, $type='post', $title='Публикаций', $fa_icon='fa-newspaper-o'); // кол-во публикаций в обычных записях ?>
 
@@ -106,8 +106,8 @@
 <div class="uit_footer"><!-- блок uit_footer -->
 
     <?php  // сессии пользователя. Этот блок видит администратор и хозяин личного кабинета
-        $notice = 'Данная информация видна только вам и администрации. Она показывает когда вы залогинились, с какого устройства и IP адреса';
-        uit_get_session_data($user_LK, $title='Сессии:', $fa_icon='fa-hourglass-end', $notice);
+        $notice = 'This information is visible only to you and the administration. It shows when you logged in, from which device and IP address';
+        uit_get_session_data($user_LK, $title='Sessions:', $fa_icon='fa-hourglass-end', $notice);
     ?>
 
     <?php do_action('uit_footer',$user_LK); // экшен срабатывает в самом низу ?>

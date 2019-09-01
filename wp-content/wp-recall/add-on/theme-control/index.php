@@ -46,7 +46,7 @@ function tc_user_info(){
     if(rcl_exist_addon('user-info-tab')) return false; // не нужна она при допе user-info-tab
 
     rcl_dialog_scripts(); // скрипт диалогового окна
-    $out = '<span title="Подробная информация" onclick="rcl_get_user_info(this);return false;" class="tc_usr_info">';
+    $out = '<span title="Detailed information" onclick="rcl_get_user_info(this);return false;" class="tc_usr_info">';
         $out .= '<i class="rcli fa-info"></i>';
     $out .= '</span>';
 
@@ -63,7 +63,7 @@ function tc_home_button_on_menu($menu){
     if(!rcl_is_office($user_ID)){ // не в своем ЛК
         global $rcl_user_URL;
         $button = '<span class="rcl-tab-button">';
-            $button .= rcl_get_button('В свой кабинет', $rcl_user_URL, array('icon'=>'fa-home','id'=>'tc_home_button'));
+            $button .= rcl_get_button('To your profile', $rcl_user_URL, array('icon'=>'fa-home','id'=>'tc_home_button'));
         $button .= '</span>';
     }
     return $button.$menu;
@@ -125,16 +125,16 @@ function tc_author_menu($user_lk){
         $out .= '<div class="tc_dropdown">';
             if(!rcl_exist_addon('user-info-tab')){
                 $out .= '<div class="tc_line tc_ava">';
-                    $out .= '<a class="tc_ava_upload" title="Загрузка аватара" url="#"><i class="rcli fa-download"></i><span>Загрузить аватарку</span><input id="userpicupload" accept="image/*" name="userpicupload" type="file"></a>';
+                    $out .= '<a class="tc_ava_upload" title="Upload avatar" url="#"><i class="rcli fa-download"></i><span>Upload avatar</span><input id="userpicupload" accept="image/*" name="userpicupload" type="file"></a>';
                 $out .= '</div>';
             }
             if(rcl_exist_addon('profile')){
                 $out .= '<div class="tc_line">';
-                    if(rcl_exist_addon('user-info-tab')){ // если активен доп - ajax загрузка ред. профиля
+                    /*if(rcl_exist_addon('user-info-tab')){ // если активен доп - ajax загрузка ред. профиля
                         $out .= '<a class="rcl-ajax" data-post="'.uit_ajax_data($user_lk,$uit_tab_id = 'profile').'" href="?tab=profile"><i class="rcli fa-pencil"></i><span>Редактировать профиль</span></a>';
                     } else {
                         $out .= '<a href="?tab=profile"><i class="rcli fa-pencil"></i><span>Редактировать профиль</span></a>';
-                    }
+                    }*/
                 $out .= '</div>';
             }
             if(current_user_can('activate_plugins')){

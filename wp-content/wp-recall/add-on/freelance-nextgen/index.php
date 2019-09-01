@@ -37,16 +37,16 @@ function fng_init_scripts(){
 function fng_get_statuses(){
     
     $statuses = array(
-        -4 => __('Просрочен'),
-        -3 => __('Арбитраж'),
-        //-2 => __('Отклонен'),
-        //-1 => __('Отменен'),
-        0 => __('Неопределен'),
-        1 => __('Подбор исполнителя'),
-        2 => __('В работе'),
-        //3 => __('Выполнен, но не подтвержден'),
-        //4 => __('Выполнение подтверждено'),
-        5 => __('Завершен')
+        -4 => __('Expired'),
+        -3 => __('Arbitration'),
+        -2 => __('Rejected'),
+        -1 => __('Canceled'),
+        0 => __('Indefinite'),
+        1 => __('Artist selection'),
+        2 => __('In work'),
+        3 => __('Completed but not verified'),
+        4 => __('Execution Confirmed'),
+        5 => __('Completed')
     );
     
     return apply_filters('fng_status_array', $statuses);

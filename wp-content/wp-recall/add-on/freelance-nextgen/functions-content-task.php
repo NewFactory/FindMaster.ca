@@ -30,13 +30,13 @@ function fng_get_task_meta_box( $post_id ) {
                 <div class="task-meta task-price">' . get_post_meta( $post_id, 'fng-price', 1 ) . ' ' . rcl_get_primary_currency( 1 ) . '</div>
                 ' . fng_get_post_terms( $post_id ) . '
                 <div class="task-meta">
-                    <i class="rcli fa-clock-o far fa-clock rcl-icon"></i>' . __( 'Срок выполнения' ) . ': ' . get_post_meta( $post_id, 'fng-days', 1 ) . ' дн.
+                    <i class="rcli fa-clock-o far fa-clock rcl-icon"></i>' . __( 'Period of execution' ) . ': ' . get_post_meta( $post_id, 'fng-days', 1 ) . ' days
                 </div>
                 <div class="task-meta task-status">
-                    <i class="rcli fa-refresh fa-sync rcl-icon"></i>' . __( 'Статус задания' ) . ': <span class="task-status-' . get_post_meta( $post_id, 'fng-status', 1 ) . '">' . fng_get_status_name( get_post_meta( $post_id, 'fng-status', 1 ) ) . '</span>
+                    <i class="rcli fa-refresh fa-sync rcl-icon"></i>' . __( 'Status' ) . ': <span class="task-status-' . get_post_meta( $post_id, 'fng-status', 1 ) . '">' . fng_get_status_name( get_post_meta( $post_id, 'fng-status', 1 ) ) . '</span>
                 </div>'
 		. (rcl_get_option( 'fng-view-performer', 0 ) && get_post_meta( $post_id, 'fng-performer', 1 ) ? '<div class="task-meta task-performer">
-                    <i class="rcli fa-user rcl-icon"></i>' . __( 'Исполнитель задания' ) . ': <a href="' . get_author_posts_url( get_post_meta( $post_id, 'fng-performer', 1 ) ) . '" target="_blank">' . get_the_author_meta( 'display_name', get_post_meta( $post_id, 'fng-performer', 1 ) ) . '</a>
+                    <i class="rcli fa-user rcl-icon"></i>' . __( 'Job performer' ) . ': <a href="' . get_author_posts_url( get_post_meta( $post_id, 'fng-performer', 1 ) ) . '" target="_blank">' . get_the_author_meta( 'display_name', get_post_meta( $post_id, 'fng-performer', 1 ) ) . '</a>
                 </div>' : '')
 		. '</div>';
 
@@ -45,7 +45,7 @@ function fng_get_task_meta_box( $post_id ) {
 
 function fng_get_post_terms( $post_id ) {
 
-	$content = fng_get_post_term_list( $post_id, 'task-subject', __( 'Тема задания' ), 'folder-open' );
+	$content = fng_get_post_term_list( $post_id, 'task-subject', __( 'Category' ), 'folder-open' );
 
 	if ( !$content )
 		return false;
@@ -100,7 +100,7 @@ function fng_add_task_box( $content ) {
 				$chatArgs['form']		 = false;
 			}
 
-			$content .= '<h3>' . __( 'Рабочая область' ) . '</h3>';
+			$content .= '<h3>' . __( 'Workspace' ) . '</h3>';
 
 			$content .= rcl_chat_shortcode( $chatArgs );
 		}

@@ -68,16 +68,16 @@ function fng_request_take( $request_id ) {
 
 	$request = fng_get_request( $request_id );
 
-	fng_add_service_message( $request->task_id, __( 'Назначен исполнитель задания' ) . ' - ' . get_the_author_meta( 'display_name', $request->author_id ) );
+	fng_add_service_message( $request->task_id, __( 'Assigned assignee' ) . ' - ' . get_the_author_meta( 'display_name', $request->author_id ) );
 
 	if ( rcl_get_option( 'fng-reserve' ) )
-		fng_add_service_message( $request->task_id, __( 'Заказчик зарезервировал средства на сумму ' . $request->request_price . '.' ) );
+		fng_add_service_message( $request->task_id, __( 'Customer has reserved funds in the amount of ' . $request->request_price . '.' ) );
 
 	$firstPrice = get_post_meta( $request->task_id, 'fng-price', 1 );
 
 	if ( $firstPrice != $request->request_price ) {
 
-		fng_add_service_message( $request->task_id, __( 'Стоимость заказа изменена.' ) );
+		fng_add_service_message( $request->task_id, __( 'Order value changed.' ) );
 
 		update_post_meta( $request->task_id, 'fng-first-price', $firstPrice );
 		update_post_meta( $request->task_id, 'fng-price', $request->request_price );

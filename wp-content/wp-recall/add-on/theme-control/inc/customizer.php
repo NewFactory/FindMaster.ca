@@ -51,7 +51,7 @@ $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'tc_me
 
 // состояния кнопок
 $wp_customize->add_setting('tc_menu_bckgrnd_active', array( // Цвет нажатой кнопки (активной) и ховер
-        'default'     =>  '#e5e5e5',
+        'default'     =>  '#777777',
         'transport'   =>  'postMessage'
 ));
 $wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'tc_menu_bckgrnd_active', array(

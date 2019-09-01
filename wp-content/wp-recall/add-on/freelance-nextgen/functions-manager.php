@@ -74,18 +74,18 @@ function fng_get_request_manager( $request_id ) {
 
 		$items[] = array(
 			'id'		 => 'fng-request-remove',
-			'label'		 => __( 'Удалить' ),
+			'label'		 => __( 'Delete' ),
 			'icon'		 => 'fa-remove',
 			'onclick'	 => 'fng_ajax(' . json_encode( array(
 				'action'	 => 'fng_ajax_request_remove',
 				'request_id' => $request_id,
-				'confirm'	 => __( 'Вы уверены?' )
+				'confirm'	 => __( 'Are you sure?' )
 			) ) . ',this);return false;'
 		);
 
 		$items[] = array(
 			'id'		 => 'fng-request-edit',
-			'label'		 => __( 'Изменить' ),
+			'label'		 => __( 'Edit' ),
 			'icon'		 => 'fa-pencil-square-o',
 			'onclick'	 => 'fng_ajax(' . json_encode( array(
 				'action'	 => 'fng_ajax_get_request_edit_form',
@@ -96,23 +96,23 @@ function fng_get_request_manager( $request_id ) {
 
 		$items[] = array(
 			'id'		 => 'fng-request-reject',
-			'label'		 => __( 'Отказать' ),
+			'label'		 => __( 'Refuse' ),
 			'icon'		 => 'fa-remove',
 			'onclick'	 => 'fng_ajax(' . json_encode( array(
 				'action'	 => 'fng_ajax_request_reject',
 				'request_id' => $request_id,
-				'confirm'	 => __( 'Вы уверены?' )
+				'confirm'	 => __( 'Are you sure?' )
 			) ) . ',this);return false;'
 		);
 
 		$items[] = array(
 			'id'		 => 'fng-request-take',
-			'label'		 => __( 'Выбрать исполнителем' ),
+			'label'		 => __( 'Choose by artist' ),
 			'icon'		 => 'fa-handshake-o',
 			'onclick'	 => 'fng_ajax(' . json_encode( array(
 				'action'	 => 'fng_ajax_get_request_payment_form',
 				'request_id' => $request_id,
-				'confirm'	 => __( 'Вы уверены?' )
+				'confirm'	 => __( 'Are you sure?' )
 			) ) . ',this);return false;'
 		);
 	}
@@ -141,23 +141,23 @@ function fng_get_task_manager( $task_id ) {
 
 			$items[] = array(
 				'id'		 => 'fng-performer-fired',
-				'label'		 => __( 'Отказаться от исполнителя' ),
+				'label'		 => __( 'Unsubscribe artist' ),
 				'icon'		 => 'fa-frown-o',
 				'onclick'	 => 'fng_ajax(' . json_encode( array(
 					'action'	 => 'fng_ajax_performer_fired',
 					'task_id'	 => $task_id,
-					'confirm'	 => __( 'Вы уверены?' )
+					'confirm'	 => __( 'Are you sure?' )
 				) ) . ',this);return false;'
 			);
 
 			$items[] = array(
 				'id'		 => 'fng-add-time',
-				'label'		 => __( 'Продлить время' ),
+				'label'		 => __( 'Extend the time' ),
 				'icon'		 => 'fa-clock-o fa-clock',
 				'onclick'	 => 'fng_ajax(' . json_encode( array(
 					'action'	 => 'fng_ajax_add_time_form',
 					'task_id'	 => $task_id,
-					//'confirm' => __('Вы уверены?')
+					//'confirm' => __('Are you sure?')
 				) ) . ',this);return false;'
 			);
 		}
@@ -166,23 +166,23 @@ function fng_get_task_manager( $task_id ) {
 
 			$items[] = array(
 				'id'		 => 'fng-task-claim',
-				'label'		 => __( 'Арбитраж' ),
+				'label'		 => __( 'Arbitration' ),
 				'icon'		 => 'fa-gavel',
 				'onclick'	 => 'fng_ajax(' . json_encode( array(
 					'action'	 => 'fng_ajax_get_claim_form',
 					'task_id'	 => $task_id,
-					'confirm'	 => __( 'Вы уверены?' )
+					'confirm'	 => __( 'Are you sure?' )
 				) ) . ',this);return false;'
 			);
 
 			$items[] = array(
 				'id'		 => 'fng-task-success',
-				'label'		 => __( 'Подтвердить выполнение' ),
+				'label'		 => __( 'Confirm execution' ),
 				'icon'		 => 'fa-check-square-o',
 				'onclick'	 => 'fng_ajax(' . json_encode( array(
 					'action'	 => 'fng_ajax_task_complete',
 					'task_id'	 => $task_id,
-					'confirm'	 => __( 'Вы уверены?' )
+					'confirm'	 => __( 'Are you sure?' )
 				) ) . ',this);return false;'
 			);
 		}
@@ -194,23 +194,23 @@ function fng_get_task_manager( $task_id ) {
 
 			$items[] = array(
 				'id'		 => 'fng-task-claim',
-				'label'		 => __( 'Арбитраж' ),
+				'label'		 => __( 'Arbitration' ),
 				'icon'		 => 'fa-gavel',
 				'onclick'	 => 'fng_ajax(' . json_encode( array(
 					'action'	 => 'fng_ajax_get_claim_form',
 					'task_id'	 => $task_id,
-					'confirm'	 => __( 'Вы уверены?' )
+					'confirm'	 => __( 'Are you sure?' )
 				) ) . ',this);return false;'
 			);
 
 			$items[] = array(
 				'id'		 => 'fng-performer-fail',
-				'label'		 => __( 'Отказаться от выполнения' ),
+				'label'		 => __( 'Refuse execution' ),
 				'icon'		 => 'fa-remove',
 				'onclick'	 => 'fng_ajax(' . json_encode( array(
 					'action'	 => 'fng_ajax_performer_fail',
 					'task_id'	 => $task_id,
-					'confirm'	 => __( 'Вы уверены?' )
+					'confirm'	 => __( 'Are you sure?' )
 				) ) . ',this);return false;'
 			);
 		}

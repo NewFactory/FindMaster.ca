@@ -8,14 +8,14 @@ function fng_register_rating_type(){
     
     rcl_register_rating_type(array(
         'post_type' => 'task',
-        'type_name' => __('Услуги'),
+        'type_name' => __('Services'),
         'style' => true
         )
     );
     
     rcl_register_rating_type(array(
         'post_type' => 'task-task',
-        'type_name' => __('Заказы услуг'),
+        'type_name' => __('Service Orders'),
         'style' => true
         )
     );

@@ -5,7 +5,7 @@ function fng_init_types(){
 
     rcl_init_reviews_type(array(
             'rating_type' => 'fng-performer',
-            'type_name' => __('Отзывы от заказчиков'),
+            'type_name' => __('Customer Reviews'),
             'init_tab' => true,
             'style' => true
         )
@@ -13,7 +13,7 @@ function fng_init_types(){
 
     rcl_init_reviews_type(array(
             'rating_type' => 'fng-customer',
-            'type_name' => __('Отзывы от исполнителей'),
+            'type_name' => __('Reviews from the performers'),
             'init_tab' => true,
             'style' => true
         )
@@ -45,7 +45,7 @@ function fng_add_review_item($items, $task){
 
         $items[] = array(
             'id' => 'fng-add-review',
-            'label' => __('Оставить отзыв исполнителю'),
+            'label' => __('Leave feedback to the performer'),
             'icon' => 'fa-thumbs-o-up',
             'onclick' => 'fng_ajax('.json_encode(array(
                 'action' => 'fng_ajax_get_review_form',
@@ -67,7 +67,7 @@ function fng_add_review_item($items, $task){
 
         $items[] = array(
             'id' => 'fng-add-review',
-            'label' => __('Оставить отзыв заказчику'),
+            'label' => __('Leave feedback to customer'),
             'icon' => 'fa-thumbs-o-up',
             'onclick' => 'fng_ajax('.json_encode(array(
                 'action' => 'fng_ajax_get_review_form',
@@ -114,7 +114,7 @@ function fng_ajax_get_review_form(){
     wp_send_json(array(
         'dialog' => array(
             'content' => rcl_get_review_form($args),
-            'title' => __('Публикация отзыва'),
+            'title' => __('Post review'),
             'size' => 'auto',
             'class' => 'fng-dialog'
         )

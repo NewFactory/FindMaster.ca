@@ -117,9 +117,9 @@ function uit_all_custom_field( $user_lk, $title, $fa_icon ) {
         if ( ! $val )
             return false;
 
-        $icon = ( $fa_icon ) ? '<div class="uit_icon"><i class="rcli ' . $fa_icon . '"></i></div>' : '';
+        //$icon = ( $fa_icon ) ? '<div class="uit_icon"><i class="rcli ' . $fa_icon . '"></i></div>' : '';
 
-        $out_title = '<div class="uit_title">' . $title . '</div>';
+        //$out_title = '<div class="uit_title">' . $title . '</div>';
         $out_val   = '<div class="uit_content">' . $val . '</div>';
 
         echo '<div class="uit_blk uit_all_custom_field">' . $icon . $out_title . $out_val . '</div>';
@@ -345,8 +345,8 @@ function uit_get_session_data( $user_lk, $title, $fa_icon, $notice ) {
                 $i ++;
                 $out .= '<div class="uit_session uit_session_' . $i . '">';
                 $out .= '<div class="uit_nmbr">' . $i . '</div>';
-                $out .= '<div class="uit_login_in"><span>Вошел на сайт (логин)</span>' . get_date_from_gmt( date( 'Y-m-d G:i:s', $ar['login'] ), 'Y-m-d G:i:s' ) . '</div>';
-                $out .= '<div class="uit_login_out"><span>Авторизация истекает</span>' . get_date_from_gmt( date( 'Y-m-d G:i:s', $ar['expiration'] ), 'Y-m-d G:i:s' ) . '</div>';
+                $out .= '<div class="uit_login_in"><span>Logged in to the site (login)</span>' . get_date_from_gmt( date( 'Y-m-d G:i:s', $ar['login'] ), 'Y-m-d G:i:s' ) . '</div>';
+                $out .= '<div class="uit_login_out"><span>Authorization Expires</span>' . get_date_from_gmt( date( 'Y-m-d G:i:s', $ar['expiration'] ), 'Y-m-d G:i:s' ) . '</div>';
                 $out .= '<div class="uit_ip"><span>IP</span>' . $ar['ip'] . '</div>';
                 $out .= '<div class="uit_user_agent"><span>User Agent</span>' . $ar['ua'] . '</div>';
                 $out .= '</div>';
@@ -370,10 +370,10 @@ function uit_user_avatar( $user_lk ) {
     $link = '';
     // В своем кабинете
     if ( rcl_is_office( $user_ID ) ) {
-        $link       = '<a class="rcl-ajax uit_change_profile" data-post="' . uit_ajax_data( $user_lk, $uit_tab_id = 'profile' ) . '" href="?tab=profile"><span class="tc_button_change">Редактировать профиль</span></a>';
+        $link       = '<a class="rcl-ajax uit_change_profile" data-post="' . uit_ajax_data( $user_lk, $uit_tab_id = 'profile' ) . '" href="?tab=profile"><span class="tc_button_change">Edit Profile </span></a>';
     } else {
         if ( rcl_exist_addon( 'rcl-chat' ) ) {
-            $link       = '<a class="rcl-ajax" data-post="' . uit_ajax_data( $user_lk, $uit_tab_id = 'chat' ) . '" href="?tab=chat"><span class="tc_button_change">Написать</span></a>';
+            $link       = '<a class="rcl-ajax" data-post="' . uit_ajax_data( $user_lk, $uit_tab_id = 'chat' ) . '" href="?tab=chat"><span class="tc_button_change">To write</span></a>';
         }
     }
 
@@ -384,7 +384,7 @@ function uit_user_avatar( $user_lk ) {
     // В своем кабинете
     if ( rcl_is_office( $user_ID ) ) {
         $out .= '<div class="tc_line tc_ava">';
-        $out .= '<a class="tc_ava_upload" title="Загрузка аватара" url="#"><i class="rcli fa-download"></i><span>Загрузить аватарку</span><input id="userpicupload" accept="image/*" name="userpicupload" type="file"></a>';
+        $out .= '<a class="tc_ava_upload" title="Upload avatar" url="#"><i class="rcli fa-download"></i><span>Upload avatar</span><input id="userpicupload" accept="image/*" name="userpicupload" type="file"></a>';
         $out .= '</div>';
     }
     $out .= '</div>';
@@ -407,7 +407,7 @@ function uit_feed_data( $user_lk, $type ) {
     $f_count = '';
 
     if ( $type == 'subscriptions' && $cnt[0] > 0 ) {
-        $txt = '<span class="uit_ajax_txt">Подписки</span><span class="uit_ajax_sum">' . $cnt[0] . '</span>';
+        $txt = '<span class="uit_ajax_txt">Subscriptions</span><span class="uit_ajax_sum">' . $cnt[0] . '</span>';
         if ( rcl_is_office( $user_ID ) ) {
             $f_count    = '<span class="uit_ajax_link"><a class="rcl-ajax" data-post="' . uit_ajax_data( $user_lk, $uit_tab_id = 'subscriptions' ) . '" href="?tab=subscriptions">';
             $f_count    .= $txt;
@@ -417,7 +417,7 @@ function uit_feed_data( $user_lk, $type ) {
         }
     } else if ( $type == 'followers' && $cnt[1] > 0 ) {
         $f_count    = '<span class="uit_ajax_link"><a class="rcl-ajax" data-post="' . uit_ajax_data( $user_lk, $uit_tab_id = 'followers' ) . '" href="?tab=followers">';
-        $f_count    .= '<span class="uit_ajax_txt">Подписчики</span><span class="uit_ajax_sum">' . $cnt[1] . '</span>';
+        $f_count    .= '<span class="uit_ajax_txt">Followers</span><span class="uit_ajax_sum">' . $cnt[1] . '</span>';
         $f_count    .= '</a></span>';
     }
 
@@ -461,7 +461,7 @@ function uit_gallery( $user_lk ) {
     }
 
     $out = '<span class="uit_link"><a href="' . rcl_format_url( get_author_posts_url( $user_lk ), 'galrcl' ) . '">';
-    $out .= '<span class="uit_ajax_txt">Фото</span><span class="uit_ajax_sum">' . $cnt . '</span>';
+    $out .= '<span class="uit_ajax_txt">A photo</span><span class="uit_ajax_sum">' . $cnt . '</span>';
     $out .= '</a></span>';
 
     $out .= '<div class="uit_p_gallery"><ul class="gallery-attachments" id="files">' . $img . '</ul></div>';
@@ -507,7 +507,7 @@ function uit_video_gallery( $user_lk ) {
     }
 
     $bttn = '<span class="uit_link"><a href="' . rcl_format_url( get_author_posts_url( $user_lk ), 'videorcl' ) . '">';
-    $bttn .= '<span class="uit_ajax_txt">Видео</span><span class="uit_ajax_sum">' . $cnt . '</span>';
+    $bttn .= '<span class="uit_ajax_txt">Video</span><span class="uit_ajax_sum">' . $cnt . '</span>';
     $bttn .= '</a></span>';
 
     $out = '<div class="uit_v_gallery"><ul id="videos">' . $bttn . $video . '</ul></div>';
@@ -534,7 +534,7 @@ function uit_last_notes( $user_lk ) {
         return false;
 
     $bttn = '<span class="uit_link"><a href="?tab=notes">';
-    $bttn .= '<span class="uit_ajax_txt">Заметки</span><span class="uit_ajax_sum">' . $cnt . '</span>';
+    $bttn .= '<span class="uit_ajax_txt">Notes</span><span class="uit_ajax_sum">' . $cnt . '</span>';
     $bttn .= '</a></span>';
 
     $atts = array(

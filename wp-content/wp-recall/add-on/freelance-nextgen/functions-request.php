@@ -14,7 +14,7 @@ function fng_get_request_box( $post_id ) {
 	$content = '<div class="fng-request-box">';
 
 	if ( $viewRequests && $post->post_author == $user_ID || $isAdmin )
-		$content .= '<h3>' . __( 'Добавленные заявки' ) . '</h3>';
+		$content .= '<h3>' . __( 'Added applications' ) . '</h3>';
 
 	$args = array(
 		'task_id'		 => $post_id,
@@ -34,12 +34,12 @@ function fng_get_request_box( $post_id ) {
 	$content .= '<div class="fng-request-list">';
 
 	if ( isset( $args['author_id'] ) && $Walker->requests ) {
-		$content .= '<h3>' . __( 'Ваша заявка к заданию' ) . '</h3>';
+		$content .= '<h3>' . __( 'Your request for the task' ) . '</h3>';
 	}
 
 	if ( ! $Walker->requests ) {
 		if ( $post->post_author == $user_ID || $isAdmin )
-			$content .= '<p>' . __( 'Ни одной заявки пока не добавлено.' ) . '</p>';
+			$content .= '<p>' . __( 'No applications have been added yet..' ) . '</p>';
 	}else {
 
 		$content .= $Walker->get_list();
@@ -63,15 +63,15 @@ function fng_get_request_form( $post_id ) {
 
 	$content = '<div class="fng-request-form">';
 
-	$content .= '<h3>' . __( 'Форма заявки к заданию' ) . '</h3>';
+	$content .= '<h3>' . __( 'Application form for the task' ) . '</h3>';
 
 	$content .= rcl_get_form( apply_filters( 'fng_request_form_args', array(
 		'fields'	 => array(
 			array(
 				'slug'		 => 'request-price',
 				'type'		 => 'number',
-				'title'		 => __( 'Желаемая стоимость заказа' ),
-				'notice'	 => __( 'укажите стоимость заказа, которая устроила бы вас как исполнителя, может быть изменено позднее' ),
+				'title'		 => __( 'Desired order value' ),
+				'notice'	 => __( 'indicate the cost of the order, which would suit you as an executor, may be changed later' ),
 				'required'	 => 1
 			),
 			array(
@@ -79,8 +79,8 @@ function fng_get_request_form( $post_id ) {
 				'type'		 => 'textarea',
 				//'tinymce' => 1,
 				//'quicktags' => 'strong,em,link,close,block,del',
-				'title'		 => __( 'Текст заявки' ),
-				'request'	 => __( 'Ваша заявка будет видна только автору задания' ),
+				'title'		 => __( 'Application text' ),
+				'request'	 => __( 'Your application will be visible only to the author of the task' ),
 				'required'	 => 1
 			),
 			array(
@@ -89,7 +89,7 @@ function fng_get_request_form( $post_id ) {
 				'value'	 => $post_id
 			)
 		),
-		'submit'	 => __( 'Добавить заявку' ),
+		'submit'	 => __( 'Add request' ),
 		'onclick'	 => 'rcl_send_form_data("fng_ajax_add_request",this);return false;'
 			), $post_id )
 	);

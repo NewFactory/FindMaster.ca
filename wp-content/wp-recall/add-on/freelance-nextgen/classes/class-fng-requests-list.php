@@ -79,7 +79,7 @@ class FNG_Requests_List extends FNG_Requests {
 
 					$content .= '<div class="answer-box preloader-box">'
 						. '<a href="#" onclick="fng_ajax_get_answer_form(' . $request->request_id . ', this); return false;">'
-						. __( 'Написать ответ' )
+						. __( 'to write an answer' )
 						. '</a>'
 						. '</div>';
 

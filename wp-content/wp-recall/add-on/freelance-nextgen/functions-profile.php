@@ -7,14 +7,14 @@ function fng_add_tab() {
 		array(
 			'id'		 => 'freelance',
 			'supports'	 => array( 'ajax' ),
-			'name'		 => __( 'Сделки и заявки' ),
+			'name'		 => __( 'Transactions and orders' ),
 			'public'	 => 0,
 			'icon'		 => 'fa-handshake-o',
 			'output'	 => 'menu',
 			'content'	 => array(
 				array(
 					'id'		 => 'customer',
-					'name'		 => __( 'Задания: Заказчик' ),
+					'name'		 => __( 'Tasks: Customer' ),
 					'icon'		 => 'fa-handshake-o',
 					'callback'	 => array(
 						'name' => 'fng_get_customer_tab'
@@ -22,7 +22,7 @@ function fng_add_tab() {
 				),
 				array(
 					'id'		 => 'performer',
-					'name'		 => __( 'Задания: Исполнитель' ),
+					'name'		 => __( 'Assignments: Artist' ),
 					'icon'		 => 'fa-handshake-o',
 					'callback'	 => array(
 						'name' => 'fng_get_performer_tab'
@@ -30,7 +30,7 @@ function fng_add_tab() {
 				),
 				array(
 					'id'		 => 'requests',
-					'name'		 => __( 'Оставленные заявки' ),
+					'name'		 => __( 'Abandoned applications' ),
 					'icon'		 => 'fa-handshake-o',
 					'callback'	 => array(
 						'name' => 'fng_get_requests_tab'
@@ -54,7 +54,7 @@ function fng_get_customer_tab( $master_id ) {
 	$posts = get_posts( $args );
 
 	if ( !$posts )
-		return '<p>' . __( 'Задания пока не публиковались' ) . '</p>';
+		return '<p>' . __( 'Assignments not published yet' ) . '</p>';
 
 	$pagenavi = new Rcl_PageNavi( 'tasks', count( $posts ) );
 
@@ -70,9 +70,9 @@ function fng_get_customer_tab( $master_id ) {
 	$content .= $pagenavi->pagenavi();
 
 	$content .= '<div class="fng-task">
-        <div class="task-title task-meta">' . __( 'Наименование' ) . '</div>
-        <div class="task-date task-meta">' . __( 'Дата публикации' ) . '</div>
-        <div class="task-status task-meta">' . __( 'Статус' ) . '</div>
+        <div class="task-title task-meta">' . __( 'Name' ) . '</div>
+        <div class="task-date task-meta">' . __( 'Publication Date' ) . '</div>
+        <div class="task-status task-meta">' . __( 'Status' ) . '</div>
     </div>';
 
 	foreach ( $posts as $post ) {
@@ -109,7 +109,7 @@ function fng_get_performer_tab( $master_id ) {
 	$posts = get_posts( $args );
 
 	if ( !$posts )
-		return '<p>' . __( 'Задания не найдены' ) . '</p>';
+		return '<p>' . __( 'No jobs found' ) . '</p>';
 
 	$pagenavi = new Rcl_PageNavi( 'tasks', count( $posts ) );
 
@@ -125,9 +125,9 @@ function fng_get_performer_tab( $master_id ) {
 	$content .= $pagenavi->pagenavi();
 
 	$content .= '<div class="fng-task">
-        <div class="task-title task-meta">' . __( 'Наименование' ) . '</div>
-        <div class="task-date task-meta">' . __( 'Дата публикации' ) . '</div>
-        <div class="task-status task-meta">' . __( 'Статус' ) . '</div>
+        <div class="task-title task-meta">' . __( 'Name' ) . '</div>
+        <div class="task-date task-meta">' . __( 'Publication Date' ) . '</div>
+        <div class="task-status task-meta">' . __( 'Status' ) . '</div>
     </div>';
 
 	foreach ( $posts as $post ) {
@@ -157,7 +157,7 @@ function fng_get_requests_tab( $master_id ) {
 	$count = $query->count( $args );
 
 	if ( !$count )
-		return '<p>' . __( 'Ни одной заявки к заданиям не найдено' ) . '</p>';
+		return '<p>' . __( 'No job applications found' ) . '</p>';
 
 	$pagenavi = new Rcl_PageNavi( 'reqst', $count );
 
@@ -202,7 +202,7 @@ function fng_add_default_profile_fields( $fields ) {
 		$fields[] = array(
 			'slug'		 => 'fng-specialization',
 			'type'		 => 'custom',
-			'title'		 => __( 'Специализация' ),
+			'title'		 => __( 'Specialization' ),
 			'register'	 => 1
 		);
 	}

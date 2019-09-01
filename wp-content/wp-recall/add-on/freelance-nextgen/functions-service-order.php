@@ -6,13 +6,13 @@ function fng_get_task_default_fields(){
         array(
             'slug' => 'fng-task-price',
             'type' => 'number',
-            'title' => __('Стоимость услуги (в рублях)'),
+            'title' => __('Cost of service (CA$)'),
             'required' => 1
         ),
         array(
             'slug' => 'fng-days',
             'type' => 'number',
-            'title' => __('Срок выполнения (в днях)'),
+            'title' => __('Deadline (in days)'),
             'required' => 1
         )
     );
@@ -30,7 +30,7 @@ function fng_edit_task_form_fields($fields, $form){
     if(!isset($_GET['rcl-post-edit'])){
         if(!is_admin() && !isset($_GET['fng-master-id']) || $user_ID == $_GET['fng-master-id']){
             
-            if(get_user_meta($user_ID, 'fng-account', 1) == 'Исполнитель'){
+            if(get_user_meta($user_ID, 'fng-account', 1) == 'Executor'){
                 add_filter('rcl_public_form_errors', 'fng_add_task_form_performer_error', 10, 2);
             }else{
                 add_filter('rcl_public_form_errors', 'fng_add_task_form_error', 10, 2);
@@ -47,7 +47,7 @@ function fng_edit_task_form_fields($fields, $form){
         $fields[] = array(
             'slug' => 'fng-address',
             'type' => 'textarea',
-            'title' => __('Контактные данные'),
+            'title' => __('Contact details'),
             'default' => get_user_meta($user_ID, 'fng-address', 1),
             'required' => 1
         );
@@ -67,12 +67,12 @@ function fng_edit_task_form_fields($fields, $form){
 }
 
 function fng_add_task_form_error($errors, $form){
-    $errors[] = __('Публикация индивидуального заказа невозможна');
+    $errors[] = __('Custom order not available');
     return $errors;
 }
 
 function fng_add_task_form_performer_error($errors, $form){
-    $errors[] = __('Исполнитель не может оформлять индивидуальные заказы');
+    $errors[] = __('The contractor cannot place individual orders');
     return $errors;
 }
 

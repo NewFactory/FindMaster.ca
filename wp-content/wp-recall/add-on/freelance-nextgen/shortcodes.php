@@ -21,7 +21,7 @@ function fng_get_search_form($atts = false){
         'parent' => 0
     ) );
 
-    $category = array( '' => __('Все категории') );
+    $category = array( '' => __('All categories') );
     foreach($terms as $term){
         $category[$term->term_id] = $term->name;
     }
@@ -31,32 +31,32 @@ function fng_get_search_form($atts = false){
             'type' => 'text',
             'slug' => 'fs',
             'default' => isset($_GET['fs'])? $_GET['fs']: '',
-            'title' => __('Поиск по слову'),
-            'placeholder' => __('Поиск...')
+            'title' => __('Search by word'),
+            'placeholder' => __('Search...')
         ),
         array(
             'type' => 'select',
             'slug' => 'fstatus',
-            'title' => __('Статус'),
+            'title' => __('Status'),
             'values' => array(
-                0 => __('Все задания'),
-                1 => __('Подбор исполнителя'),
-                2 => __('В работе'),
-                5 => __('Завершено')
+                0 => __('All tasks'),
+                1 => __('Artist selection'),
+                2 => __('In work'),
+                5 => __('Completed')
             ),
             'default' => isset($_GET['fstatus'])? $_GET['fstatus']: 0,
         ),
         array(
             'type' => 'select',
             'slug' => 'fsubject',
-            'title' => __('Категория'),
+            'title' => __('Category'),
             'default' => isset($_GET['fsubject'])? $_GET['fsubject']: '',
             'values' => $category
         ),
         array(
             'type' => 'range',
             'slug' => 'fprice',
-            'title' => __('Стоимость'),
+            'title' => __('Cost'),
             'value_max' => ($maxPrice && $maxPrice > 5000)? $maxPrice: 5000,
             'value_step' => 100,
             'default' => isset($_GET['fprice'])? $_GET['fprice']: '',
@@ -64,20 +64,20 @@ function fng_get_search_form($atts = false){
         array(
             'type' => 'radio',
             'slug' => 'forderby',
-            'title' => __('Сортировка по'),
+            'title' => __('Sort by'),
             'values' => array(
-                'date' => __('дате'),
-                'price' => __('стоимости')
+                'date' => __('the date'),
+                'price' => __('cost')
             ),
             'default' => isset($_GET['forderby'])? $_GET['forderby']: 'date',
         ),
         array(
             'type' => 'radio',
             'slug' => 'forder',
-            'title' => __('Вывод по'),
+            'title' => __('Conclusion on'),
             'values' => array(
-                'DESC' => __('убыванию'),
-                'ASC' => __('возрастанию')
+                'DESC' => __('descending'),
+                'ASC' => __('ascending')
             ),
             'default' => isset($_GET['forder'])? $_GET['forder']: 'DESC',
         ),
@@ -96,7 +96,7 @@ function fng_get_search_form($atts = false){
         'fields' => $fields,
         'method' => 'get',
         'action' => get_post_type_archive_link('task'),
-        'submit' => __('Найти задание')
+        'submit' => __('Find a task')
     ));
 
     $content .= '</div>';

@@ -13,7 +13,7 @@
         </span>
         <span class="request-time">[<?php echo mysql2date( 'd.m.Y H:i', $fng_request->request_date ) ?>]</span>
 		<?php if ( $spec = get_user_meta( $fng_request->author_id, 'fng-specialization', 1 ) ): ?>
-			<div class="author-type">Специализация: <?php echo get_term_field( 'name', $spec, 'task-subject' ); ?></div>
+			<div class="author-type">Specialization: <?php echo get_term_field( 'name', $spec, 'task-subject' ); ?></div>
 		<?php endif; ?>
     </div>
 </div>
