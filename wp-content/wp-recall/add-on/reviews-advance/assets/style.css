@@ -1,0 +1,88 @@
+.rvs-reviews-list{
+    
+}
+.rvs-reviews-list .review-item{
+    overflow: hidden;
+    margin: 15px 0;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 10px 0;
+}
+.rvs-reviews-list .review-item .review-avatar{
+    float: left;
+    margin-right: 15px;
+    width: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.rvs-reviews-list .review-item .review-avatar a{
+    
+}
+.rvs-reviews-list .review-item .review-avatar a img{
+    height: auto;
+}
+.rvs-reviews-list .review-item .review-content{
+    overflow: hidden;
+}
+.rvs-reviews-list .review-item .review-content p{
+    
+}
+.rvs-reviews-list .review-item .review-date{
+    float: right;
+    font-size: 12px;
+}
+.rvs-reviews-list .review-item .review-name{
+    
+}
+.rvs-reviews-list .review-item .review-rating{
+    
+}
+.rvs-reviews-list .review-item .review-rating{
+    
+}
+.rvs-reviews-list .review-item .review-rating .rcl-rating-box,
+.rvs-reviews-list .review-item .review-rating .rcl-rating-box.box-stars .stars-wrapper .fa-star{
+    font-size: 25px;
+}
+
+#rcl-field-rvs-rating-box .rcl-rating-box,
+#rcl-field-rvs-rating-box .rcl-rating-box.box-stars .stars-wrapper .fa-star{
+    font-size: 30px;
+}
+
+
+.rvs-manager{
+    padding: 5px;
+    background: #efefef;
+    text-align: right;
+    position:relative;
+    margin-bottom: 5px;
+}
+.rvs-manager .manager-item{
+    line-height: 1;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+.rvs-manager .manager-item .recall-button{
+    display: inline-block;
+    font-size: 14px;
+    padding: 0px 10px;
+    background: no-repeat;
+    color: #4c8cbd;
+}
+
+
+#field-rvs-rating-box .rcl-rating-box.box-stars .must-vote span.user-vote{
+    opacity:1;
+}
+#field-rvs-rating-box .rcl-rating-box.box-stars .must-vote .user-vote span.stars__out{
+    color: orange;  
+}
+#field-rvs-rating-box .rcl-rating-box.box-stars .must-vote .user-vote span.stars__in{
+    color: inherit;
+}
+#field-rvs-rating-box .rcl-rating-box.box-stars .rating-wrapper .rating-vote{
+    opacity: 0.4;
+}
+#field-rvs-rating-box .rcl-rating-box.box-stars .rating-wrapper .rating-vote:hover{
+    opacity: 0.5;
+}

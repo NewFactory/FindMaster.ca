@@ -1,0 +1,48 @@
+/*********************************************************************
+**																	**
+**	Name: New Window Login 											**
+**	(Новые стили всплывающего окна, отключение wp-admin и wp-login)	**
+**	Author: Web-Blog                                            	**
+**	css/mdesign-style.css											**
+**																	**
+*********************************************************************/
+.form-block-rcl .g-recaptcha
+{
+    margin-bottom: 30px;
+}
+.form-block-rcl .g-recaptcha > div
+{
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 294px !important;
+}
+.form-block-rcl .g-recaptcha iframe
+{
+    width: 100%;
+    .form-block-rcl .g-recaptcha
+    {
+        margin-bottom: 30px;
+    }
+    .form-block-rcl .g-recaptcha > div
+    {
+        box-sizing: border-box;
+        max-width: 100%;
+        width: 294px !important;
+    }
+    .form-block-rcl .g-recaptcha iframe
+    {
+        width: 100%;
+    }
+}
+#rcl-overlay
+{
+    background: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    position: absolute;
+}

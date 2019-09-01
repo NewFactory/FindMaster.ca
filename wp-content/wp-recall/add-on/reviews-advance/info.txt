@@ -1,0 +1,8 @@
+Name: Reviews Advance;
+Parent Addon: rating-system;
+Version: 1.2.0;
+Support Core: 16.16.0;
+Item ID: 17868;
+Description: Система отзывов, позволяющая пользователям оставлять отзывы к различным объектам и сущностям. Работает на основе дополнения Rating System;
+Author: Плечёв Андрей;
+Author URI: http://codeseller.ru/;

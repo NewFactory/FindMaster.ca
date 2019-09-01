@@ -1,0 +1,7 @@
+Name: Yworld RCL Maintenance;
+Version: 1.0.0;
+Support Core: 16.8.0;
+Description: Yworld RCL Maintenance - закрытие сайта на техническое обслуживание.;
+Author: Игорь Гребенкин;
+Author URI: https://codeseller.ru/author/garry/;
+Add-on URI: https://asgarosforum.ru/

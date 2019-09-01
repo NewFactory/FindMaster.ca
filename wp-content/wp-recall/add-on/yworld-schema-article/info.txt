@@ -1,0 +1,7 @@
+Name: Yworld Schema Article;
+Version: 1.0.3;
+Support Core: 16.8.0;
+Description: Дополнение Yworld Schema Article, добавляет микроразметку http://schema.org к вашим статьям(Article или NewsArticle) в формате JSON-LD;
+Author: Игорь Гребенкин;
+Author URI: https://codeseller.ru/author/garry/;
+Add-on URI: https://worldwebinfo.ru/

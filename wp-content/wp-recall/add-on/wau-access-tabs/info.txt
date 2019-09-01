@@ -1,0 +1,7 @@
+Name: WAU Access Tabs;
+Version: 1.0.0;
+Support Core: 16.13.0;
+Item ID: 0;
+Description: Временный доступ к указанным вкладкам личного кабинета на основе доступа от WP Access Ultimate;
+Author: Плечев Андрей;
+Author URI: http://codeseller.ru/;

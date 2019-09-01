@@ -1,0 +1,6 @@
+﻿Name: Shortcodes Private Office;
+Version: 1.0.0;
+Support Core: 15.0.0;
+Description: Дополнение для Wp-Recall, добавляющее ваши шорткоды в личном кабинете пользователя. Позиции before и top;
+Author: Гребенкин Игорь;
+Author URI: https://codeseller.ru/author/garry/;

@@ -1,0 +1,30 @@
+﻿/*********************************************************************
+**																	**
+**	Name: New Window Login 											**
+**	(Новые стили всплывающего окна, отключение wp-admin и wp-login)	**
+**	Author: Web-Blog                                            	**
+**	css/accordion-light-style.css									**
+**																	**
+*********************************************************************/
+.form-block-rcl .g-recaptcha{
+    margin-bottom: 30px;
+}
+.form-block-rcl .g-recaptcha > div{
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 294px !important;
+}
+.form-block-rcl .g-recaptcha iframe{
+    width: 100%;
+
+.form-block-rcl .g-recaptcha{
+    margin-bottom: 30px;
+}
+.form-block-rcl .g-recaptcha > div{
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 294px !important;
+}
+.form-block-rcl .g-recaptcha iframe{
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+Name: Bot Rules;
+Version: 1.0;
+Support Core: 16.11.0;
+Parent Addon: autobot-cabinet;
+Description: По команде в чат выводит правила поведения в чате;
+Author: Владимир Дружаев (Otshelnik-Fm);
+Author URI: https://otshelnik-fm.ru/;
+Add-on URI: https://codeseller.ru/products/bot-rules/;

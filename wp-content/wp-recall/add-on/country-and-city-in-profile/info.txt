@@ -1,0 +1,7 @@
+Name: Сountry and city in profile;
+Version: 2.5.1;
+Support Core: 16.17.0;
+Description: Добавляет в личном кабинете выбор страны и возможность указать свой город. Выводит эти данные в профиле. Фильтрует пользователей по городу в списке пользователей;
+Author: Владимир Дружаев (Otshelnik-Fm);
+Author URI: https://otshelnik-fm.ru/?utm_source=free-addons&utm_medium=addon-manager&utm_campaign=country-and-city-in-profile&utm_content=not-domain&utm_term=home-page;
+Add-on URI: https://codeseller.ru/products/sountry-and-city-in-profile-strana-i-gorod-v-profile-polzovatelya/;

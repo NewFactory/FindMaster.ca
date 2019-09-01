@@ -1,0 +1,1 @@
+<?phpif (!defined('ABSPATH')) exit;require_once('inc/yw-maintenance.php' );

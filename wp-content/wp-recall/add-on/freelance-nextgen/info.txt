@@ -1,0 +1,8 @@
+Name: Freelance NextGen;
+Version: 1.3.2;
+Support Core: 16.16.0;
+Item ID: 17845;
+Key ID: fng;
+Description: дополнение разворачивает на сайте удобную и современную фриланс-площадку;
+Author: Плечев Андрей;
+Author URI: http://codeseller.ru/;

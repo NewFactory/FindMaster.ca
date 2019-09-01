@@ -1,0 +1,355 @@
+/*********************************************************************
+**																	**
+**	Name: New Window Login 											**
+**	(Новые стили всплывающего окна, отключение wp-admin и wp-login)	**
+**	Author: Web-Blog                                            	**
+**	css/flat-style.css											**
+**																	**
+*********************************************************************/
+.form_head H2
+{
+    text-align: center;
+    font-size: 50px;
+    color: #999;
+    padding: 10px;
+}
+#rcl-overlay
+{
+    background: rgba(0, 0, 0, 0.5);
+    background: radial-gradient(white, rgba(0, 0, 0, 0));
+    opacity: 1;
+}
+.panel_lk_recall .form-tab-rcl
+{
+    padding: 20px 20px 35px 20px;
+    /*+box-shadow: 0 0 0px #000000 !important;*/
+    -moz-box-shadow: 0 0 0px #000000 !important;
+    -webkit-box-shadow: 0 0 0px #000000 !important;
+    box-shadow: 0 0 0px #000000 !important;
+}
+/*.close-popup
+{
+	display: block;
+}*/
+.panel_lk_recall .fa-times-circle
+{
+    display: none;
+}
+.close-popup
+{
+    display: block !important;
+    position: absolute;
+    right: 18%;
+    color: #999 !important;
+    font-size: 30px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-decoration: none;
+    margin: 0px -5px 0px 0px;
+}
+.close-popup:hover
+{
+    opacity: 1;
+    transition: 0.8s;
+    color: #FFFFFF !important;
+}
+.panel_lk_recall .form-tab-rcl .form-title
+{
+    color: #DA4453;
+    font-size: 24px;
+}
+.panel_lk_recall .form-block-rcl LABEL
+{
+    font-weight: normal;
+    color: #6B6B6B;
+    font-size: 12px;
+}
+.form-block-rcl .rcli
+{
+    display: none;
+}
+.panel_lk_recall .nwl-register, .panel_lk_recall .nwl-forgot, .panel_lk_recall .nwl-login
+{
+    float: left !important;
+    font-size: 12px !important;
+    background-color: #333333 !important;
+    text-transform: capitalize !important;
+    color: #FFFFFF !important;
+    border-bottom: 1px solid #484848 !important;
+    text-align: left !important;
+    padding: 10px 25px !important;
+    width: 100% !important;
+}
+.panel_lk_recall .nwl-forgot
+{
+    font-size: 12px !important;
+    background-color: #333333 !important;
+    text-transform: capitalize;
+    color: #FFFFFF !important;
+    border-bottom: 1px solid #484848 !important;
+    text-align: left !important;
+    padding: 10px 25px !important;
+    width: 100%;
+}
+.panel_lk_recall .form-block-rcl .field-icon
+{
+    display: none;
+}
+.panel_lk_recall FORM INPUT[type="checkbox"]
+{
+    width: auto;
+}
+.panel_lk_recall LABEL INPUT[type="radio"]
+{
+    width: auto;
+}
+#passwordStrength, #notice-chek-password SPAN
+{
+    padding: 5px 5px;
+    display: block;
+    max-width: 100%;
+    margin: 5px auto 0;
+    text-align: center;
+    color: #777777;
+    line-height: 1;
+    text-transform: uppercase;
+    /*+border-radius: 3px;*/
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #F2F2F2;
+}
+.form-block-rcl .g-recaptcha
+{
+    margin-bottom: 30px;
+}
+.form-block-rcl .g-recaptcha > DIV
+{
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 294px !important;
+}
+/*.form-block-rcl .g-recaptcha IFRAME
+{
+	width: 100%;
+	.form-block-rcl .g-recaptcha
+	{
+		margin-bottom: 30px;
+	}
+	.form-block-rcl .g-recaptcha > div
+	{
+		box-sizing: border-box;
+		max-width: 100%;
+		width: 294px !important;
+	}
+	.form-block-rcl .g-recaptcha iframe
+	{
+		width: 100%;
+	}
+}*/
+.panel_lk_recall
+{
+    margin: 0 auto !important;
+    max-width: 480px !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    color: #333 !important;
+}
+.panel_lk_recall.floatform
+{
+    z-index: 9999 !important;
+    position: absolute !important;
+    left: 50% !important;
+    margin-left: -240px !important;
+    margin-top: 16px !important;
+    /*+border-radius: 3px !important;*/
+    -moz-border-radius: 3px !important;
+    -webkit-border-radius: 3px !important;
+    -khtml-border-radius: 3px !important;
+    border-radius: 3px !important;
+}
+.panel_lk_recall .form-tab-rcl
+{
+    width: 70%;
+    background-color: #333333;
+}
+.form-block-rcl.default-field .fa
+{
+    display: none;
+}
+.panel_lk_recall .form-tab-rcl
+{
+    width: 70%;
+    background-color: #333333;
+}
+.panel_lk_recall .form-tab-rcl .form-title
+{
+    color: #DA4453;
+    font-size: 24px;
+}
+.panel_lk_recall .form-tab-rcl INPUT[type="submit"]
+{
+    font-size: 12px;
+    background-color: #333333;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 25px;
+    border: 1px solid #484848;
+    height: 40px;
+    margin: 0 0 20px 0;
+}
+.panel_lk_recall .form-tab-rcl INPUT[type="submit"]:hover
+{
+    background-color: #EEE;
+    opacity: 1 !important;
+    color: #999;
+}
+.panel_lk_recall .nwl-register .fa, .panel_lk_recall .nwl-forgot .fa, .panel_lk_recall .nwl-login .fa
+{
+    display: none;
+}
+.panel_lk_recall .nwl-login, .panel_lk_recall .nwl-register
+{
+    border-top: 1px solid #484848 !important;
+}
+.panel_lk_recall .nwl-register
+{
+    font-size: 12px !important;
+    background-color: #333333 !important;
+    text-transform: capitalize;
+    color: #FFFFFF !important;
+    border-bottom: 1px solid #484848 !important;
+    text-align: left !important;
+    padding: 10px 25px !important;
+    width: 100%;
+}
+.panel_lk_recall .nwl-register-f
+{
+    border-top: 1px solid rgba(0, 0, 0, 0) !important;
+}
+.panel_lk_recall .nwl-register:hover, .panel_lk_recall .nwl-forgot:hover, .panel_lk_recall .nwl-login:hover
+{
+    color: #B9B9B9 !important;
+}
+.panel_lk_recall .form-block-rcl .field-icon
+{
+    display: none;
+}
+.panel_lk_recall FORM INPUT, .panel_lk_recall FORM SELECT, .panel_lk_recall FORM TEXTAREA
+{
+    padding: 10px 5px;
+    width: 100%;
+}
+.panel_lk_recall .default-field INPUT[type="text"], .panel_lk_recall .default-field INPUT[type="email"], .panel_lk_recall .default-field INPUT[type="password"]
+{
+    margin: 0 0 0px 0;
+    width: 100%;
+    padding: 10px 25px 10px 10px !important;
+    color: rgba(107, 107, 107, 0.500) !important;
+}
+.panel_lk_recall FORM INPUT[type="checkbox"]
+{
+    width: auto;
+}
+.panel_lk_recall LABEL INPUT[type="radio"]
+{
+    width: auto;
+}
+.panel_lk_recall #passwordStrength, #notice-chek-password SPAN
+{
+    padding: 5px 5px;
+    display: block;
+    max-width: 100%;
+    margin: 5px auto 0;
+    text-align: center;
+    color: #777777;
+    line-height: 1;
+    text-transform: uppercase;
+    /*+border-radius: 3px;*/
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #F2F2F2;
+}
+.form-block-rcl .g-recaptcha
+{
+    margin-bottom: 0px;
+    border: 1px solid #D3D3D3;
+    height: 76px;
+    /*+border-radius: 2px;*/
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+.form-block-rcl .g-recaptcha > DIV
+{
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 294px;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+.form-block-rcl .g-recaptcha IFRAME
+{
+    width: 100%;
+    .form-block-rcl .g-recaptcha
+    {
+        margin-bottom: 30px;
+    }
+    .form-block-rcl .g-recaptcha > div
+    {
+        box-sizing: border-box;
+        max-width: 100%;
+        width: 294px !important;
+    }
+    .form-block-rcl .g-recaptcha iframe
+    {
+        width: 100%;
+    }
+}
+.panel_lk_recall .rcl-radio-box, .panel_lk_recall .rcl-checkbox-box
+{
+    border: 0px solid #000000;
+}
+@media all and (max-width: 500px)
+{
+    .panel_lk_recall
+    {
+        margin: 0 auto !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        overflow: hidden !important;
+        color: #333 !important;
+    }
+    .panel_lk_recall.floatform
+    {
+        z-index: 9999 !important;
+        position: absolute !important;
+        left: 0% !important;
+        margin: 0 !important;
+        top: 0px !important;
+    }
+}
+@media all and (max-width: 420px)
+{
+    .panel_lk_recall .form-tab-rcl
+    {
+        width: 100%;
+    }
+    .close-popup
+    {
+        right: 3%;
+        margin-top: 0px;
+    }
+    #rcl-overlay
+    {
+        background: #333333;
+    }
+}

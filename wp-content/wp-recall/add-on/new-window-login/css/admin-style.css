@@ -1,0 +1,9 @@
+/*********************************************************************
+**																	**
+**	Name: New Window Login 											**
+**	(Новые стили всплывающего окна, отключение wp-admin и wp-login)	**
+**	Author: Web-Blog                                            	**
+**	css/admin-style.css												**
+**																	**
+**********************************************************************/
+#admin-px{/*+placement: 105px 25px;*/position:relative;left:105px;top:25px;font-weight:400;margin-top:-16px;}

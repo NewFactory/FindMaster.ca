@@ -1,0 +1,7 @@
+Name: User Info Tab;
+Version: 2.5.0;
+Support Core: 16.17.0;
+Description: Добавляет вкладку с информацией о пользователе и его статистикой. Отменяет всплывающий блок "Информация о пользователе";
+Author: Владимир Дружаев (Otshelnik-Fm);
+Author URI: http://otshelnik-fm.ru/?utm_source=premium-addons&utm_medium=addon-manager&utm_campaign=user-info-tab&utm_content=not-domain&utm_term=home-page;
+Add-on URI: https://codeseller.ru/products/user-info-tab/;

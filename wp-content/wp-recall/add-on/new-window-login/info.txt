@@ -1,0 +1,7 @@
+Name: New Window Login (Стили всплывающего окна);
+Version: 4.1;
+Support Core: 16.15.6;
+Description: Данное дополнение позволяет изменить всплывающее окно WP-Recall всего одним щелчком мыши из имеющихся шаблонов, внести свои изменения с помощью пользовательских CSS, отключить страницы wp-admin, wp-login и запретить авторизацию по e-mail;
+Author: Web-Blog;
+Author URI: https://codeseller.ru/author/ulogin_vkontakte_220251751/ ;
+Add-on URI: ; https://codeseller.ru/products/new-window-login/

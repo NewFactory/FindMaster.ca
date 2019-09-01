@@ -1,0 +1,7 @@
+Name: Users Filter;
+Version: 1.2.1;
+Support Core: 16.17.0;
+Item ID: 17882;
+Description: формирование фильтра пользователей по произвольным полям;
+Author: Плечёв Андрей;
+Author URI: http://codeseller.ru/;

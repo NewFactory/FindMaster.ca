@@ -1,0 +1,7 @@
+Name: Loading Tax Select;
+Version: 1.0.0;
+Support Core: 16.15.10;
+Item ID: 18506;
+Description: Ajax-подгрузка уровней терминов таксономий в форме публикации;
+Author: Плечёв Андрей;
+Author URI: http://codeseller.ru/;
