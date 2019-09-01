@@ -1,0 +1,4632 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Recall\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-30 09:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: admin/classes/class-rcl-tabs-manager.php:19
+msgid "\"Actions\" area"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:20
+msgid "\"Counters\" area"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:46
+msgid "\"Days/Months\""
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:31
+msgid ""
+"\"In minutes. The time of user inactivity after which he ceases to receive "
+"new messages in chat"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:46
+msgid "\"Income (thousands)\""
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:18
+msgid "\"Menu\" area"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:46
+msgid "\"Payments (PCs.)\""
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:33
+msgid "%COMMENT% - link to comment"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:30
+msgid "%DATE% - date of changing the rating"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:36
+msgid "%POST% - link to publication"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:28
+msgid "%USER% - name of the user who voted"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:29
+msgid "%VALUE% - rated value"
+msgstr ""
+
+#: add-on/groups/groups-core.php:1057
+msgid "(Comment hidden by privacy settings)"
+msgstr ""
+
+#: functions/register.php:451
+msgid "A password has not been entered"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:219
+msgid "Above publication content"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:630
+msgid "Accepted"
+msgstr ""
+
+#: add-on/groups/groups-core.php:881
+msgid "Access request"
+msgstr ""
+
+#: add-on/groups/index.php:605
+msgid "Access request to the group has been rejected."
+msgstr ""
+
+#: admin/pages/options.php:80
+msgid "Access to the console"
+msgstr ""
+
+#: admin/pages/options.php:86
+msgid "Access to the console is allowed"
+msgstr ""
+
+#: add-on/profile/index.php:295
+msgid "Account deletion failed! Go back and try again."
+msgstr ""
+
+#: admin/add-on-manager.php:168 admin/add-on-manager.php:176
+msgid "Activate"
+msgstr ""
+
+#: admin/add-on-manager.php:122 admin/templates-manager.php:117
+#: admin/pages/addons-manager.php:64
+msgid "Active"
+msgstr ""
+
+#: admin/metaboxes.php:36
+msgid "Active addons"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:123
+msgid "Active fields"
+msgstr ""
+
+#: admin/metaboxes.php:40
+msgid "Active template"
+msgstr ""
+
+#: classes/class-rcl-users-list.php:507
+msgid "Activity"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-uploader.php:132
+msgid "Add"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:55
+msgid "Add a description"
+msgstr ""
+
+#: add-on/commerce/activate.php:125 add-on/commerce/index.php:92
+msgid "Add a new category"
+msgstr ""
+
+#: add-on/groups/groups-init.php:56
+msgid "Add a new group"
+msgstr ""
+
+#: add-on/commerce/activate.php:165 add-on/commerce/index.php:127
+msgid "Add a new tag"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:56
+msgid "Add a short description"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:54
+msgid "Add a title"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:217
+msgid "Add contents of the publication!"
+msgstr ""
+
+#: add-on/groups/groups-init.php:9 add-on/groups/groups-init.php:10
+msgid "Add entry"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:144
+msgid "Add field"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-uploader.php:117
+msgid "Add files to the download queue"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-manager.php:93
+msgid "Add form"
+msgstr ""
+
+#: add-on/commerce/activate.php:83 add-on/commerce/index.php:44
+msgid "Add new item"
+msgstr ""
+
+#: add-on/commerce/activate.php:168 add-on/commerce/index.php:130
+#: add-on/groups/groups-init.php:59
+msgid "Add or delete"
+msgstr ""
+
+#: add-on/commerce/activate.php:128 add-on/commerce/index.php:95
+msgid "Add or delete a category"
+msgstr ""
+
+#: add-on/commerce/activate.php:82 add-on/commerce/index.php:43
+msgid "Add this item"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:689
+msgid "Add your tags"
+msgstr ""
+
+#: admin/add-on-manager.php:22 admin/templates-manager.php:22
+msgid "add-on"
+msgstr ""
+
+#: admin/pages/addons-manager.php:54 admin/pages/themes-manager.php:40
+msgid "Add-on archive"
+msgstr ""
+
+#: admin/pages/addons-manager.php:23
+msgid "Add-on has not been loaded. Correct headers not found."
+msgstr ""
+
+#: admin/add-on-manager.php:197 admin/templates-manager.php:178
+msgid "Add-on page"
+msgstr ""
+
+#: admin/add-on-manager.php:145 admin/add-on-manager.php:424
+#: admin/admin-menu.php:45 admin/admin-menu.php:45
+msgid "Add-ons"
+msgstr ""
+
+#: admin/add-on-manager.php:23 admin/templates-manager.php:23
+msgid "add-ons"
+msgstr ""
+
+#: add-on/commerce/functions-ajax.php:83
+msgid "Added to cart!"
+msgstr ""
+
+#: admin/pages/addons-manager.php:20
+msgid ""
+"Addition <strong>activated</strong>. New settings may be available on  WP-"
+"Recall page"
+msgstr ""
+
+#: admin/pages/addons-manager.php:21
+msgid "Addition <strong>deactivated</strong>."
+msgstr ""
+
+#: add-on/profile/index.php:132
+msgid "Admin toolbar"
+msgstr ""
+
+#: add-on/groups/groups-core.php:893
+msgid "Administration"
+msgstr ""
+
+#: add-on/groups/groups-core.php:233
+msgid "Administrator"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:190
+msgid "Administrators"
+msgstr ""
+
+#: admin/pages/options.php:22
+msgid "Advanced settings"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:810
+msgid "Advertising/Spam"
+msgstr ""
+
+#: templates/add-on-card.php:60 add-on/rcl-chat/index.php:286
+msgid "ago"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:89
+msgid "Agreement"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:336
+msgid "Agreement URL"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:87
+msgid "ajax-loading"
+msgstr ""
+
+#: admin/pages/addons-manager.php:63 admin/pages/repository.php:86
+#: admin/pages/themes-manager.php:49
+msgid "All"
+msgstr ""
+
+#: add-on/commerce/activate.php:120 add-on/commerce/index.php:87
+#: add-on/groups/groups-init.php:51
+msgid "All categories"
+msgstr ""
+
+#: add-on/groups/index.php:241
+msgid "All groups"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:60
+msgid ""
+"All necessary data for authorization on the site have been sent to the "
+"specified e-mail"
+msgstr ""
+
+#: add-on/commerce/index.php:192
+msgid "All orders"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:114
+msgid "All payments"
+msgstr ""
+
+#: add-on/commerce/admin/pages/orders.php:14
+msgid "All statuses"
+msgstr ""
+
+#: add-on/commerce/activate.php:160 add-on/commerce/index.php:122
+msgid "All tags"
+msgstr ""
+
+#: add-on/commerce/admin/class-rcl-history-orders.php:117
+msgid "All user orders"
+msgstr ""
+
+#: add-on/user-balance/admin/class-rcl-payments-history.php:92
+msgid "All user payments"
+msgstr ""
+
+#: rcl-widgets.php:38 rcl-widgets.php:102 add-on/groups/groups-widgets.php:124
+#: admin/pages/options.php:92 admin/pages/options.php:195
+#: add-on/rating-system/admin/addon-settings.php:173
+msgid "All users"
+msgstr ""
+
+#: rcl-widgets.php:70 rcl-widgets.php:129
+msgid "All users page"
+msgstr ""
+
+#: add-on/profile/admin/addon-settings.php:16
+msgid "Allow users to delete their account?"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:185
+#: add-on/publicpost/classes/class-rcl-public-form-uploader.php:121
+msgid "Allowed extensions"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:327
+#: add-on/rcl-chat/addon-options.php:74
+msgid "Allowed file types"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:328
+msgid "allowed types of files are divided by comma, for example: pdf, zip, jpg"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:136 add-on/commerce/templates/cart.php:19
+#: add-on/commerce/templates/cart.php:37 add-on/commerce/templates/order.php:20
+#: add-on/commerce/templates/order.php:39
+msgid "Amount"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:99
+msgid "Amount to choose"
+msgstr ""
+
+#: add-on/commerce/classes/class-rcl-create-order.php:157
+msgid "An error occurred while registering the buyer!"
+msgstr ""
+
+#: add-on/feed/classes/class-rcl-feed-list.php:357
+msgid "Answers in comments"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:59
+msgid "Applied connection type"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:78
+msgid "Apply for membership"
+msgstr ""
+
+#: add-on/groups/index.php:531
+msgid "Approve request"
+msgstr ""
+
+#: add-on/publicpost/admin/index.php:54
+msgid "Arbitrary fields of  publication"
+msgstr ""
+
+#: admin/pages/options.php:268
+msgid "Arbitrary URL"
+msgstr ""
+
+#: add-on/publicpost/core.php:319
+#: add-on/publicpost/classes/class-rcl-public-form-manager.php:105
+#: add-on/publicpost/classes/class-rcl-public-form.php:772
+#: add-on/publicpost/classes/class-rcl-public-form.php:782
+msgid "Are you sure?"
+msgstr ""
+
+#: add-on/profile/index.php:251
+msgid "Are you sure? It can’t be restaured!"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:116
+msgid "Attach only the selected child terms to the post, ignoring parents"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:63
+msgid "Attaching files"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:82
+msgid "Attention"
+msgstr ""
+
+#: admin/pages/options.php:40
+msgid ""
+"Attention! Changing this parameter is not required. Detailed instructions on "
+"personal account output using author.php file can be received here <a "
+"href=\"https://codeseller.ru/ustanovka-plagina-wp-recall-na-sajt/\" "
+"target=\"_blank\">here</a>"
+msgstr ""
+
+#: admin/add-on-manager.php:195 admin/templates-manager.php:177
+#: templates/add-on-card.php:25 add-on/groups/groups-core.php:225
+#: add-on/groups/index.php:489 admin/pages/repository.php:98
+#: add-on/publicpost/admin/index.php:133
+msgid "Author"
+msgstr ""
+
+#: templates/form-remember.php:4 templates/form-sign.php:9
+msgid "Authorization"
+msgstr ""
+
+#: templates/form-register.php:8
+msgid "Authorization "
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:192
+msgid "Authors"
+msgstr ""
+
+#: admin/pages/options.php:90 add-on/groups/admin/index.php:57
+#: add-on/publicpost/admin/addon-settings.php:141
+#: add-on/rating-system/admin/addon-settings.php:175
+msgid "Authors and higher"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:210
+msgid "Automatic output"
+msgstr ""
+
+#: add-on/groups/upload-avatar.php:78
+msgid "Avatar has been successfully uploaded"
+msgstr ""
+
+#: functions/supports/uploader-avatar.php:286
+msgid "Avatar successfully uploaded"
+msgstr ""
+
+#: functions/supports/uploader-avatar.php:40
+msgid "Avatar upload"
+msgstr ""
+
+#: functions/enqueue-scripts.php:136
+msgid "Average"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:114
+msgid "Average check"
+msgstr ""
+
+#: add-on/commerce/admin/pages/order.php:28
+msgid "Back to all orders"
+msgstr ""
+
+#: add-on/profile/index.php:293
+msgid "Back to main page"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:17
+msgid "Balance"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:71
+msgid "Balance changed"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:74
+msgid "Balance successfully changed"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:68
+msgid "Balance was not changed"
+msgstr ""
+
+#: classes/class-rcl-install.php:203 add-on/groups/groups-core.php:217
+msgid "Ban"
+msgstr ""
+
+#: add-on/publicpost/upload-file.php:80
+msgid "Banned file extension. Resolved:"
+msgstr ""
+
+#: add-on/groups/groups-core.php:867
+msgid "Basic settings"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:30
+msgid "Basis currency"
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:53
+msgid "Birthday"
+msgstr ""
+
+#: functions/ajax.php:112 functions/frontend.php:520
+msgid "Blacklist"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:98
+msgid "Block title for featured products"
+msgstr ""
+
+#: rcl-widgets.php:144
+msgid "Block with main profile information"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:411
+msgid "Buyer"
+msgstr ""
+
+#: add-on/commerce/admin/pages/order.php:15
+msgid "Buyer data"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:216
+msgid "By default, 10"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:78
+msgid "By default: jpeg, jpg, png, zip, mp3"
+msgstr ""
+
+#: functions/frontend.php:165
+msgid "by login"
+msgstr ""
+
+#: functions/frontend.php:164
+msgid "by name"
+msgstr ""
+
+#: admin/pages/options.php:176
+msgid "Cache"
+msgstr ""
+
+#: admin/pages/options.php:193
+msgid "Cache output"
+msgstr ""
+
+#: admin/pages/options.php:171
+msgid "Caching"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:88
+msgid "caching"
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:99
+msgid "can be changed only by the site administration"
+msgstr ""
+
+#: add-on/rating-system/classes/class-rcl-rating-box.php:389
+#: add-on/rating-system/classes/class-rcl-rating-box.php:409
+msgid "Cancel vote"
+msgstr ""
+
+#: add-on/commerce/core.php:311
+msgid "Can’t activate your account?"
+msgstr ""
+
+#: add-on/commerce/activate.php:211 add-on/commerce/functions-frontend.php:12
+#: add-on/commerce/admin/pages/addon-settings.php:37
+msgid "Cart"
+msgstr ""
+
+#: add-on/commerce/activate.php:89 add-on/commerce/index.php:50
+#: add-on/groups/groups-init.php:16
+msgid "Cart is empty"
+msgstr ""
+
+#: add-on/commerce/content/product-terms.php:17
+msgid "Categories"
+msgstr ""
+
+#: add-on/commerce/activate.php:127 add-on/commerce/index.php:94
+msgid "Categories separated by commas"
+msgstr ""
+
+#: templates/add-on-card.php:32 add-on/commerce/activate.php:117
+#: add-on/commerce/index.php:84 add-on/commerce/admin/products-columns.php:23
+msgid "Category"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:98
+msgid "Changes to be saved not found"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:111
+msgid "Chat"
+msgstr ""
+
+#: add-on/rcl-chat/class-rcl-chat.php:464
+msgid "Chat history will be displayed here"
+msgstr ""
+
+#: add-on/rcl-chat/class-rcl-chat.php:307
+msgid "Chat was not created"
+msgstr ""
+
+#: add-on/rcl-chat/actions_ajax.php:16
+msgid "Chat with"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:53
+msgid "Check-out"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:81
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:108
+msgid "Checkbox"
+msgstr ""
+
+#: add-on/commerce/classes/class-rcl-cart-constructor.php:90
+msgid "Checkout"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:40
+msgid "Checkout page"
+msgstr ""
+
+#: add-on/commerce/admin/products-metabox.php:117
+msgid "Choose a category"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-uploader.php:82
+msgid "Click on the image to add it to the publication"
+msgstr ""
+
+#: add-on/groups/groups-init.php:60
+msgid "Click to use"
+msgstr ""
+
+#: functions/enqueue-scripts.php:156
+msgid "Close"
+msgstr ""
+
+#: add-on/commerce/core.php:215
+#: add-on/commerce/admin/class-rcl-history-orders.php:105
+msgid "Closed"
+msgstr ""
+
+#: add-on/groups/groups-core.php:320 add-on/groups/index.php:480
+msgid "Closed group"
+msgstr ""
+
+#: admin/pages/options.php:312
+msgid "Color"
+msgstr ""
+
+#: add-on/rating-system/core.php:369
+msgid "comment"
+msgstr ""
+
+#: classes/class-rcl-users-list.php:509 functions/frontend.php:92
+#: add-on/rating-system/index.php:37
+#: add-on/feed/classes/class-rcl-feed-list.php:356
+msgid "Comments"
+msgstr ""
+
+#: templates/add-on-card.php:66
+msgid "Compatible"
+msgstr ""
+
+#: admin/pages/options.php:19
+msgid "Configure WP-Recall plugin and add-ons"
+msgstr ""
+
+#: add-on/commerce/core.php:309
+msgid "Confirm your email on the site by clicking on the link below"
+msgstr ""
+
+#: functions/register.php:252
+msgid "Confirm your registration!"
+msgstr ""
+
+#: add-on/groups/index.php:593
+#, php-format
+msgid ""
+"Congratulations , your access request to a private group on \"%s\" website "
+"has been approved"
+msgstr ""
+
+#: functions/frontend.php:441
+msgid "Congratulations! You have been banned."
+msgstr ""
+
+#: admin/templates-manager.php:159
+msgid "connect"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:342
+msgid "Consent confirmation text"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:119
+msgid "Contacts"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:117
+msgid "Contacts bar"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:148
+msgid "Content of the publication"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:97
+msgid "Content tab"
+msgstr ""
+
+#: rcl-widgets.php:146 rcl-widgets.php:167 add-on/groups/groups-widgets.php:15
+#: add-on/groups/groups-widgets.php:22
+msgid "Control panel"
+msgstr ""
+
+#: functions/register.php:268
+msgid ""
+"Copy the link below, paste it into the address bar of your browser and hit "
+"Enter"
+msgstr ""
+
+#: add-on/commerce/core.php:312
+msgid ""
+"Copy the text of the link below , paste it into the address bar of your "
+"browser and press Enter"
+msgstr ""
+
+#: add-on/rating-system/core.php:251
+msgid "Correction"
+msgstr ""
+
+#: add-on/groups/index.php:288
+msgid "Create"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:145
+msgid "Created date"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:27
+msgid "Currency and rates"
+msgstr ""
+
+#: admin/pages/options.php:267
+msgid "Current page"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:205
+msgid "Custom fields"
+msgstr ""
+
+#: add-on/profile/admin/index.php:99
+msgid "Custom Profile Fields"
+msgstr ""
+
+#: admin/admin-menu.php:42
+msgid "Dashboard"
+msgstr ""
+
+#: admin/pages/dashboard.php:3
+msgid "Dashboard WP-Recall"
+msgstr ""
+
+#: add-on/rating-system/core.php:682
+msgid "Data not found"
+msgstr ""
+
+#: functions/ajax.php:26
+msgid "Data of the requested tab was not found."
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:149
+msgid "Data specified when placing the order"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:86
+#: add-on/commerce/admin/class-rcl-history-orders.php:77
+#: add-on/groups/classes/class-rcl-groups-list.php:203
+#: add-on/publicpost/templates/posts-list.php:15
+#: add-on/user-balance/admin/class-rcl-payments-history.php:82
+msgid "Date"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:368
+msgid "Days/Months"
+msgstr ""
+
+#: admin/add-on-manager.php:166 admin/add-on-manager.php:177
+msgid "Deactivate"
+msgstr ""
+
+#: admin/pages/options.php:188 admin/pages/options.php:313
+msgid "Default"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:15
+msgid "Delay between requests"
+msgstr ""
+
+#: admin/add-on-manager.php:162 admin/add-on-manager.php:175
+#: admin/templates-manager.php:158
+#: classes/class-rcl-custom-fields-manager.php:544 add-on/groups/index.php:547
+#: add-on/commerce/admin/class-rcl-history-orders.php:107
+#: add-on/commerce/admin/class-rcl-history-orders.php:124
+#: add-on/user-balance/admin/class-rcl-payments-history.php:99
+msgid "Delete"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:162
+msgid "delete"
+msgstr ""
+
+#: functions/supports/uploader-avatar.php:50
+msgid "Delete avatar"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:275 add-on/rcl-chat/index.php:409
+msgid "Delete contact"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-manager.php:105
+msgid "Delete form"
+msgstr ""
+
+#: add-on/commerce/index.php:301
+msgid "Delete order"
+msgstr ""
+
+#: add-on/user-balance/admin/class-rcl-payments-history.php:91
+msgid "Delete payment"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:774
+#: add-on/publicpost/classes/class-rcl-public-form.php:780
+#: add-on/publicpost/classes/class-rcl-public-form.php:788
+msgid "Delete post"
+msgstr ""
+
+#: add-on/profile/index.php:253
+msgid "Delete your profile"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:184
+msgid "Delete your vote"
+msgstr ""
+
+#: add-on/publicpost/templates/posts-list.php:38
+msgid "deleted"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:46
+msgid "Deletion failed!"
+msgstr ""
+
+#: admin/add-on-manager.php:147 admin/templates-manager.php:141
+#: add-on/groups/index.php:473 add-on/publicpost/functions-ajax.php:69
+msgid "Description"
+msgstr ""
+
+#: admin/pages/options.php:117
+msgid "Design"
+msgstr ""
+
+#: functions/supports/modal-user-details.php:18
+msgid "Detailed information"
+msgstr ""
+
+#: add-on/commerce/admin/class-rcl-history-orders.php:84
+msgid "Details"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:89
+msgid "dialog box"
+msgstr ""
+
+#: add-on/commerce/admin/products-columns.php:71
+msgid "digital goods"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:118
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:268
+#: add-on/rating-system/admin/addon-settings.php:72
+#: add-on/rating-system/admin/addon-settings.php:192
+msgid "Disable"
+msgstr ""
+
+#: add-on/rating-system/admin/index.php:15
+msgid "Disable rating for publication"
+msgstr ""
+
+#: add-on/profile/index.php:135 admin/pages/options.php:108
+#: admin/pages/options.php:179 admin/pages/options.php:206
+#: admin/pages/options.php:215 admin/pages/options.php:286
+#: admin/pages/options.php:293 admin/pages/options.php:306
+#: add-on/groups/admin/index.php:28
+#: add-on/publicpost/admin/addon-settings.php:50
+#: add-on/publicpost/admin/addon-settings.php:69
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:183
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:193
+#: add-on/rating-system/admin/addon-settings.php:140
+#: add-on/commerce/admin/pages/addon-settings.php:59
+#: add-on/commerce/admin/pages/addon-settings.php:82
+#: add-on/commerce/admin/pages/addon-settings.php:93
+msgid "Disabled"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:467 add-on/groups/groups-widgets.php:472
+msgid "Display"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-uploader.php:100
+msgid "Display all attached images in the gallery."
+msgstr ""
+
+#: add-on/groups/groups-core.php:852
+msgid "Display all records"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:387
+msgid "display at checkout for guests"
+msgstr ""
+
+#: add-on/profile/admin/index.php:28
+msgid "display in registration form"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:48
+msgid "Display information about the author"
+msgstr ""
+
+#: admin/pages/options.php:286 admin/pages/options.php:293
+msgid "Displaye"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:466 add-on/groups/groups-widgets.php:471
+#: add-on/publicpost/admin/addon-settings.php:116
+msgid "Do not display"
+msgstr ""
+
+#: admin/metaboxes.php:7
+msgid "Documentation for WP-Recall"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:802
+msgid "Does not correspond the topic"
+msgstr ""
+
+#: functions/supports/uploader-avatar.php:269
+#: functions/supports/uploader-cover.php:195
+msgid "Download error"
+msgstr ""
+
+#: templates/add-on-card.php:63
+msgid "downloads"
+msgstr ""
+
+#: add-on/publicpost/templates/posts-list.php:39
+msgid "draft"
+msgstr ""
+
+#: functions/frontend.php:453
+msgid "Draft of a post"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:91
+msgid "Dynamic"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:83
+#: templates/form-register.php:24 add-on/profile/index.php:143
+#: add-on/commerce/admin/pages/order.php:20
+msgid "E-mail"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:689
+msgid "Each tag is separated with Enter"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:546
+#: classes/class-rcl-custom-fields-manager.php:634
+#: add-on/commerce/activate.php:84 add-on/commerce/activate.php:163
+#: add-on/commerce/index.php:45 add-on/commerce/index.php:125
+#: add-on/groups/groups-init.php:11 add-on/groups/groups-init.php:54
+#: add-on/groups/groups-public.php:53 add-on/publicpost/core.php:77
+#: add-on/publicpost/index.php:277 add-on/publicpost/init.php:22
+msgid "Edit"
+msgstr ""
+
+#: add-on/commerce/activate.php:123 add-on/commerce/index.php:90
+msgid "Edit category"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:283
+msgid "Edit this form"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:183
+msgid "Editing"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:156
+msgid "Editor settings"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:191
+msgid "Editors"
+msgstr ""
+
+#: admin/pages/options.php:89 add-on/groups/admin/index.php:56
+#: add-on/publicpost/admin/addon-settings.php:140
+#: add-on/rating-system/admin/addon-settings.php:176
+msgid "Editors and higher"
+msgstr ""
+
+#: add-on/commerce/core.php:267 add-on/commerce/core.php:346
+#: add-on/commerce/core.php:362
+msgid "Email"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:20
+msgid "Email for notifications"
+msgstr ""
+
+#: add-on/commerce/templates/cart-mini.php:23
+msgid "Empty"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:82
+msgid ""
+"Empty values of arbitrary fields in the import file remove them from the "
+"database"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:119
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:269
+#: add-on/rating-system/admin/addon-settings.php:73
+#: add-on/rating-system/admin/addon-settings.php:193
+msgid "Enable"
+msgstr ""
+
+#: add-on/groups/admin/index.php:31
+msgid ""
+"enable if publication loop within the group has been removed from the "
+"template"
+msgstr ""
+
+#: add-on/profile/index.php:136 admin/pages/options.php:109
+#: admin/pages/options.php:180 admin/pages/options.php:207
+#: admin/pages/options.php:216 admin/pages/options.php:306
+#: add-on/groups/admin/index.php:29
+#: add-on/publicpost/admin/addon-settings.php:51
+#: add-on/publicpost/admin/addon-settings.php:69
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:184
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:194
+#: add-on/rating-system/admin/addon-settings.php:140
+#: add-on/commerce/admin/pages/addon-settings.php:60
+#: add-on/commerce/admin/pages/addon-settings.php:82
+#: add-on/commerce/admin/pages/addon-settings.php:93
+msgid "Enabled"
+msgstr ""
+
+#: functions/captcha.php:65 functions/captcha.php:100
+msgid "Enter characters"
+msgstr ""
+
+#: admin/pages/addons-manager.php:41 admin/pages/repository.php:76
+#: admin/pages/themes-manager.php:27
+msgid "Enter RCLKEY"
+msgstr ""
+
+#: add-on/user-balance/index.php:175 add-on/user-balance/shortcodes.php:80
+msgid "Enter the amount"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:124
+msgid "Enter the form ID according to the personal Cabinet. The default is 1"
+msgstr ""
+
+#: add-on/groups/index.php:287
+msgid "Enter the name of the new group"
+msgstr ""
+
+#: add-on/commerce/classes/class-rcl-cart-constructor.php:119
+msgid "Enter your E-mail"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:151
+msgid "Enter your e-mail!"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:154
+msgid "Enter your name!"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:688
+msgid "Enter your tags"
+msgstr ""
+
+#: admin/pages/options.php:276
+msgid "Enter your URL below, if you select an arbitrary URL after login"
+msgstr ""
+
+#: functions/loginform.php:51 functions/loginform.php:62
+#: functions/loginform.php:85 templates/form-sign.php:42
+#: templates/recallbar.php:43 templates/recallbar.php:44
+msgid "Entry"
+msgstr ""
+
+#: admin/index.php:135 functions/ajax.php:95 functions/enqueue-scripts.php:159
+#: add-on/feed/index.php:185 add-on/feed/index.php:198
+#: add-on/feed/index.php:206 add-on/groups/groups-core.php:805
+#: add-on/groups/groups-core.php:821 add-on/groups/upload-avatar.php:72
+#: add-on/publicpost/core.php:231 add-on/user-balance/index.php:202
+#: admin/pages/repository.php:58 add-on/commerce/admin/index.php:87
+msgid "Error"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-edit-post.php:43
+#: add-on/publicpost/classes/class-rcl-edit-post.php:228
+msgid "Error publishing!"
+msgstr ""
+
+#: add-on/user-balance/class-rcl-payment.php:259
+msgid "Error! Connection to payment aggregator not set."
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:68
+msgid "Example, fa-user"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:417
+msgid ""
+"Example: 8\\([0-9]{3}\\)[0-9]{3}-[0-9]{2}-[0-9]{2} Result: 8(900)123-45-67"
+msgstr ""
+
+#: add-on/rating-system/index.php:506
+#, php-format
+msgid "exceeded the limit of votes for the period - %d seconds"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:64
+#, php-format
+msgid "Exceeds the maximum file size! Max. %d MB"
+msgstr ""
+
+#: add-on/publicpost/init.php:25
+msgid "Exceeds the maximum file size! Max:"
+msgstr ""
+
+#: functions/supports/uploader-avatar.php:22
+#: functions/supports/uploader-cover.php:22
+#, php-format
+msgid "Exceeds the maximum image size! Max. %s Kb"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:63
+msgid "Exceeds the maximum message size"
+msgstr ""
+
+#: functions/loginform.php:37 templates/recallbar.php:75
+msgid "Exit"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:25
+msgid "Export/Import"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:52
+msgid "Export/import data"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:160
+msgid "Extends options"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:100
+msgid "FAIL Page"
+msgstr ""
+
+#: add-on/rcl-chat/core.php:34
+msgid "Failed to add chat"
+msgstr ""
+
+#: add-on/rating-system/core.php:149
+msgid "Failed to add general rating of the object"
+msgstr ""
+
+#: add-on/rating-system/core.php:166
+msgid "Failed to add general rating of the user"
+msgstr ""
+
+#: add-on/feed/addon-core.php:24
+msgid "Failed to add new subscription"
+msgstr ""
+
+#: add-on/user-balance/index.php:120
+msgid "Failed to add user balance"
+msgstr ""
+
+#: add-on/user-balance/class-rcl-payment.php:200
+msgid "Failed to add user payment"
+msgstr ""
+
+#: add-on/rcl-chat/core.php:143
+msgid "Failed to add user to the chat"
+msgstr ""
+
+#: add-on/rating-system/core.php:123
+msgid "Failed to add user vote"
+msgstr ""
+
+#: add-on/feed/addon-core.php:50
+msgid "Failed to change feed data"
+msgstr ""
+
+#: add-on/rating-system/core.php:418
+msgid "Failed to change general rating of the object"
+msgstr ""
+
+#: add-on/rating-system/core.php:461
+msgid "Failed to change general rating of the user"
+msgstr ""
+
+#: admin/pages/repository.php:54
+msgid "Failed to get data"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:74
+msgid "Failed to get the data"
+msgstr ""
+
+#: functions/ajax.php:137
+msgid "Failed to load emoticons"
+msgstr ""
+
+#: classes/class-rcl-sub-tabs.php:115
+msgid "Failed to load tab content"
+msgstr ""
+
+#: functions/addons-update.php:46
+msgid "Failed to open file with add-ons data to check for updates"
+msgstr ""
+
+#: add-on/user-balance/index.php:100
+msgid "Failed to refresh user balance"
+msgstr ""
+
+#: add-on/rcl-chat/core.php:231
+msgid "Failed to refresh user status in the chat"
+msgstr ""
+
+#: add-on/rcl-chat/core.php:204
+msgid "Failed to send mets data of the message"
+msgstr ""
+
+#: classes/class-rcl-install.php:94
+msgid "FEED"
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:79
+#: add-on/publicpost/classes/class-rcl-public-form-manager.php:19
+#: add-on/commerce/admin/pages/cart-fields.php:15
+#: add-on/commerce/admin/pages/variations.php:26
+msgid "field description"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:262
+#: classes/class-rcl-custom-fields-manager.php:868
+msgid "Field type"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:90
+msgid "File"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:766
+#: classes/class-rcl-custom-fields.php:800
+#: classes/class-rcl-custom-fields.php:831
+msgid "File does not exist on the server!"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:861
+msgid "File has been deleted"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:286
+msgid "File not found!"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:320
+msgid "File size"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:682
+msgid "File size exceedes maximum!"
+msgstr ""
+
+#: add-on/groups/upload-avatar.php:42
+msgid "File size exceeds maximum size"
+msgstr ""
+
+#: functions/enqueue-scripts.php:180
+msgid "File size is exceeded"
+msgstr ""
+
+#: admin/pages/addons-manager.php:22
+msgid "Files and data additions have been <strong>deleted</strong>."
+msgstr ""
+
+#: functions/enqueue-scripts.php:177
+msgid "Fill in all required fields"
+msgstr ""
+
+#: functions/authorize.php:44 functions/register.php:182
+msgid "Fill in the required fields!"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:123
+#: add-on/commerce/admin/pages/orders.php:31
+msgid "Filter"
+msgstr ""
+
+#: classes/class-rcl-users-list.php:518
+#: add-on/groups/classes/class-rcl-groups-list.php:210
+msgid "Filter by"
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:106
+msgid "Filter users by this field"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:365
+msgid "Finance"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:385
+msgid "First value"
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:23
+msgid "Firstname"
+msgstr ""
+
+#: admin/pages/options.php:230
+msgid "Floating form"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:67
+msgid "Follow the link in the letter sent to your email"
+msgstr ""
+
+#: add-on/feed/index.php:51
+msgid "Followers"
+msgstr ""
+
+#: add-on/groups/index.php:327
+msgid "Footer"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:597
+msgid "for"
+msgstr ""
+
+#: add-on/feed/addon-core.php:250
+msgid "For publication"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:114
+msgid "for the amount of"
+msgstr ""
+
+#: add-on/rcl-chat/actions_cron.php:109
+msgid "For you"
+msgstr ""
+
+#: add-on/rcl-chat/actions_ajax.php:252
+msgid "Forbidden file extension. Allowed:"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-manager.php:90
+msgid "Form"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:91
+#: add-on/publicpost/admin/index.php:12 add-on/publicpost/admin/index.php:12
+msgid "Form of publication"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:115
+msgid "Form of publication output in the personal cabinet"
+msgstr ""
+
+#: add-on/commerce/classes/class-rcl-cart-button-form.php:58
+msgid "Free"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:597
+msgid "from"
+msgstr ""
+
+#: add-on/rcl-chat/actions_cron.php:99
+msgid "from the user"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:188
+msgid "Frontend editing"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:113
+msgid "Full text of the message"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:11 admin/pages/options.php:26
+#: add-on/publicpost/admin/addon-settings.php:31
+#: add-on/commerce/admin/pages/addon-settings.php:15
+#: add-on/commerce/admin/pages/addon-settings.php:17
+msgid "General settings"
+msgstr ""
+
+#: templates/form-remember.php:23
+msgid "Get New Password"
+msgstr ""
+
+#: functions/deprecated.php:129
+msgid "Go back"
+msgstr ""
+
+#: templates/add-on-card.php:19
+msgid "Go to"
+msgstr ""
+
+#: admin/metaboxes.php:37
+msgid "Go to addons manager"
+msgstr ""
+
+#: add-on/commerce/functions-ajax.php:86
+#: add-on/commerce/templates/cart-mini.php:20
+msgid "Go to cart"
+msgstr ""
+
+#: add-on/rating-system/templates/rating-comment.php:16
+msgid "Go to comment"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:426
+msgid "Go to orders manager"
+msgstr ""
+
+#: templates/add-on-card.php:19
+msgid "Go to page"
+msgstr ""
+
+#: admin/metaboxes.php:41
+msgid "Go to templates manager"
+msgstr ""
+
+#: functions/deprecated.php:119
+msgid "Go to the first page"
+msgstr ""
+
+#: functions/deprecated.php:125
+msgid "Go to the last page"
+msgstr ""
+
+#: functions/deprecated.php:124
+msgid "Go to the next page"
+msgstr ""
+
+#: functions/deprecated.php:120
+msgid "Go to the previous page"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:202 add-on/groups/groups-widgets.php:210
+#: add-on/groups/index.php:362 add-on/groups/index.php:493
+msgid "Group categories"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:89
+msgid "Group category"
+msgstr ""
+
+#: add-on/groups/admin/index.php:25
+msgid "Group contents widget"
+msgstr ""
+
+#: add-on/groups/admin/index.php:52
+msgid "Group creation allowed"
+msgstr ""
+
+#: add-on/groups/index.php:402
+msgid "Group creation failed"
+msgstr ""
+
+#: add-on/groups/groups-core.php:443
+#: add-on/groups/templates/single-group.php:40
+msgid "Group members"
+msgstr ""
+
+#: add-on/groups/index.php:469
+msgid "Group name"
+msgstr ""
+
+#: add-on/groups/admin/index.php:15
+msgid "Group output"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:322 add-on/groups/groups-widgets.php:334
+#: add-on/groups/groups-widgets.php:455
+msgid "Group posts"
+msgstr ""
+
+#: add-on/groups/admin/index.php:63
+msgid "Group publication moderation"
+msgstr ""
+
+#: add-on/groups/index.php:466 add-on/groups/admin/index.php:9
+msgid "Group settings"
+msgstr ""
+
+#: add-on/groups/index.php:477 add-on/groups/templates/single-group.php:37
+msgid "Group status"
+msgstr ""
+
+#: add-on/groups/activate.php:65 add-on/groups/groups-init.php:47
+#: add-on/groups/groups-init.php:48 add-on/groups/groups-init.php:61
+#: add-on/groups/index.php:234 add-on/groups/admin/index.php:11
+msgid "Groups"
+msgstr ""
+
+#: add-on/groups/index.php:250
+msgid "Groups created"
+msgstr ""
+
+#: add-on/groups/shortcodes.php:52
+msgid "Groups not found"
+msgstr ""
+
+#: add-on/groups/groups-init.php:7 add-on/groups/groups-init.php:8
+#: add-on/groups/groups-init.php:18 add-on/groups/index.php:40
+#: add-on/groups/index.php:225
+msgid "Groups records"
+msgstr ""
+
+#: add-on/rcl-chat/class-rcl-chat.php:180
+msgid "Guest"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:142
+msgid "Guests and users"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-post-list.php:86
+msgid "has not yet been published"
+msgstr ""
+
+#: add-on/rating-system/core.php:339
+#: add-on/rating-system/admin/addon-settings.php:127
+msgid "has voted"
+msgstr ""
+
+#: add-on/groups/index.php:306 add-on/publicpost/admin/index.php:132
+msgid "Header"
+msgstr ""
+
+#: functions/loginform.php:25
+msgid "Hi"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:56
+msgid "Hidden tab"
+msgstr ""
+
+#: templates/recallbar.php:17
+msgid "Homepage"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:159
+msgid "HTML editor"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://codeseller.ru/"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://codeseller.ru/?p=69"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:501
+msgid "I agree with the text of the agreement"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:49
+msgid "I like"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:67
+msgid "Icon class of  font-awesome"
+msgstr ""
+
+#: admin/pages/options.php:239
+msgid "ID of the shortcode page [loginform]"
+msgstr ""
+
+#: admin/pages/options.php:153 admin/pages/options.php:164
+#: add-on/groups/admin/index.php:80
+msgid "If 0 is specified, download is disallowed."
+msgstr ""
+
+#: admin/pages/options.php:41
+msgid ""
+"If author archive page is selected, the template author.php should contain "
+"the code if(function_exists('wp_recall')) wp_recall();"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:22
+msgid ""
+"If email is not specified, a notification will be sent to all users of the "
+"website with \"Administrator\" rights"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:195
+msgid ""
+"If enabled, an additional \"Other\" tab will be created in the rating "
+"history, where all changes will be displayed via unregistered rating types"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:75
+msgid ""
+"If enabled, the standard markup on single pages along with the rating is "
+"displayed as <a href=\"http://schema.org\" target=\"_blank\">http://schema."
+"org</a>"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:62
+msgid ""
+"If enabled, the user will be automatically registered on the site after "
+"successfull check-out"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:232
+msgid ""
+"If everything is correct – publish it! If not, you can go back to editing."
+msgstr ""
+
+#: functions/register.php:265
+msgid ""
+"If it was you, then confirm your registration by clicking on the link below"
+msgstr ""
+
+#: functions/register.php:274
+msgid "If it wasn’t you, then just ignore this email"
+msgstr ""
+
+#: add-on/groups/admin/index.php:69
+#: add-on/publicpost/admin/addon-settings.php:166
+msgid ""
+"If subject to moderation: To allow the user to see their publication before "
+"moderation has been completed, the user should be classifies as Author or "
+"higher"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:56
+msgid ""
+"If the connection to the payment aggregator not used, apply \"Funds from "
+"user personal account\"!"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:169
+msgid "If this is your email, then log in and publish your post"
+msgstr ""
+
+#: admin/pages/options.php:254
+msgid ""
+"If you are using the registration confirmation, after registration, the user "
+"will need to confirm your email by clicking on the link in the sent email"
+msgstr ""
+
+#: admin/pages/themes-manager.php:38
+msgid ""
+"If you have an archive template for wp-recall format .zip, here you can "
+"upload and install it"
+msgstr ""
+
+#: admin/pages/addons-manager.php:52
+msgid ""
+"If you have the add-on archive for WP-Recall format .zip, you can upload and "
+"install it here."
+msgstr ""
+
+#: admin/index.php:406
+#, php-format
+msgid ""
+"If you liked plugin %sWP-Recall%s, please vote for it in repository "
+"%s★★★★★%s. Thank you so much!"
+msgstr ""
+
+#: add-on/profile/index.php:153
+msgid "If you want to change your password - enter a new one"
+msgstr ""
+
+#: add-on/feed/addon-core.php:366
+msgid "Ignore publications"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:8
+msgid "IM settings"
+msgstr ""
+
+#: functions/supports/uploader-avatar.php:23
+#: functions/supports/uploader-cover.php:23
+msgid "Image being loaded"
+msgstr ""
+
+#: functions/supports/uploader-avatar.php:24
+msgid "Image from camera"
+msgstr ""
+
+#: functions/supports/uploader-cover.php:208
+msgid "Image successfully uploaded"
+msgstr ""
+
+#: add-on/commerce/admin/products-metabox.php:171
+msgid "Images gallery"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:81
+msgid "Import products from a file"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:131
+msgid "Important messages"
+msgstr ""
+
+#: add-on/rcl-chat/class-rcl-chat.php:414
+msgid "In chat"
+msgstr ""
+
+#: add-on/commerce/admin/products-columns.php:91
+msgid "in reserve"
+msgstr ""
+
+#: add-on/feed/addon-core.php:252
+msgid "In response to"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:21
+msgid "In seconds. It is recommended to choose at least 10 seconds"
+msgstr ""
+
+#: add-on/commerce/admin/products-columns.php:81
+#: add-on/commerce/admin/products-columns.php:83
+msgid "in stock"
+msgstr ""
+
+#: add-on/commerce/templates/cart-mini.php:11
+msgid "In your cart"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:61
+msgid "In your personal account you can find out the status of your order."
+msgstr ""
+
+#: add-on/commerce/functions-ajax.php:84
+#, php-format
+msgid "In your shopping cart: %d items"
+msgstr ""
+
+#: admin/add-on-manager.php:124 admin/templates-manager.php:119
+#: admin/pages/addons-manager.php:65
+msgid "Inactive"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:691
+msgid "Inactive fields"
+msgstr ""
+
+#: admin/pages/options.php:71
+msgid "Inactivity timeout"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:368
+msgid "Income (tsd.)"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:43
+msgid "Income dynamics"
+msgstr ""
+
+#: functions/captcha.php:82 functions/captcha.php:118
+msgid "Incorrect CAPTCHA!"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:110
+msgid "Incorrect extension of the downloaded file. XML format expected!"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:192
+msgid "Incorrect values of some fields, enter the correct values!"
+msgstr ""
+
+#: admin/pages/options.php:292
+msgid "Indicator of password complexity"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:165
+msgid "Influence of rationg on publication moderation"
+msgstr ""
+
+#: add-on/commerce/core.php:265 add-on/commerce/core.php:344
+#: add-on/commerce/core.php:360
+msgid "Information about the customer"
+msgstr ""
+
+#: admin/pages/addons-manager.php:56 admin/pages/themes-manager.php:42
+msgid "Install"
+msgstr ""
+
+#: admin/pages/addons-manager.php:51 admin/pages/themes-manager.php:37
+msgid "Install the add-on to WP-Recall format .ZIP"
+msgstr ""
+
+#: templates/add-on-card.php:17
+msgid "Installed"
+msgstr ""
+
+#: add-on/user-balance/index.php:244
+#, php-format
+msgid "Insufficient funds in your personal account!<br>Order price: %d %s"
+msgstr ""
+
+#: admin/add-on-manager.php:274
+msgid "Insufficient rights to install plugins on this site."
+msgstr ""
+
+#: functions/enqueue-scripts.php:181
+msgid "Invalid file type"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:61
+msgid "Join group"
+msgstr ""
+
+#: admin/pages/addons-manager.php:33 admin/pages/repository.php:68
+#: admin/pages/themes-manager.php:19
+msgid "Key has been saved"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:397
+msgid "Last orders"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:50
+msgid "Latin alphabet and numbers"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:240
+msgid "Latin letters and numbers"
+msgstr ""
+
+#: functions/cron.php:20 functions/cron.php:30 functions/cron.php:40
+msgid "Launch cron events"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:44
+msgid "Leave group"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:132 admin/pages/options.php:142
+msgid "Left"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:199
+msgid "Limit editing time of publication in hours, by default: unlimited"
+msgstr ""
+
+#: add-on/commerce/core.php:350
+msgid "Link for managing the order"
+msgstr ""
+
+#: admin/pages/options.php:58
+msgid "Link format to personal account"
+msgstr ""
+
+#: add-on/commerce/core.php:271 add-on/commerce/core.php:321
+msgid "Link to managing your order"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:82
+msgid "List of publications of the user"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:68
+msgid "List of publications tab"
+msgstr ""
+
+#: add-on/feed/index.php:100
+msgid "List of subscribers"
+msgstr ""
+
+#: add-on/feed/index.php:124
+msgid "List of subscriptions"
+msgstr ""
+
+#: functions/enqueue-scripts.php:160
+msgid "Loading"
+msgstr ""
+
+#: admin/pages/options.php:101
+msgid "Logging mode"
+msgstr ""
+
+#: functions/register.php:247 templates/form-register.php:19
+#: templates/form-sign.php:22 add-on/commerce/core.php:292
+msgid "Login"
+msgstr ""
+
+#: admin/index.php:147 admin/pages/options.php:223
+msgid "Login and register"
+msgstr ""
+
+#: add-on/feed/shortcodes.php:22
+msgid ""
+"Login or register to view the latest publications and comments from users "
+"for which you have subscribed."
+msgstr ""
+
+#: rcl-functions.php:848
+msgid "long ago"
+msgstr ""
+
+#: templates/form-sign.php:43
+msgid "Lost your Password"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:110
+msgid "Mail alert"
+msgstr ""
+
+#: add-on/groups/index.php:320
+msgid "Main"
+msgstr ""
+
+#: add-on/user-balance/index.php:184 add-on/user-balance/shortcodes.php:46
+msgid "Make payment"
+msgstr ""
+
+#: add-on/publicpost/upload-file.php:18
+msgid "Make thumbnail"
+msgstr ""
+
+#: add-on/profile/admin/index.php:49
+msgid "Manage profile fields"
+msgstr ""
+
+#: add-on/publicpost/admin/index.php:34
+msgid "Manage publication forms"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:246 add-on/groups/groups-widgets.php:292
+msgid "Management"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:36
+#: add-on/publicpost/functions-ajax.php:43
+msgid "Material successfully removed!"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:367
+#: classes/class-rcl-custom-fields-manager.php:450
+msgid "Max"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:187
+msgid "Max size"
+msgstr ""
+
+#: add-on/groups/admin/index.php:78
+msgid "Max size of the group avatars"
+msgstr ""
+
+#: admin/pages/options.php:151
+msgid "Max weight of avatars"
+msgstr ""
+
+#: admin/pages/options.php:162
+msgid "Max weight of cover"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:206
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:236
+msgid "Maximum file size in megabytes. By default, 2MB"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:86
+msgid "Maximum file size, MB"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:435
+msgid "maximum number of symbols per field"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:261
+msgid "Maximum output"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:321
+msgid "maximum size of uploaded file, MB (Default - 2)"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:434
+msgid "Maxlength"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:352
+msgid "May not load with AJAX"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:158
+msgid "Media loader"
+msgstr ""
+
+#: add-on/groups/index.php:484
+msgid "Membership"
+msgstr ""
+
+#: add-on/rcl-chat/actions_cron.php:102
+msgid "Message text"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:47
+msgid "Messages"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:585
+msgid "Meta-key"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:238
+msgid "MetaKey"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:360
+#: classes/class-rcl-custom-fields-manager.php:444
+msgid "Min"
+msgstr ""
+
+#: admin/pages/options.php:204
+msgid "Minimization of file styles"
+msgstr ""
+
+#: admin/pages/options.php:208
+msgid ""
+"Minimization of file styles only works in correlation with WP-Recall style "
+"files and add-ons that support this feature"
+msgstr ""
+
+#: admin/pages/options.php:213
+msgid "Minimization of scripts"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:164
+msgid "Moderation of publications"
+msgstr ""
+
+#: add-on/groups/groups-core.php:229
+msgid "Moderator"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:78
+msgid "Multiline text area"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:80
+msgid "MultiSelect"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:109
+msgid "Multiselect"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:632 add-on/commerce/core.php:266
+#: add-on/commerce/core.php:345 add-on/commerce/core.php:361
+#: add-on/publicpost/functions-ajax.php:67
+#: add-on/groups/classes/class-rcl-groups-list.php:202
+#: add-on/commerce/admin/pages/order.php:19
+msgid "Name"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:386
+msgid "Name of the first blank value, for example: \"Not selected\""
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:35
+msgid "Name to be displayed"
+msgstr ""
+
+#: add-on/commerce/activate.php:85 add-on/commerce/index.php:46
+#: add-on/groups/groups-init.php:12 add-on/groups/groups-init.php:57
+msgid "New"
+msgstr ""
+
+#: add-on/commerce/activate.php:126 add-on/commerce/index.php:93
+msgid "New category"
+msgstr ""
+
+#: add-on/rcl-chat/actions_cron.php:109
+msgid "new messages"
+msgstr ""
+
+#: add-on/profile/index.php:150
+msgid "New password"
+msgstr ""
+
+#: add-on/commerce/activate.php:166 add-on/commerce/index.php:128
+msgid "New tag"
+msgstr ""
+
+#: add-on/groups/index.php:486
+msgid "New user role"
+msgstr ""
+
+#: rcl-widgets.php:14 rcl-widgets.php:51
+msgid "New users"
+msgstr ""
+
+#: rcl-widgets.php:12
+msgid "New users on website"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:266
+msgid "New values entry field"
+msgstr ""
+
+#: admin/add-on-manager.php:225 admin/templates-manager.php:206
+msgid "New version available"
+msgstr ""
+
+#: add-on/feed/classes/class-rcl-feed-list.php:355
+msgid "News"
+msgstr ""
+
+#: add-on/feed/index.php:251
+msgid "News no more"
+msgstr ""
+
+#: add-on/commerce/core.php:294
+msgid ""
+"Next time use your personal cabinet for placing new orders on our website"
+msgstr ""
+
+#: admin/index.php:98 add-on/rcl-chat/addon-options.php:57
+#: add-on/rcl-chat/addon-options.php:67 add-on/rcl-chat/addon-options.php:121
+#: admin/classes/class-rcl-tabs-manager.php:59 admin/pages/options.php:131
+#: add-on/commerce/admin/index.php:388
+#: add-on/profile/admin/addon-settings.php:17 add-on/profile/admin/index.php:30
+#: add-on/profile/classes/class-rcl-profile-fields.php:86
+#: add-on/profile/classes/class-rcl-profile-fields.php:93
+#: add-on/profile/classes/class-rcl-profile-fields.php:100
+#: add-on/profile/classes/class-rcl-profile-fields.php:107
+#: add-on/publicpost/admin/addon-settings.php:97
+#: add-on/publicpost/admin/addon-settings.php:103
+#: add-on/publicpost/admin/addon-settings.php:211
+#: add-on/publicpost/classes/class-rcl-public-form-manager.php:27
+#: add-on/rating-system/admin/addon-settings.php:120
+#: add-on/rating-system/admin/addon-settings.php:185
+#: add-on/rating-system/admin/index.php:16
+#: add-on/commerce/admin/pages/cart-fields.php:22
+msgid "No"
+msgstr ""
+
+#: admin/add-on-manager.php:106 admin/templates-manager.php:101
+msgid "No addons found."
+msgstr ""
+
+#: add-on/rating-system/core.php:384
+msgid "No changes to rating"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:250
+msgid "No contacts yet. Start a chat with another user on his page"
+msgstr ""
+
+#: add-on/rcl-chat/class-rcl-chat.php:462
+msgid "No important messages in this chat"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:312
+msgid "No important messages yet"
+msgstr ""
+
+#: add-on/feed/shortcodes.php:53
+msgid "No news found"
+msgstr ""
+
+#: add-on/commerce/admin/class-rcl-history-orders.php:47
+msgid "No orders found."
+msgstr ""
+
+#: add-on/commerce/index.php:238
+#, php-format
+msgid "No orders with status \"%s\" yet"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:405
+msgid "No orders yet"
+msgstr ""
+
+#: add-on/user-balance/admin/class-rcl-payments-history.php:50
+msgid "No payments found."
+msgstr ""
+
+#: add-on/publicpost/admin/index.php:127
+msgid "No posts under moderation"
+msgstr ""
+
+#: add-on/groups/index.php:517
+msgid "No queries"
+msgstr ""
+
+#: add-on/user-balance/class-rcl-payment.php:176
+msgid "No record of the payment in the database was found"
+msgstr ""
+
+#: add-on/commerce/classes/class-rcl-cart-button-form.php:136
+msgid "Not available"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:806
+msgid "Not completed"
+msgstr ""
+
+#: add-on/commerce/activate.php:88 add-on/commerce/index.php:49
+#: add-on/groups/groups-init.php:15
+#: add-on/publicpost/classes/class-rcl-public-form.php:699
+msgid "Not found"
+msgstr ""
+
+#: add-on/commerce/core.php:211
+#: add-on/commerce/admin/class-rcl-history-orders.php:101
+msgid "Not paid"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:239
+msgid "not required, but you can list your own meta_key in this field"
+msgstr ""
+
+#: rcl-widgets.php:65 rcl-widgets.php:124 admin/pages/options.php:50
+#: admin/pages/options.php:243 add-on/groups/admin/index.php:42
+#: add-on/profile/classes/class-rcl-profile-fields.php:161
+#: add-on/publicpost/admin/addon-settings.php:40
+#: add-on/publicpost/admin/addon-settings.php:153
+#: add-on/publicpost/classes/class-rcl-list-terms.php:58
+#: add-on/publicpost/classes/class-rcl-list-terms.php:88
+#: add-on/user-balance/admin/addon-settings.php:88
+#: add-on/user-balance/admin/addon-settings.php:96
+#: add-on/user-balance/admin/addon-settings.php:104
+#: add-on/user-balance/admin/addon-settings.php:112
+#: add-on/commerce/admin/pages/addon-settings.php:45
+msgid "Not selected"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:446
+msgid "Not set attributes: chat_room"
+msgstr ""
+
+#: rcl-functions.php:1329
+msgid "not specified"
+msgstr ""
+
+#: admin/pages/options.php:257 add-on/user-balance/admin/addon-settings.php:13
+msgid "Not used"
+msgstr ""
+
+#: admin/pages/repository.php:133
+msgid "Nothing found"
+msgstr ""
+
+#: add-on/groups/index.php:594
+msgid "Now you can take part in the life of the group as its full participant."
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:85
+msgid "Number"
+msgstr ""
+
+#: rcl-widgets.php:58
+msgid "Number of displayed users"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:103
+msgid "Number of featured products"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:215
+msgid "Number of files"
+msgstr ""
+
+#: add-on/commerce/templates/orders-history.php:11
+msgid "Number of goods"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:101
+msgid "Number of messages in the conversation"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:89
+msgid "Number of positive and negative votes"
+msgstr ""
+
+#: add-on/commerce/admin/class-rcl-history-orders.php:74
+msgid "Number of products"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:58
+msgid "Number of stars"
+msgstr ""
+
+#: functions/deprecated.php:122
+msgid "of"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:44
+msgid "Offer both options"
+msgstr ""
+
+#: functions/addons.php:292
+msgid "Office templates not found!"
+msgstr ""
+
+#: rcl-functions.php:872 functions/frontend.php:116 functions/frontend.php:189
+#: functions/frontend.php:403
+msgid "offline"
+msgstr ""
+
+#: add-on/commerce/admin/products-columns.php:63
+#: add-on/rating-system/admin/index.php:32
+msgid "OK"
+msgstr ""
+
+#: admin/pages/options.php:231
+msgid "On a separate page"
+msgstr ""
+
+#: add-on/groups/admin/index.php:19
+msgid "On an arbitrary page of the website"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:219
+msgid "On content recording"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:80
+msgid "On the archive page"
+msgstr ""
+
+#: add-on/groups/admin/index.php:18
+msgid "On the archive page of post-groups entries"
+msgstr ""
+
+#: admin/pages/options.php:38
+msgid "On the author’s archive page"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:73
+msgid "On the description"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:70
+msgid "On the product page"
+msgstr ""
+
+#: add-on/profile/admin/index.php:51
+msgid ""
+"On this page you can create custom fields of the user profile, as well as to "
+"manage already created fields"
+msgstr ""
+
+#: admin/pages/tabs-manager.php:20
+msgid ""
+"On this page you can create new tabs personal account with arbitrary content "
+"and manage existing tabs in different areas of the personal account"
+msgstr ""
+
+#: add-on/publicpost/admin/index.php:36
+msgid ""
+"On this page you can manage the creation of publications for registered "
+"record types. Create custom fields for the form of publication of various "
+"types and manage"
+msgstr ""
+
+#: rcl-widgets.php:114
+msgid "Online"
+msgstr ""
+
+#: functions/frontend.php:191
+msgid "online"
+msgstr ""
+
+#: rcl-widgets.php:87
+msgid "Online users"
+msgstr ""
+
+#: rcl-widgets.php:85
+msgid "Online users output"
+msgstr ""
+
+#: admin/pages/options.php:88 add-on/groups/admin/index.php:55
+#: add-on/publicpost/admin/addon-settings.php:139
+#: add-on/rating-system/admin/addon-settings.php:177
+msgid "only Administrators"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:115
+msgid "Only child terms"
+msgstr ""
+
+#: admin/pages/options.php:196
+msgid "Only guests"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:83
+msgid "Only owner of the account"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:100
+msgid "only when output through select"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:276
+msgid "Open chat in window"
+msgstr ""
+
+#: add-on/groups/groups-core.php:319 add-on/groups/index.php:479
+msgid "Open group"
+msgstr ""
+
+#: templates/add-on-card.php:68
+msgid "Operation is not guaranteed with your version of WP-Recall"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:59
+msgid ""
+"Option is responsible for the incorporation of media content, such as from "
+"Youtube or Twitter from the link"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:57
+msgid "Optional fields"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:785
+msgid "or enter your own"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:410
+#: add-on/commerce/content/order-content.php:143
+msgid "Order"
+msgstr ""
+
+#: add-on/commerce/admin/class-rcl-history-orders.php:20
+msgid "order"
+msgstr ""
+
+#: add-on/commerce/core.php:261 add-on/commerce/content/order-content.php:139
+#: add-on/commerce/admin/pages/order.php:9
+msgid "Order data"
+msgstr ""
+
+#: add-on/commerce/templates/orders-history.php:10
+msgid "Order date"
+msgstr ""
+
+#: add-on/commerce/core.php:269 add-on/commerce/core.php:318
+#: add-on/commerce/core.php:348 add-on/commerce/core.php:364
+msgid "Order details"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:27
+msgid "Order form"
+msgstr ""
+
+#: add-on/commerce/admin/pages/cart-fields.php:9
+msgid "Order Form Field Management"
+msgstr ""
+
+#: add-on/commerce/admin/pages/orders.php:7
+msgid "Order history"
+msgstr ""
+
+#: add-on/commerce/admin/class-rcl-history-orders.php:72
+msgid "Order ID"
+msgstr ""
+
+#: add-on/user-balance/index.php:225
+msgid "Order not found!"
+msgstr ""
+
+#: add-on/commerce/templates/orders-history.php:9
+msgid "Order number"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:144
+#: add-on/commerce/templates/orders-history.php:13
+msgid "Order status"
+msgstr ""
+
+#: add-on/commerce/admin/class-rcl-history-orders.php:75
+msgid "Order sum"
+msgstr ""
+
+#: add-on/commerce/core.php:340
+#, php-format
+msgid "Order №%d has been paid"
+msgstr ""
+
+#: add-on/commerce/core.php:268 add-on/commerce/core.php:319
+#: add-on/commerce/core.php:347 add-on/commerce/core.php:363
+#, php-format
+msgid "Order №%d received status \"%s\""
+msgstr ""
+
+#: add-on/commerce/index.php:170 add-on/commerce/index.php:180
+#: add-on/commerce/admin/index.php:23 add-on/commerce/admin/index.php:23
+#: add-on/commerce/admin/index.php:65
+msgid "Orders"
+msgstr ""
+
+#: add-on/commerce/admin/class-rcl-history-orders.php:21
+msgid "orders"
+msgstr ""
+
+#: add-on/rating-system/index.php:106
+msgid "Other"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:116
+msgid "Output"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:218
+msgid "Output fields location"
+msgstr ""
+
+#: admin/index.php:97
+msgid "Output images via WP-Recall gallery?"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:127
+msgid "Output location"
+msgstr ""
+
+#: admin/pages/options.php:304
+msgid "Output of recallbar panel"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:105
+msgid "Output option"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:91
+msgid "Output order"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:88
+msgid "Overall rating"
+msgstr ""
+
+#: add-on/commerce/core.php:212
+#: add-on/commerce/admin/class-rcl-history-orders.php:102
+msgid "Paid"
+msgstr ""
+
+#: add-on/commerce/activate.php:121 add-on/commerce/activate.php:122
+#: add-on/commerce/index.php:88 add-on/commerce/index.php:89
+msgid "Parent category"
+msgstr ""
+
+#: add-on/groups/groups-init.php:52 add-on/groups/groups-init.php:53
+msgid "Parent group"
+msgstr ""
+
+#: add-on/groups/groups-init.php:17
+msgid "Parent record"
+msgstr ""
+
+#: add-on/commerce/activate.php:90 add-on/commerce/index.php:51
+msgid "Parental goods"
+msgstr ""
+
+#: add-on/commerce/activate.php:161 add-on/commerce/activate.php:162
+#: add-on/commerce/index.php:123 add-on/commerce/index.php:124
+msgid "Parental tag"
+msgstr ""
+
+#: admin/pages/options.php:91 add-on/groups/admin/index.php:58
+#: add-on/rating-system/admin/addon-settings.php:174
+msgid "Participants and higher"
+msgstr ""
+
+#: functions/register.php:248 functions/register.php:439
+#: functions/register.php:441 templates/form-sign.php:27
+#: add-on/commerce/core.php:293
+msgid "Password"
+msgstr ""
+
+#: templates/form-remember.php:9
+msgid "Password generation"
+msgstr ""
+
+#: functions/register.php:449
+msgid "Password strength indicator"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:427
+msgid "Pattern"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:117
+msgid "Pay for the created order by one of the proposed methods"
+msgstr ""
+
+#: add-on/user-balance/class-rcl-payment.php:313
+msgid "Pay from personal account"
+msgstr ""
+
+#: add-on/user-balance/class-rcl-payment.php:278
+msgid "Pay via"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:49
+msgid "Payment"
+msgstr ""
+
+#: add-on/user-balance/admin/class-rcl-payments-history.php:22
+msgid "payment"
+msgstr ""
+
+#: add-on/user-balance/class-rcl-payment.php:232
+#, php-format
+msgid "Payment for order №%d"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:40
+msgid "Payment from user’s personal account"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:112
+msgid "Payment history"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:104
+#, php-format
+msgid "Payment order №%s dated %s"
+msgstr ""
+
+#: add-on/user-balance/admin/class-rcl-payments-history.php:83
+msgid "Payment system"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:17
+#: add-on/user-balance/admin/index.php:87
+#: add-on/user-balance/admin/index.php:87
+msgid "Payment systems"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:43
+msgid "Payment through payment systems"
+msgstr ""
+
+#: add-on/user-balance/admin/class-rcl-payments-history.php:84
+msgid "Payment type"
+msgstr ""
+
+#: add-on/user-balance/shortcodes.php:69
+msgid "Payment via"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:90
+#: add-on/user-balance/admin/index.php:98
+msgid "Payments"
+msgstr ""
+
+#: add-on/user-balance/admin/class-rcl-payments-history.php:23
+msgid "payments"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:368
+msgid "Payments (pcs.)"
+msgstr ""
+
+#: add-on/user-balance/admin/class-rcl-payments-history.php:80
+msgid "Payments ID"
+msgstr ""
+
+#: functions/ajax.php:32
+msgid "Perhaps this add-on does not support ajax loading"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:366
+msgid "Period of time"
+msgstr ""
+
+#: add-on/user-balance/index.php:311 add-on/user-balance/index.php:339
+msgid "Personal account"
+msgstr ""
+
+#: add-on/commerce/core.php:290
+msgid ""
+"Personal account has been created, you can monitor the status of your orders "
+", create new orders and pay for them by available means through it"
+msgstr ""
+
+#: admin/pages/tabs-manager.php:18
+msgid "Personal account tabs manager"
+msgstr ""
+
+#: classes/class-rcl-install.php:89 admin/pages/options.php:31
+msgid "Personal cabinet"
+msgstr ""
+
+#: admin/pages/options.php:36
+msgid "Personal Cabinet output"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:97
+msgid "Personal chat"
+msgstr ""
+
+#: add-on/user-balance/index.php:309
+msgid "Personal user account"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:84
+msgid "Phone"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:416
+msgid "Phone mask"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:407
+msgid "Placeholder"
+msgstr ""
+
+#: add-on/commerce/functions-ajax.php:105
+msgid "Please fill in required fields!"
+msgstr ""
+
+#: add-on/user-balance/shortcodes.php:35
+msgid "please log in to make a payment"
+msgstr ""
+
+#: add-on/groups/admin/index.php:45
+msgid "please specify the page where the [grouplist] shortcode is placed"
+msgstr ""
+
+#: functions/enqueue-scripts.php:157
+msgid "Please wait"
+msgstr ""
+
+#. Author of the plugin
+msgid "Plechev Andrey"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:48
+msgid "Plus/minus"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:99
+msgid "Points for ranking"
+msgstr ""
+
+#: admin/pages/repository.php:87
+msgid "Popular"
+msgstr ""
+
+#: add-on/commerce/activate.php:119 add-on/commerce/index.php:86
+msgid "Popular categories"
+msgstr ""
+
+#: add-on/groups/groups-init.php:50
+msgid "Popular Groups"
+msgstr ""
+
+#: add-on/commerce/activate.php:159 add-on/commerce/index.php:121
+msgid "Popular tags"
+msgstr ""
+
+#: add-on/publicpost/init.php:82 add-on/rating-system/index.php:26
+#: add-on/groups/templates/group-list.php:12
+msgid "Posts"
+msgstr ""
+
+#: add-on/publicpost/admin/index.php:119
+msgid "Posts awaiting approval"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:44
+msgid "Posts per page"
+msgstr ""
+
+#: functions/enqueue-scripts.php:158 add-on/publicpost/init.php:19
+#: add-on/publicpost/classes/class-rcl-public-form.php:385
+msgid "Preview"
+msgstr ""
+
+#: add-on/commerce/admin/products-columns.php:16
+#: add-on/commerce/templates/cart.php:16 add-on/commerce/templates/cart.php:33
+#: add-on/commerce/templates/order.php:17
+#: add-on/commerce/templates/order.php:34
+msgid "Price"
+msgstr ""
+
+#: admin/pages/options.php:122
+msgid "Primary color"
+msgstr ""
+
+#: admin/pages/options.php:313
+msgid "Primary colors of WP-Recall"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:77
+msgid "Private"
+msgstr ""
+
+#: add-on/commerce/activate.php:81 add-on/commerce/index.php:42
+#: add-on/commerce/templates/cart.php:13 add-on/commerce/templates/order.php:14
+msgid "Product"
+msgstr ""
+
+#: add-on/commerce/activate.php:116 add-on/commerce/activate.php:130
+#: add-on/commerce/index.php:83 add-on/commerce/index.php:97
+msgid "Product categories"
+msgstr ""
+
+#: add-on/commerce/admin/products-metabox.php:10
+msgid "Product features"
+msgstr ""
+
+#: add-on/commerce/admin/products-metabox.php:35
+msgid "Product old price"
+msgstr ""
+
+#: add-on/commerce/admin/products-metabox.php:23
+msgid "Product price"
+msgstr ""
+
+#: add-on/commerce/activate.php:157 add-on/commerce/activate.php:187
+#: add-on/commerce/activate.php:195 add-on/commerce/activate.php:203
+#: add-on/commerce/index.php:119
+msgid "Product Tag"
+msgstr ""
+
+#: add-on/commerce/activate.php:156 add-on/commerce/activate.php:170
+#: add-on/commerce/index.php:118 add-on/commerce/index.php:132
+msgid "Product Tags"
+msgstr ""
+
+#: add-on/commerce/core.php:381
+msgid "Product variation"
+msgstr ""
+
+#: add-on/commerce/admin/products-metabox.php:51
+msgid "Product variations"
+msgstr ""
+
+#: add-on/commerce/activate.php:91 add-on/commerce/index.php:41
+#: add-on/commerce/index.php:52 add-on/commerce/index.php:158
+msgid "Products"
+msgstr ""
+
+#: add-on/commerce/activate.php:80 add-on/commerce/activate.php:220
+msgid "Products catalog"
+msgstr ""
+
+#: add-on/commerce/admin/pages/variations.php:20
+msgid "Products variations management"
+msgstr ""
+
+#: add-on/groups/groups-core.php:667 add-on/profile/index.php:32
+msgid "Profile"
+msgstr ""
+
+#: add-on/profile/admin/addon-settings.php:11
+msgid "Profile and account"
+msgstr ""
+
+#: add-on/profile/admin/addon-settings.php:9
+msgid "Profile and account settings"
+msgstr ""
+
+#: add-on/profile/admin/index.php:7
+msgid "Profile fields"
+msgstr ""
+
+#: add-on/profile/index.php:58
+msgid "Profile settings"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:694
+msgid "Prohibited file type!"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:78
+msgid "Public"
+msgstr ""
+
+#: add-on/publicpost/init.php:113
+msgid "Publication"
+msgstr ""
+
+#: functions/frontend.php:351
+msgid "Publication author"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:807
+msgid "Publication does not correspond the rules"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:158 add-on/groups/groups-widgets.php:182
+msgid "Publication form"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:137
+msgid "Publication is allowed"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:811
+msgid "Publication labeled as advertising or spam"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:132
+msgid "Publication of records"
+msgstr ""
+
+#: functions/frontend.php:449
+msgid "Publication pending approval!"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:29
+msgid "Publication settings"
+msgstr ""
+
+#: add-on/groups/groups-core.php:1049
+msgid "Publication unavailable!"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:102
+msgid "Publication updated"
+msgstr ""
+
+#: classes/class-rcl-users-list.php:508
+#: add-on/groups/classes/class-rcl-groups-list.php:204
+msgid "Publications"
+msgstr ""
+
+#: functions/frontend.php:102
+msgid "Publics"
+msgstr ""
+
+#: add-on/publicpost/init.php:20
+#: add-on/publicpost/classes/class-rcl-public-form.php:387
+msgid "Publish"
+msgstr ""
+
+#: add-on/groups/admin/index.php:66
+#: add-on/publicpost/admin/addon-settings.php:165
+msgid "Publish now"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-post-list.php:96
+msgid "Published"
+msgstr ""
+
+#: add-on/publicpost/templates/posts-list.php:40
+msgid "published"
+msgstr ""
+
+#: add-on/groups/index.php:387
+msgid "Published in group"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:36
+msgid "Publishing and editing"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:412
+msgid "Q-ty"
+msgstr ""
+
+#: add-on/publicpost/init.php:23
+msgid "Quick edit"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:82
+msgid "Radiobutton"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:93
+msgid "Range"
+msgstr ""
+
+#: classes/class-rcl-users-list.php:514
+msgid "Rated"
+msgstr ""
+
+#: add-on/rating-system/index.php:58
+#: add-on/rating-system/admin/addon-settings.php:135
+#: add-on/rating-system/admin/index.php:24
+msgid "Rating"
+msgstr ""
+
+#: add-on/rating-system/index.php:373
+msgid "rating"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:70
+msgid "Rating markup"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:153
+msgid "Rating settings"
+msgstr ""
+
+#: add-on/rating-system/admin/index.php:64
+msgid "Rating updated successfully"
+msgstr ""
+
+#: add-on/rating-system/admin/index.php:46
+msgid "Rating was not updated"
+msgstr ""
+
+#: admin/pages/addons-manager.php:39 admin/pages/repository.php:74
+#: admin/pages/themes-manager.php:25
+msgid "RCLKEY"
+msgstr ""
+
+#: add-on/feed/addon-core.php:321
+msgid "Read more"
+msgstr ""
+
+#: add-on/groups/groups-core.php:221
+msgid "Reader"
+msgstr ""
+
+#: rcl-functions.php:394 admin/pages/options.php:299
+msgid "Recallbar"
+msgstr ""
+
+#: admin/pages/options.php:305
+msgid ""
+"Recallbar – is he top panel WP-Recall plugin through which the plugin and "
+"its add-ons can output their data and the administrator can make his menu, "
+"forming it on <a href=\"/wp-admin/nav-menus.php\" target=\"_blank\">page "
+"management menu of the website</a>"
+msgstr ""
+
+#: add-on/commerce/core.php:214
+#: add-on/commerce/admin/class-rcl-history-orders.php:104
+msgid "Received"
+msgstr ""
+
+#: add-on/publicpost/init.php:62 add-on/publicpost/admin/addon-settings.php:22
+#: add-on/publicpost/classes/class-rcl-public-form-manager.php:47
+msgid "Records"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:149
+msgid "Redirect to"
+msgstr ""
+
+#: admin/pages/options.php:264
+msgid "Redirect user after login"
+msgstr ""
+
+#: admin/pages/repository.php:88
+msgid "Reference"
+msgstr ""
+
+#: templates/recallbar.php:50 templates/recallbar.php:51
+msgid "Register"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:56
+msgid "Register at check-out"
+msgstr ""
+
+#: classes/class-rcl-users-list.php:510 functions/frontend.php:141
+#: functions/loginform.php:55 functions/loginform.php:66
+#: functions/loginform.php:89 templates/form-register.php:9
+#: templates/form-remember.php:6 templates/form-sign.php:11
+msgid "Registration"
+msgstr ""
+
+#: add-on/groups/index.php:485
+msgid "Registration allowed"
+msgstr ""
+
+#: functions/register.php:271
+msgid "Registration completed"
+msgstr ""
+
+#: functions/register.php:358
+msgid "Registration completed!"
+msgstr ""
+
+#: admin/pages/options.php:255
+msgid "Registration confirmation by the user"
+msgstr ""
+
+#: functions/register.php:363
+msgid "Registration is completed! Check your email for the confirmation link."
+msgstr ""
+
+#: add-on/groups/index.php:532
+msgid "Reject request"
+msgstr ""
+
+#: functions/enqueue-scripts.php:137
+msgid "Reliable"
+msgstr ""
+
+#: templates/form-sign.php:37
+msgid "Remember"
+msgstr ""
+
+#: add-on/profile/index.php:158
+msgid "Repeat password"
+msgstr ""
+
+#: admin/pages/options.php:285
+msgid "repeat password field"
+msgstr ""
+
+#: add-on/profile/index.php:161
+msgid "Repeat the new password"
+msgstr ""
+
+#: functions/register.php:467
+msgid "Repeat the password"
+msgstr ""
+
+#: functions/register.php:336 add-on/profile/index.php:22
+msgid "Repeated password not correct!"
+msgstr ""
+
+#: admin/admin-menu.php:44
+msgid "Repository"
+msgstr ""
+
+#: admin/pages/repository.php:63
+msgid "Repository for WP-Recall add-ons"
+msgstr ""
+
+#: add-on/groups/index.php:585
+msgid "Request access to the group approved!"
+msgstr ""
+
+#: add-on/groups/index.php:600
+msgid "Request approved"
+msgstr ""
+
+#: add-on/groups/groups-core.php:652
+msgid "Request for group access"
+msgstr ""
+
+#: add-on/groups/index.php:604
+msgid "Request rejected"
+msgstr ""
+
+#: add-on/groups/index.php:514
+msgid "Requests for access to the group"
+msgstr ""
+
+#: add-on/commerce/core.php:291
+msgid "Required data for authorization in your personal account"
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:85
+#: add-on/publicpost/classes/class-rcl-public-form-manager.php:25
+#: add-on/commerce/admin/pages/cart-fields.php:20
+msgid "required field"
+msgstr ""
+
+#: admin/pages/themes-manager.php:31
+msgid ""
+"Required to update the templates here. Get it  in  your account online <a "
+"href=\"http://codeseller.ru/\" target=\"_blank\">http://\"codeseller.ru</a>"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:84
+msgid "RESULT Page"
+msgstr ""
+
+#: admin/pages/repository.php:110
+msgid "Results found"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:131
+msgid "Right"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:92
+msgid "Runner"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:146
+#: functions/enqueue-scripts.php:155 add-on/groups/index.php:556
+#: admin/pages/addons-manager.php:42 admin/pages/repository.php:77
+#: admin/pages/themes-manager.php:28
+msgid "Save"
+msgstr ""
+
+#: add-on/publicpost/init.php:21
+#: add-on/publicpost/classes/class-rcl-public-form.php:382
+msgid "Save as Draft"
+msgstr ""
+
+#: add-on/groups/classes/class-rcl-group-widget.php:172
+msgid "Save changes"
+msgstr ""
+
+#: admin/index.php:43 add-on/groups/index.php:500 admin/pages/options.php:326
+msgid "Save settings"
+msgstr ""
+
+#: functions/frontend.php:167 add-on/commerce/activate.php:87
+#: add-on/commerce/activate.php:118 add-on/commerce/activate.php:158
+#: add-on/commerce/index.php:48 add-on/commerce/index.php:85
+#: add-on/commerce/index.php:120 add-on/groups/groups-init.php:14
+#: add-on/groups/groups-init.php:49
+#: add-on/groups/classes/class-rcl-groups-list.php:175
+#: add-on/user-balance/admin/index.php:128
+#: add-on/commerce/admin/pages/orders.php:36
+msgid "Search"
+msgstr ""
+
+#: admin/pages/repository.php:101 admin/pages/repository.php:102
+#: admin/pages/repository.php:104
+msgid "Search add-ons"
+msgstr ""
+
+#: admin/pages/repository.php:95
+msgid "Search category"
+msgstr ""
+
+#: add-on/groups/classes/class-rcl-groups-list.php:173
+msgid "Search groups"
+msgstr ""
+
+#: functions/frontend.php:161
+msgid "Search users"
+msgstr ""
+
+#: add-on/commerce/index.php:293
+msgid "See all orders"
+msgstr ""
+
+#: add-on/rating-system/classes/class-rcl-rating-box.php:382
+#: add-on/rating-system/classes/class-rcl-rating-box.php:403
+msgid "See history"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:79
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:107
+msgid "Select"
+msgstr ""
+
+#: add-on/commerce/admin/products-metabox.php:129
+msgid "Select a product category"
+msgstr ""
+
+#: add-on/commerce/admin/products-metabox.php:148
+msgid "select a product tag"
+msgstr ""
+
+#: add-on/commerce/admin/products-metabox.php:136
+msgid "Select a tag"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:27
+msgid "select a template for history output where"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:110
+msgid "Select image size for the visual editor during publishing"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:156
+msgid ""
+"Select the page to which the visitors will be redirected after a successful "
+"publication, if email authorization is included in the registration precess"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:174
+msgid ""
+"Select the types of posts that will be sent for moderation. If nothing is "
+"specified, then the moderation is valid for all types"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:60
+msgid ""
+"Select the types of writes where the author`s block should be displayed. If "
+"nothing is specified, it is displayed everywhere"
+msgstr ""
+
+#: add-on/commerce/activate.php:129 add-on/commerce/activate.php:169
+#: add-on/commerce/index.php:96 add-on/commerce/index.php:131
+msgid "Select to use"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:226
+msgid ""
+"Select types of posts where the values of arbitrary fields will be displayed."
+" If nothing is specified, it is displayed everywhere"
+msgstr ""
+
+#: add-on/rcl-chat/class-rcl-chat.php:404
+msgid "Send"
+msgstr ""
+
+#: add-on/groups/admin/index.php:67
+#: add-on/publicpost/admin/addon-settings.php:165
+msgid "Send for moderation"
+msgstr ""
+
+#: add-on/rcl-chat/actions_cron.php:86
+msgid "Send notifications on unread messages"
+msgstr ""
+
+#: functions/addons-update.php:38
+msgid ""
+"Sending request to the update server to get the latest versions of the "
+"installed add-ons"
+msgstr ""
+
+#: add-on/commerce/core.php:213
+#: add-on/commerce/admin/class-rcl-history-orders.php:103
+msgid "Sent"
+msgstr ""
+
+#: add-on/groups/index.php:493
+msgid "separate by commas"
+msgstr ""
+
+#: add-on/groups/groups-init.php:58
+msgid "Separate with commas"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:176
+msgid ""
+"Separated by comma, for example: jpg, zip, pdf. By default: png, gif, jpg"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:74
+msgid "Service page of payment systems"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:100
+msgid ""
+"set how many points will be awarded for a positive or negative vote for the "
+"publication"
+msgstr ""
+
+#: admin/pages/options.php:152 admin/pages/options.php:163
+#: add-on/groups/admin/index.php:79
+msgid "Set the image upload limit in kb, by default"
+msgstr ""
+
+#: admin/admin-menu.php:43
+msgid "SETTINGS"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:12
+msgid "Settings"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:212
+msgid ""
+"Settings only for fields created using the form of the publication wp-recall"
+msgstr ""
+
+#: admin/index.php:173
+msgid "Settings saved!"
+msgstr ""
+
+#: add-on/commerce/classes/class-rcl-cart-constructor.php:28
+msgid "Shopping cart is not available"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:142
+msgid "Short entry"
+msgstr ""
+
+#: admin/pages/options.php:46 add-on/groups/admin/index.php:37
+msgid "Shortcode host page"
+msgstr ""
+
+#: add-on/groups/groups-core.php:854
+msgid "Show"
+msgstr ""
+
+#: add-on/groups/classes/class-rcl-group-widget.php:46
+msgid "Show all"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:83
+msgid "Show everyone including guests"
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:92
+msgid "show the content to other users"
+msgstr ""
+
+#: add-on/groups/index.php:313
+msgid "Sidebar"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:154
+msgid "Sign in to send a message to the user"
+msgstr ""
+
+#: rcl-functions.php:953
+msgid "Signature verification failed"
+msgstr ""
+
+#: add-on/feed/index.php:182 add-on/feed/index.php:203
+msgid "Signed up for a subscription"
+msgstr ""
+
+#: templates/form-register.php:32
+msgid "Signup"
+msgstr ""
+
+#: add-on/commerce/admin/products-metabox.php:112
+msgid "Similar and recommended products"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:88
+msgid "Similar or recommended goods"
+msgstr ""
+
+#: functions/supports/uploader-avatar.php:177
+#: functions/supports/uploader-cover.php:117
+msgid "Size exceeded"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:210
+msgid "Sorry, but you have no right to post on this site :("
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:208
+msgid "Sorry, but you have no rights to publish in this group :("
+msgstr ""
+
+#: add-on/groups/groups-core.php:432
+msgid "Sort by status"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:69
+msgid "Source"
+msgstr ""
+
+#: functions/enqueue-scripts.php:179
+msgid "Specify a number within the allowed range"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:395
+msgid "specify each option in a separate field"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:394
+msgid "Specify options"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:337
+msgid "Specify term_ID to be selected"
+msgstr ""
+
+#: functions/enqueue-scripts.php:178
+msgid "Specify the data in the required format"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:48
+msgid "Specify the page with the shortcode [basket]"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:166
+msgid ""
+"specify the rating level at which the user will get the ability to post "
+"without moderation"
+msgstr ""
+
+#: admin/pages/options.php:72
+msgid ""
+"Specify the time in minutes after which the user will be considered offline "
+"if you did not show activity on the website. The default is 10 minutes."
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:179
+msgid "specify the user group which is allowed to view votes"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:50
+msgid "Stars"
+msgstr ""
+
+#: admin/add-on-manager.php:146 admin/templates-manager.php:140
+#: add-on/commerce/admin/class-rcl-history-orders.php:76
+#: add-on/commerce/admin/index.php:414
+#: add-on/profile/classes/class-rcl-profile-fields.php:47
+#: add-on/publicpost/templates/posts-list.php:24
+msgid "Status"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:31
+#, php-format
+msgid "Status granted to order - \"%s\""
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:374
+msgid "Step"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:28
+msgid "Store settings"
+msgstr ""
+
+#: functions/enqueue-scripts.php:138
+msgid "Strong"
+msgstr ""
+
+#: add-on/user-balance/shortcodes.php:62
+msgid "Submit"
+msgstr ""
+
+#: add-on/feed/addon-core.php:425 add-on/feed/index.php:30
+#: add-on/feed/index.php:196
+msgid "Subscribe"
+msgstr ""
+
+#: add-on/feed/index.php:195
+msgid "Subscription has been cancelled"
+msgstr ""
+
+#: add-on/feed/addon-core.php:424
+msgid "Subscription status has been changed"
+msgstr ""
+
+#: add-on/feed/index.php:80
+msgid "Subscriptions"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:92
+msgid "SUCCESS Page"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:108
+msgid "Successful payment page"
+msgstr ""
+
+#: functions/shortcodes.php:171
+msgid "Such tab was not found!"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:413 add-on/commerce/templates/cart.php:22
+#: add-on/commerce/templates/cart.php:51 add-on/commerce/templates/order.php:23
+#: add-on/commerce/templates/order.php:45
+#: add-on/commerce/templates/orders-history.php:12
+#: add-on/user-balance/admin/class-rcl-payments-history.php:81
+msgid "Sum"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:89
+msgid "Sum of votes"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:464
+msgid "Summary"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:85
+msgid "Support of the functions"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:98
+msgid "supported shortcodes and HTML-code"
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:29
+msgid "Surname"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:190
+msgid "Tab \"Other\""
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:49
+msgid "Tab ID"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:75
+msgid "Tab privacy"
+msgstr ""
+
+#: admin/admin-menu.php:49
+msgid "Tabs manager"
+msgstr ""
+
+#: admin/pages/repository.php:99
+msgid "Tag"
+msgstr ""
+
+#: templates/add-on-card.php:32 add-on/commerce/content/product-terms.php:18
+msgid "Tags"
+msgstr ""
+
+#: add-on/commerce/activate.php:167 add-on/commerce/index.php:129
+msgid "Tags separated by commas"
+msgstr ""
+
+#: admin/add-on-manager.php:118 admin/add-on-manager.php:169
+#: add-on/groups/groups-widgets.php:138 add-on/groups/groups-widgets.php:297
+msgid "Template"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:126
+msgid "Template of history output in the overall ranking"
+msgstr ""
+
+#: admin/admin-menu.php:47 admin/templates-manager.php:139
+#: admin/templates-manager.php:328 admin/pages/themes-manager.php:14
+msgid "Templates"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:77
+msgid "Text"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:73
+msgid "The access request has been sent"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:58
+msgid "The connection to payment aggregator"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:83
+msgid "The data stored"
+msgstr ""
+
+#: functions/supports/uploader-avatar.php:225
+#: functions/supports/uploader-cover.php:165
+msgid "The downloaded image is incorrect"
+msgstr ""
+
+#: add-on/groups/upload-avatar.php:48
+#: functions/supports/uploader-avatar.php:187
+#: functions/supports/uploader-cover.php:127
+msgid "The file is not an image"
+msgstr ""
+
+#: functions/addons-update.php:217
+msgid "The files failed to be uploaded!"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:123
+msgid "The form ID"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:108
+msgid "The image size in editor by default"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:119
+#, php-format
+msgid "The influence of rating %s on the overall rating"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:9
+msgid "the item is no longer available"
+msgstr ""
+
+#: admin/pages/repository.php:80
+msgid ""
+"The key is required to update the add-ons here. You can get it in your "
+"personal account online <a href=\"http://codeseller.ru/\" target=\"_blank\">"
+"http://codeseller.ru</a>"
+msgstr ""
+
+#: admin/pages/addons-manager.php:45
+msgid ""
+"The key is required to update the add-ons here. You can get it in your "
+"personal account online <a href=\"https://codeseller.ru/\" target=\"_blank\">"
+"https://codeseller.ru</a>"
+msgstr ""
+
+#: admin/pages/options.php:59
+msgid ""
+"The link is formed according to principle \"/slug_page/?get=ID\". The "
+"parameter \"get\" can be set here. By default user"
+msgstr ""
+
+#: admin/pages/options.php:139
+msgid "The location of the section buttons"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:205
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:235
+msgid "The maximum file size, Mb"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:105
+msgid ""
+"The maximum number of messages in the conversation between two users. "
+"Default: 100"
+msgstr ""
+
+#: add-on/rcl-chat/class-rcl-chat.php:271
+#: add-on/rcl-chat/class-rcl-chat.php:281
+msgid "The message was not added"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:35
+msgid "The number of characters in the message"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:36
+msgid "The order contained only free items"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:32
+msgid "The order is being processed."
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:67
+msgid "The output of the button \"Add to cart\""
+msgstr ""
+
+#: functions/register.php:477
+msgid "The passwords do not match!"
+msgstr ""
+
+#: functions/register.php:478
+msgid "The passwords match"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:8
+msgid "The price of the product in the main currency"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:803
+msgid "The publication does not correspond to the site topic"
+msgstr ""
+
+#: add-on/publicpost/init.php:6
+msgid "The publication has been successfully removed!"
+msgstr ""
+
+#: admin/classes/class-rcl-tabs-manager.php:57
+msgid "The tab will be available only by link"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:198
+msgid "The time limit edit"
+msgstr ""
+
+#: functions/frontend.php:541
+msgid "The user has restricted access to their page"
+msgstr ""
+
+#: admin/pages/options.php:266
+msgid "The user profile"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:48
+msgid "There you can find the status of your order."
+msgstr ""
+
+#: templates/add-on-card.php:17
+msgid "This add-on has already been installed"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:168
+msgid "This email is already used!"
+msgstr ""
+
+#: add-on/commerce/functions-ajax.php:122
+#: add-on/commerce/classes/class-rcl-create-order.php:140
+msgid ""
+"This email is already used! If this is your email, then log in and proceed "
+"with the order."
+msgstr ""
+
+#: rcl-functions.php:822
+msgid "This letter was created automatically, no need to answer it."
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:164
+msgid "This page is required to filter users by value of profile fields"
+msgstr ""
+
+#: add-on/commerce/core.php:264
+msgid "This user has formed an order"
+msgstr ""
+
+#: admin/pages/options.php:70
+msgid ""
+"This value sets the maximum time a user is considered \"online\" in the "
+"absence of activity"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:469
+#: add-on/commerce/admin/products-columns.php:12
+msgid "Thumbnail"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:225
+msgid "Thumbnail of the publication"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:87
+msgid "Time"
+msgstr ""
+
+#: admin/pages/options.php:187
+msgid "Time cache (seconds)"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:44
+msgid "Time period"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:350
+msgid "TinyMCE"
+msgstr ""
+
+#: rcl-widgets.php:54 rcl-widgets.php:117 rcl-widgets.php:170
+#: classes/class-rcl-custom-fields-manager.php:249
+#: add-on/groups/groups-widgets.php:25 add-on/groups/groups-widgets.php:134
+#: add-on/groups/groups-widgets.php:185 add-on/groups/groups-widgets.php:213
+#: add-on/groups/groups-widgets.php:295 add-on/groups/groups-widgets.php:462
+#: add-on/user-balance/index.php:342
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:76
+#: add-on/publicpost/templates/posts-list.php:19
+msgid "Title"
+msgstr ""
+
+#: functions/recallbar.php:32
+msgid "To admin area"
+msgstr ""
+
+#: add-on/publicpost/templates/posts-list.php:37
+msgid "to be approved"
+msgstr ""
+
+#: add-on/commerce/classes/class-rcl-cart-button-form.php:26
+msgid "To cart"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:66
+msgid "To monitor the order status please confirm the specified email!"
+msgstr ""
+
+#: functions/loginform.php:27 functions/loginform.php:36
+#: functions/recallbar.php:23
+msgid "To personal account"
+msgstr ""
+
+#: add-on/commerce/classes/class-rcl-cart-constructor.php:65
+msgid "To place an order fill out the form below"
+msgstr ""
+
+#: add-on/rcl-chat/class-rcl-chat.php:364
+msgid "To post messages in the chat you need to login"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:150
+msgid "To remove the data added to this field?"
+msgstr ""
+
+#: functions/shortcodes.php:8 functions/shortcodes.php:164
+msgid "To use your personal account, please log in or register on this site"
+msgstr ""
+
+#: add-on/groups/groups-core.php:1050
+msgid "To view the publication , you must be a member of the group"
+msgstr ""
+
+#: admin/pages/options.php:141
+msgid "Top"
+msgstr ""
+
+#: add-on/user-balance/index.php:153
+msgid "Top up"
+msgstr ""
+
+#: add-on/user-balance/index.php:268
+msgid "Top up personal account"
+msgstr ""
+
+#: add-on/user-balance/shortcodes.php:47
+msgid "Top up personal account from"
+msgstr ""
+
+#: add-on/commerce/templates/cart.php:60 add-on/commerce/templates/order.php:54
+msgid "Total"
+msgstr ""
+
+#: admin/metaboxes.php:32
+msgid "Total addons"
+msgstr ""
+
+#: add-on/commerce/templates/cart-mini.php:17
+msgid "Total amount"
+msgstr ""
+
+#: add-on/user-balance/admin/index.php:115
+msgid "Total in the system"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:268
+msgid "Total number of contacts"
+msgstr ""
+
+#: add-on/commerce/templates/cart-mini.php:14
+msgid "Total number of goods"
+msgstr ""
+
+#: add-on/groups/classes/class-rcl-groups-list.php:185
+msgid "Total number of groups"
+msgstr ""
+
+#: classes/class-rcl-users-list.php:487
+msgid "Total number of users"
+msgstr ""
+
+#: add-on/commerce/core.php:216
+#: add-on/commerce/admin/class-rcl-history-orders.php:106
+msgid "Trash"
+msgstr ""
+
+#: add-on/publicpost/admin/index.php:134
+msgid "Type"
+msgstr ""
+
+#: add-on/user-balance/admin/addon-settings.php:51
+msgid "Type of payment"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:46
+msgid "Type of rating for"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:172
+msgid "Type post"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:224
+msgid "Types of posts for the output of custom fields"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:58
+msgid "Types of write for the author`s block output"
+msgstr ""
+
+#: functions/register.php:267
+msgid "Unable to activate the account?"
+msgstr ""
+
+#: functions/ajax.php:40
+msgid "Unable to obtain content of the requested tab"
+msgstr ""
+
+#: add-on/rating-system/index.php:615
+msgid "Unable to obtain data"
+msgstr ""
+
+#: functions/addons-update.php:276
+msgid "Unable to open update archive!"
+msgstr ""
+
+#: admin/metaboxes.php:58
+msgid "Unable to retrieve news"
+msgstr ""
+
+#: functions/ajax.php:112 functions/frontend.php:520
+msgid "Unblock"
+msgstr ""
+
+#: classes/class-rcl-install.php:195
+msgid "Unconfirmed"
+msgstr ""
+
+#: add-on/commerce/admin/pages/addon-settings.php:74
+msgid "Under the description"
+msgstr ""
+
+#: admin/add-on-manager.php:407 admin/templates-manager.php:315
+msgid "Unpacking of archive failed."
+msgstr ""
+
+#: add-on/feed/addon-core.php:425 add-on/feed/index.php:28
+#: add-on/feed/index.php:183 add-on/feed/index.php:204
+msgid "Unsubscribe"
+msgstr ""
+
+#: add-on/groups/classes/class-rcl-group-widget.php:120
+#: add-on/groups/classes/class-rcl-group-widget.php:270
+msgid "Unused"
+msgstr ""
+
+#: add-on/commerce/activate.php:164 add-on/commerce/index.php:126
+#: add-on/groups/groups-init.php:55
+msgid "Update"
+msgstr ""
+
+#: admin/add-on-manager.php:227 admin/templates-manager.php:208
+msgid "update automatically"
+msgstr ""
+
+#: add-on/commerce/activate.php:124 add-on/commerce/index.php:91
+msgid "Update category"
+msgstr ""
+
+#: functions/addons-update.php:235
+msgid "Update has incorrect title!"
+msgstr ""
+
+#: functions/addons-update.php:178
+msgid "Update is impossible! ZipArchive class is not defined."
+msgstr ""
+
+#: add-on/profile/index.php:245
+msgid "Update profile"
+msgstr ""
+
+#: templates/add-on-card.php:59
+msgid "Updated"
+msgstr ""
+
+#: admin/pages/repository.php:89
+msgid "Updates"
+msgstr ""
+
+#: functions/enqueue-scripts.php:161
+msgid "Upload"
+msgstr ""
+
+#: functions/supports/uploader-cover.php:33
+msgid "Upload background"
+msgstr ""
+
+#: add-on/publicpost/functions-ajax.php:204
+msgid "Upload or specify an image as a thumbnail"
+msgstr ""
+
+#: add-on/commerce/admin/pages/export-import.php:73
+msgid "Upload products to a file"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:622
+msgid "Upload the downloaded file"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:453
+msgid "Upload thumbnail"
+msgstr ""
+
+#: admin/pages/options.php:275
+msgid "URL"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:88
+msgid "Url"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:820
+msgid "Use blank notice"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:102
+msgid "Use draft"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:96
+msgid "Use preview"
+msgstr ""
+
+#: add-on/publicpost/admin/index.php:41
+msgid "Use shortcode for publication form"
+msgstr ""
+
+#: classes/class-rcl-custom-fields.php:545
+msgid "Use the format"
+msgstr ""
+
+#: admin/pages/options.php:177
+msgid ""
+"Use the functionality of the caching WP-Recall plugin. <a href=\"https:"
+"//codeseller.ru/post-group/funkcional-keshirovaniya-plagina-wp-recall/\" "
+"target=\"_blank\">read More</a>"
+msgstr ""
+
+#: admin/pages/options.php:258
+msgid "Used"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:204
+msgid "User contacts"
+msgstr ""
+
+#: add-on/groups/groups-core.php:802
+msgid "User deleted"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:25
+msgid "User Downtime"
+msgstr ""
+
+#: add-on/commerce/core.php:343
+msgid "User has paid for the order"
+msgstr ""
+
+#: functions/supports/modal-user-details.php:32
+msgid "User info"
+msgstr ""
+
+#: add-on/groups/groups-core.php:664
+msgid "User information"
+msgstr ""
+
+#: add-on/profile/index.php:188
+msgid "User profile"
+msgstr ""
+
+#: add-on/groups/index.php:551
+msgid "User status"
+msgstr ""
+
+#: add-on/groups/groups-core.php:819
+msgid "User Status updated"
+msgstr ""
+
+#: templates/form-remember.php:16
+msgid "Username or e-mail"
+msgstr ""
+
+#: classes/class-rcl-install.php:99 add-on/groups/groups-widgets.php:108
+#: add-on/groups/groups-widgets.php:131
+#: add-on/commerce/admin/class-rcl-history-orders.php:73
+#: add-on/groups/classes/class-rcl-groups-list.php:205
+#: add-on/groups/templates/group-list.php:11
+#: add-on/user-balance/admin/class-rcl-payments-history.php:79
+msgid "Users"
+msgstr ""
+
+#: functions/shortcodes.php:72
+msgid "Users not found"
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:156
+msgid "Users page"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:53
+msgid "Using OEMBED"
+msgstr ""
+
+#: admin/pages/options.php:39
+msgid "Using shortcode [wp-recall]"
+msgstr ""
+
+#: classes/class-rcl-custom-fields-manager.php:351
+msgid "Using TinyMCE"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:175
+msgid "Valid file extensions"
+msgstr ""
+
+#: add-on/commerce/admin/index.php:26
+msgid "Variations"
+msgstr ""
+
+#: admin/add-on-manager.php:193 admin/templates-manager.php:176
+msgid "Version"
+msgstr ""
+
+#: functions/enqueue-scripts.php:133
+msgid "Very weak"
+msgstr ""
+
+#: add-on/commerce/activate.php:86 add-on/commerce/index.php:47
+#: add-on/groups/groups-init.php:13
+msgid "View"
+msgstr ""
+
+#: admin/add-on-manager.php:226 admin/templates-manager.php:207
+msgid "view information about the version"
+msgstr ""
+
+#: add-on/rating-system/admin/addon-settings.php:171
+msgid "View results"
+msgstr ""
+
+#: admin/add-on-manager.php:197 admin/templates-manager.php:178
+msgid "Visit the add-on page"
+msgstr ""
+
+#: admin/add-on-manager.php:195 admin/templates-manager.php:177
+msgid "Visit the author’s page"
+msgstr ""
+
+#: add-on/groups/index.php:488
+msgid "Visitor"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:160
+msgid "Visual editor"
+msgstr ""
+
+#: add-on/rating-system/classes/class-rcl-rating-box.php:389
+#: add-on/rating-system/classes/class-rcl-rating-box.php:409
+msgid "Vote"
+msgstr ""
+
+#: add-on/groups/index.php:606
+#, php-format
+msgid ""
+"We are sorry, but your request to access a private group \"%s\" on the site "
+"\"%s\" has been rejected by its administrator"
+msgstr ""
+
+#: add-on/profile/index.php:292
+msgid "We are very sorry but your account has been deleted!"
+msgstr ""
+
+#: functions/enqueue-scripts.php:134
+msgid "Weak"
+msgstr ""
+
+#: functions/supports/uploader-avatar.php:64
+msgid "Webcam screen"
+msgstr ""
+
+#: add-on/profile/classes/class-rcl-profile-fields.php:41
+msgid "Website"
+msgstr ""
+
+#: add-on/groups/index.php:592
+msgid "Welcome to the group"
+msgstr ""
+
+#: admin/pages/options.php:233
+msgid "Widget form"
+msgstr ""
+
+#: add-on/groups/groups-core.php:871
+msgid "Widget management"
+msgstr ""
+
+#: functions/register.php:246
+msgid "with the following data:"
+msgstr ""
+
+#: add-on/commerce/admin/products-metabox.php:97
+msgid "Withdraw from sale"
+msgstr ""
+
+#: add-on/commerce/admin/products-columns.php:95
+msgid "withdrawn from sale"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:787
+msgid "Without notice"
+msgstr ""
+
+#: add-on/rcl-chat/addon-options.php:112
+msgid "Without the text of the message"
+msgstr ""
+
+#: admin/pages/repository.php:97
+msgid "Word"
+msgstr ""
+
+#: admin/pages/options.php:232
+msgid "Wordpress Forms"
+msgstr ""
+
+#: functions/enqueue-scripts.php:135
+msgid "Worse than average"
+msgstr ""
+
+#: admin/admin-menu.php:41
+msgid "WP-RECALL"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP-Recall"
+msgstr ""
+
+#: admin/pages/addons-manager.php:16
+msgid "WP-Recall Add-ons"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:168
+msgid "WP-Recall media loader"
+msgstr ""
+
+#: admin/metaboxes.php:6
+msgid "WP-Recall news"
+msgstr ""
+
+#: admin/index.php:90 admin/index.php:91
+#: add-on/commerce/admin/products-metabox.php:5
+msgid "WP-Recall settings"
+msgstr ""
+
+#: admin/metaboxes.php:5
+msgid "WP-Recall statistics"
+msgstr ""
+
+#: admin/pages/options.php:106
+msgid "Write background events and errors to the log-file"
+msgstr ""
+
+#: add-on/rcl-chat/index.php:62
+msgid "Write something"
+msgstr ""
+
+#: admin/index.php:99 add-on/rcl-chat/addon-options.php:58
+#: add-on/rcl-chat/addon-options.php:68 add-on/rcl-chat/addon-options.php:122
+#: admin/classes/class-rcl-tabs-manager.php:60 admin/pages/options.php:132
+#: add-on/commerce/admin/index.php:388
+#: add-on/profile/admin/addon-settings.php:17 add-on/profile/admin/index.php:31
+#: add-on/profile/classes/class-rcl-profile-fields.php:86
+#: add-on/profile/classes/class-rcl-profile-fields.php:93
+#: add-on/profile/classes/class-rcl-profile-fields.php:100
+#: add-on/profile/classes/class-rcl-profile-fields.php:107
+#: add-on/publicpost/admin/addon-settings.php:97
+#: add-on/publicpost/admin/addon-settings.php:103
+#: add-on/publicpost/admin/addon-settings.php:211
+#: add-on/publicpost/classes/class-rcl-public-form-manager.php:28
+#: add-on/rating-system/admin/addon-settings.php:120
+#: add-on/rating-system/admin/addon-settings.php:185
+#: add-on/rating-system/admin/index.php:17
+#: add-on/commerce/admin/pages/cart-fields.php:23
+msgid "Yes"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:43
+msgid ""
+"You are required to publish a links to managing publications, you must "
+"specify the page with the shortcode [public-form]"
+msgstr ""
+
+#: add-on/groups/groups-core.php:669
+msgid "You can approve or reject the request by clicking on the link"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:52
+msgid "You can monitor the status of your order in your personal account."
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:213
+msgid "You can not edit this publication :("
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:45
+msgid "You can pay for it from your personal account."
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:43
+msgid "You can pay for it now or from your personal account."
+msgstr ""
+
+#: add-on/rcl-chat/actions_cron.php:105
+msgid "You can read the message by clicking on the link:"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:62
+msgid ""
+"You can top up your personal account on the site in your back office and in "
+"the future pay for orders with it"
+msgstr ""
+
+#: add-on/groups/index.php:595
+msgid "You can visit the group by clicking on the link"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:404 add-on/groups/groups-widgets.php:442
+msgid "You do not have any publications"
+msgstr ""
+
+#: add-on/feed/index.php:117
+msgid "You do not have any subscribers yet"
+msgstr ""
+
+#: add-on/feed/index.php:138
+msgid "You do not have any subscriptions"
+msgstr ""
+
+#: add-on/groups/groups-widgets.php:57
+msgid "You have been banned from the group"
+msgstr ""
+
+#: add-on/rcl-chat/actions.php:83 add-on/rcl-chat/class-rcl-chat.php:254
+msgid "You have been blocked on this chat"
+msgstr ""
+
+#: add-on/commerce/core.php:289
+msgid "You have been registered"
+msgstr ""
+
+#: add-on/commerce/functions-ajax.php:118
+#: add-on/publicpost/functions-ajax.php:165
+#: add-on/commerce/classes/class-rcl-create-order.php:136
+#: add-on/commerce/classes/class-rcl-create-order.php:165
+msgid "You have entered an invalid email!"
+msgstr ""
+
+#: add-on/publicpost/init.php:24
+msgid "You have exceeded the allowed number of downloads! Max:"
+msgstr ""
+
+#: add-on/commerce/core.php:317
+msgid "You have formed an order"
+msgstr ""
+
+#: add-on/groups/groups-core.php:660
+#, php-format
+msgid ""
+"You have received a new request for access to group managed by you \"%s\" on "
+"the site \"%s\""
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:206
+msgid "You must be logged in to post. Login or register"
+msgstr ""
+
+#: functions/register.php:246
+msgid "You or someone else signed up on our website"
+msgstr ""
+
+#: add-on/commerce/core.php:359
+#, php-format
+msgid "You paid for the order on the website \"%s\""
+msgstr ""
+
+#: add-on/rcl-chat/actions_cron.php:97
+msgid "You were sent a private message"
+msgstr ""
+
+#: add-on/commerce/core.php:287
+msgid "Your account and order information"
+msgstr ""
+
+#: functions/authorize.php:22
+msgid ""
+"Your account is unconfirmed! Confirm your account by clicking on the link in "
+"the email"
+msgstr ""
+
+#: functions/supports/uploader-avatar.php:100
+msgid "Your avatar has been deleted"
+msgstr ""
+
+#: add-on/feed/addon-core.php:252
+msgid "your comment"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:137
+msgid "Your E-mail"
+msgstr ""
+
+#: functions/register.php:349
+msgid ""
+"Your email has been successfully confirmed! Log in using your username and "
+"password"
+msgstr ""
+
+#: functions/register.php:373
+msgid "Your email is not confirmed!"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form.php:131
+msgid "Your Name"
+msgstr ""
+
+#: add-on/commerce/classes/class-rcl-cart-constructor.php:128
+msgid "Your name"
+msgstr ""
+
+#: add-on/commerce/content/order-content.php:30
+msgid "Your order has been created!"
+msgstr ""
+
+#: add-on/commerce/core.php:366
+msgid ""
+"Your order has been paid and is being processied. You can monitor its status "
+"in your personal cabinet"
+msgstr ""
+
+#: add-on/commerce/index.php:276
+msgid ""
+"Your order has been successfully paid! A notification has been sent to the "
+"administration."
+msgstr ""
+
+#: functions/register.php:383
+msgid "Your password has been sent!<br>Check your email."
+msgstr ""
+
+#: add-on/commerce/activate.php:221
+msgid ""
+"Your product catalog will be displayed here. Product catalog is being "
+"generated shortcode productlist <a href=\"https://codeseller.ru/api-"
+"rcl/productlist/\">(description shortcode)</a>. You can choose another page "
+"for display"
+msgstr ""
+
+#: add-on/profile/index.php:100
+msgid "Your profile has been updated"
+msgstr ""
+
+#: add-on/commerce/classes/class-rcl-cart-constructor.php:39
+msgid "Your shopping cart is empty"
+msgstr ""
+
+#: admin/add-on-manager.php:410 admin/templates-manager.php:318
+msgid "ZIP archive not found."
+msgstr ""
+
+#: functions/supports/modal-user-details.php:83
+msgid "Zoom avatar"
+msgstr ""
+
+#: add-on/publicpost/index.php:511
+msgid "Автор публикации"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:181
+msgid "Вставка изображения в форму по клику"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:278
+msgid "Выбор одного значения"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:277
+msgid "Множественный выбор"
+msgstr ""
+
+#: add-on/publicpost/index.php:509
+#, php-format
+msgid "На сайте \"%s\" пользователь добавил новую публикацию!"
+msgstr ""
+
+#: add-on/publicpost/index.php:510
+msgid "Наименование публикации"
+msgstr ""
+
+#: add-on/commerce/classes/class-rcl-create-order.php:69
+msgid "Неверные данные заказа!"
+msgstr ""
+
+#: add-on/publicpost/index.php:506
+msgid "Новая публикация"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:77
+msgid ""
+"Отметьте тип записи, который будет выводить архив публикаций в этой вкладке. "
+"Если не указано ничего, то будут выводиться публикации всех типов."
+msgstr ""
+
+#: admin/pages/options.php:134
+msgid ""
+"Подключение необходимо для отображения иконок в дополнениях, использующих "
+"шрифт Font Awesome 4.7 и ниже. При отсутствии такой необходимости можно "
+"отключить."
+msgstr ""
+
+#: admin/pages/options.php:128
+msgid "Подключение шрифта Font Awesome"
+msgstr ""
+
+#: admin/pages/options.php:228
+msgid "Порядок вывода формы входа и регистрации"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:191
+msgid "Предлагать вывод изображений в галерее"
+msgstr ""
+
+#: add-on/publicpost/classes/class-rcl-public-form-fields.php:275
+msgid "Тип выбора"
+msgstr ""
+
+#: add-on/publicpost/admin/addon-settings.php:75
+msgid "Тип записи для вывода списка публикаций"
+msgstr ""
+
+#: admin/pages/options.php:234
+msgid ""
+"Форма входа и регистрации плагина может быть выведена через виджет \"Панель "
+"управления\", шорткод [loginform], а можете использовать стандартные формы "
+"WordPress"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Фронт-енд профиль, система личных сообщений и рейтинг пользователей на сайте "
+"вордпресс."
+msgstr ""
