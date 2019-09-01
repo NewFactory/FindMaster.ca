@@ -1,0 +1,554 @@
+<?php
+/**
+ * Universal Connector.
+ *
+ * @package   Universal_Connector
+ * @author    Comelite IT Solutions LLC
+ * @license   GPL-2.0+
+ * @link      https://comelite.net
+ * @copyright 2016 Comelite IT Solutions. All Rigths Reserved
+ */
+
+/**
+ *-----------------------------------------
+ * Do not delete this line
+ * Added for security reasons: http://codex.wordpress.org/Theme_Development#Template_Files
+ *-----------------------------------------
+ */
+defined('ABSPATH') or die("Direct access to the script does not allowed");
+/*-----------------------------------------*/
+
+class Universal_Connector
+{
+    private static $customNumber = '';
+
+    /**
+     * Plugin version name
+     *
+     * @since   1.0.0
+     *
+     * @var     string
+     */
+    private static $VERSION_NAME = 'universal_wordpress_version';
+
+    /**
+     * Plugin version, used for cache-busting of style and script file references.
+     *
+     * @since   1.0.0
+     *
+     * @var     string
+     */
+    private static $VERSION = '1.5.1';
+
+    /**
+     * Unique identifier for your plugin.
+     *
+     * The variable name is used as the text domain when internationalizing strings
+     * of text. Its value should match the Text Domain file header in the main
+     * plugin file.
+     *
+     * @since    1.0.0
+     *
+     * @var      string
+     */
+    private static $PLUGIN_SLUG = 'universal-wordpress';
+
+    /**
+     * Instance of this class.
+     *
+     * @since    1.0.0
+     *
+     * @var      object
+     */
+    protected static $instance = null;
+
+    /**
+     * Plugin Settings Group ID
+     *
+     * Will be used in register_setting() and settings_fields()
+     *
+     * @since    1.0.0
+     *
+     * @var      array
+     */
+    public static $settings_group_id = 'universal-wordpress-settings';
+
+    /**
+     * Plugin Settings Tabs
+     *
+     * @since    1.0.0
+     *
+     * @var      array
+     */
+    public static $settings_tabs = array(
+      'uwp_first_tab'  => 'Settings',
+//      'uwp_layout_tab'  => 'Layout',
+//        'uwp_second_tab' => 'Second Tab',
+//        'uwp_third_tab'  => 'Third Tab',
+    );
+
+    /**
+     * Plugin Settings Sections
+     *
+     * @since    1.0.0
+     *
+     * @var      array
+     */
+    private static $settings_sections = array(
+			'section_one'   => array(
+				'tab'         => 'uwp_first_tab',
+				'title'       => '',
+				'description' => '',
+			),
+    );
+
+    /**
+     * Plugin Settings
+     *
+     * @since    1.0.0
+     *
+     * @var      array
+     */
+    private static $plugin_settings = array(
+
+      /* === Section One === */
+        array(
+            'name'    => 'universal_html_widget_code',
+            'title'   => '',
+            'section' => 'section_one',
+            'field'   => array(
+                'type'     => 'hidden'                
+            ),
+        ),
+        
+    );
+	
+    /**
+     * Initialize the plugin by setting localization and loading public scripts
+     * and styles.
+     *
+     * @since     1.0.0
+     */
+    private function __construct()
+    {
+        // Load plugin text domain
+        add_action('init', array($this, 'load_plugin_textdomain'));
+        add_action('admin_init', array($this, 'admin_options_init'));
+
+        // Activate plugin when new blog is added
+        add_action('wpmu_new_blog', array($this, 'activate_new_site'));
+
+        add_shortcode('universalchat', array ($this, 'registerNumber'));
+        add_action('wp_footer', array($this, 'addChat'));
+        //add_action('wp_head', array($this, 'addTracker'));
+    }
+
+
+    /**
+     * Return the plugin slug.
+     *
+     * @since    1.0.0
+     *
+     * @return    Plugin slug variable.
+     */
+    public function get_plugin_slug()
+    {
+        return self::$PLUGIN_SLUG;
+    }
+
+    /**
+     * Return the plugin version.
+     *
+     * @since    1.0.0
+     *
+     * @return    Plugin version variable.
+     */
+    public function get_plugin_version()
+    {
+        return self::$VERSION;
+    }
+
+    /**
+     * Return an instance of this class.
+     *
+     * @since     1.0.0
+     *
+     * @return    object    A single instance of this class.
+     */
+    public static function get_instance()
+    {
+
+        // If the single instance hasn't been set, set it now.
+        if (null == self::$instance) {
+            self::$instance = new self;
+        }
+
+        return self::$instance;
+    }
+
+    /**
+     * Fired when the plugin is activated.
+     *
+     * @since    1.0.0
+     *
+     * @param    boolean    $network_wide    True if WPMU superadmin uses
+     *                                       "Network Activate" action, false if
+     *                                       WPMU is disabled or plugin is
+     *                                       activated on an individual blog.
+     */
+    public static function activate($network_wide)
+    {
+
+        if (function_exists('is_multisite') && is_multisite()) {
+
+            if ($network_wide) {
+
+                // Get all blog ids
+                $blog_ids = self::get_blog_ids();
+
+                foreach ($blog_ids as $blog_id) {
+
+                    switch_to_blog($blog_id);
+                    self::single_activate();
+                }
+
+                restore_current_blog();
+
+            } else {
+                self::single_activate();
+            }
+
+        } else {
+            self::single_activate();
+        }
+
+    }
+
+    /**
+     * Fired when the plugin is deactivated.
+     *
+     * @since    1.0.0
+     *
+     * @param    boolean    $network_wide    True if WPMU superadmin uses
+     *                                       "Network Deactivate" action, false if
+     *                                       WPMU is disabled or plugin is
+     *                                       deactivated on an individual blog.
+     */
+    public static function deactivate($network_wide)
+    {
+
+        if (function_exists('is_multisite') && is_multisite()) {
+
+            if ($network_wide) {
+
+                // Get all blog ids
+                $blog_ids = self::get_blog_ids();
+
+                foreach ($blog_ids as $blog_id) {
+
+                    switch_to_blog($blog_id);
+                    self::single_deactivate();
+
+                }
+
+                restore_current_blog();
+
+            } else {
+                self::single_deactivate();
+            }
+
+        } else {
+            self::single_deactivate();
+        }
+
+    }
+
+    /**
+     * Fired when a new site is activated with a WPMU environment.
+     *
+     * @since    1.0.0
+     *
+     * @param    int    $blog_id    ID of the new blog.
+     */
+    public function activate_new_site($blog_id)
+    {
+
+        if (1 !== did_action('wpmu_new_blog')) {
+            return;
+        }
+
+        switch_to_blog($blog_id);
+        self::single_activate();
+        restore_current_blog();
+    }
+
+    public function registerNumber($atts){
+      $attr = shortcode_atts( array(
+                'number' => get_option( 'universal_registration_number', '' ),
+            ), $atts );
+
+      self::$customNumber = $attr['number'];
+    }
+
+    /*
+    * Fired when the header is being registered
+    */
+    public function addTracker()
+    {
+    }
+
+    /**
+     * Fired when a new site is rendering the footer
+     */
+    public function addChat(){      
+      
+      $HtmlWidgetCode = get_option( 'universal_html_widget_code', '' );      
+
+      ob_start();     
+
+	  print_r($HtmlWidgetCode);
+      
+      ob_flush();
+    }
+
+	
+    /**
+     * Set default values for plugin settings
+     *
+     * @since     1.0.0
+     */
+    private static function settings_setup_default_values()
+    {
+        // Add plugin options (do nothing if option is already exists)
+        foreach (self::$plugin_settings as $setting_id => $setting) {
+            if (array_key_exists('default', self::$plugin_settings[$setting_id])) {
+                add_option(self::$plugin_settings[$setting_id]['name'], self::$plugin_settings[$setting_id]['default']);
+            }
+        }
+    }
+
+    /**
+     * Get plugin settings
+     *
+     * @since    1.0.0
+     */
+    public static function get_settings()
+    {
+        $plugin_settings = array();
+
+        foreach (self::$plugin_settings as $setting) {
+            $setting_name                   = $setting['name'];
+            $plugin_settings[$setting_name] = get_option($setting['name']);
+        }
+
+        return $plugin_settings;
+    }
+
+    /**
+     * Init plugin options
+     *
+     * @since    1.0.0
+     */
+    public function admin_options_init()
+    {
+        // Add Sections
+        foreach (self::$settings_sections as $section_id => $section) {
+            add_settings_section($section_id, __($section['title'], 'universal-wordpress'), array($this, 'sections_callback'), $section['tab']);
+        }
+
+        // Register settings and add settings fields
+        foreach (self::$plugin_settings as $setting) {
+            // If setting is not hidden - create field on the settings page for it
+            if ((!isset($setting['hidden'])) || ($setting['hidden'] !== 1)) {
+                $setting_section = $setting['section'];
+                $setting_tab     = self::$settings_sections[$setting_section]['tab'];
+                // Register Setting
+                // Use $settings_group_id instead of $setting_tab for javascript-tabs
+                register_setting(self::$settings_group_id, $setting['name']);
+                // Fields
+                add_settings_field($setting['name'], $setting['title'], array($this, 'setting_field_callback'), $setting_tab, $setting_section, array('name' => $setting['name'], 'field' => $setting['field'], 'default' => isset($setting['default']) ? $setting['default'] : ''));
+            }
+        }
+
+    }
+
+    /**
+     * Sections callback
+     *
+     * @since    1.0.0
+     */
+    public function sections_callback($args)
+    {
+        $section_id = $args['id'];
+        if (isset(self::$settings_sections[$section_id])) {
+            if (isset(self::$settings_sections[$section_id]['description']) && (self::$settings_sections[$section_id]['description'] !== '')) {?>
+<p><?php _e(self::$settings_sections[$section_id]['description'], 'universal-wordpress');?></p>
+<?php   }
+        }
+    }
+
+    /**
+     * Generate setting field
+     *
+     * @since    1.0.0
+     */
+    public function setting_field_callback($args)
+    {
+        $setting_name  = $args['name'];
+        $setting_value = isset($args['value']) ? $args['value'] : get_option($setting_name); // current setting value
+
+        $field = $args['field']; // field attributes
+
+        $field_type  = isset($field['type']) ? $field['type'] : 'text';
+        $field_class = isset($field['class']) ? $field['class'] : '';
+
+        $field_subtitle = (isset($field['subtitle']) && ($field['subtitle'] != '')) ? ('<label class="field-subtitle">' . $field['subtitle'] . '</label>') : '';
+        $field_descr    = (isset($field['description']) && ($field['description'] != '')) ? ('<span class="description">' . $field['description'] . '</span>') : '';
+        $field_options  = (isset($field['options']) && is_array($field['options'])) ? $field['options'] : array('error' => 'Ooops! Please check settings options!');
+
+        // Add linebreaks to field subtitle and field description if field type is radio
+        $field_subtitle = (($field_type == 'radio') && ($field_subtitle != '')) ? $field_subtitle . '<br>' : $field_subtitle;
+        $field_descr    = (($field_type == 'radio') && ($field_descr != '')) ? $field_descr . '<br>' : $field_descr;
+        // Show Subtitle before field and field description - after field if field type other than "radio"
+        $field_text_before = ($field_type == 'radio') ? $field_subtitle . $field_descr : $field_subtitle;
+        $field_text_after  = ($field_type == 'radio') ? '' : $field_descr;
+
+        // Show text before field
+        echo $field_text_before;
+
+        // Show Field
+        switch ($field_type) {
+            // HTML text
+            case 'html':
+                break;
+            // Checkbox
+            case 'checkbox': ?>
+                <input class="<?php echo $field_class; ?>" type="checkbox" name="<?php echo $setting_name; ?>" value="1" <?php checked($setting_value, '1', true);?> />
+                <?php
+break;
+            // Radio buttons
+            case 'radio':
+                foreach ($field_options as $option_id => $option) {?>
+                    <label><input class="<?php echo $field_class; ?>" type="radio" name="<?php echo $setting_name; ?>" value="<?php echo $option_id; ?>" <?php checked($setting_value, $option_id, true);?> /> <span><?php echo $option; ?></span></label><br />
+                <?php   }
+                break;
+            // Dropdown Select
+            case 'dropdown': ?>
+                <select class="<?php echo $field_class; ?>" name="<?php echo $setting_name; ?>" id="<?php echo $setting_name; ?>">
+                    <?php foreach ($field_options as $option_id => $option) {?>
+                    <option value="<?php echo $option_id; ?>" <?php selected($setting_value, $option_id, true);?>><?php echo $option; ?></option>
+                    <?php   }?>
+                </select>
+                <?php
+break;
+            // Textarea
+            case 'textarea': ?>
+                <textarea class="<?php echo $field_class; ?>" name="<?php echo $setting_name; ?>" id="<?php echo $setting_name; ?>"><?php echo esc_attr($setting_value); ?></textarea>
+                <?php
+break;
+            // Colorpicker
+            case 'colorpicker':
+                $default_color = $args['default'] ? ('data-default-color="' . $args['default'] . '"') : '';?>
+                <input class="field-colorpicker <?php echo $field_class; ?>" type="text" name="<?php echo $setting_name; ?>" id="<?php echo $setting_name; ?>" value="<?php echo esc_attr($setting_value); ?>" <?php echo $default_color ?> />
+                <?php
+break;
+            // Multiple colorpicker
+            case 'colorpicker-multiple':
+                $colors = $args['default'] ? $args['default'] : array();
+
+                if (is_array($colors)) {
+                    foreach ($colors as $index => $color) {
+                        $current_value = isset($setting_value[$index]) ? $setting_value[$index] : '';
+                        $default_color = $color ? ('data-default-color="' . $color . '"') : '';?>
+                        <input class="field-colorpicker <?php echo $field_class; ?>" type="text" name="<?php echo $setting_name; ?>[<?php echo $index; ?>]" id="<?php echo $setting_name; ?>[<?php echo $index; ?>]" value="<?php echo esc_attr($current_value); ?>" <?php echo $default_color ?> />
+                <?php
+}
+                }
+                break;
+            // Input text-field with media-upload button
+            case 'text-upload-image': ?>
+                <div class="field-upload-image-wrapper">
+                    <input class="field-upload-image <?php echo $field_class; ?>" type="text" name="<?php echo $setting_name; ?>" id="<?php echo $setting_name; ?>" value="<?php echo esc_url($setting_value); ?>" />
+                    <input type="button" class="button upload-image-button" value="Upload" />
+                    <div class="field-upload-image-preview" style="min-height: 10px;">
+                        <img style="max-height:120px" src="<?php echo esc_url($setting_value); ?>" />
+                    </div>
+                </div>
+                <?php
+break;
+            // All other types, eg: text, password, hidden, etc.
+            default: ?>
+                <input class="<?php echo $field_class; ?>" type="<?php echo $field_type; ?>" name="<?php echo $setting_name; ?>" id="<?php echo $setting_name; ?>" value="<?php echo esc_attr($setting_value); ?>" />
+                <?php
+break;
+        }
+
+        // Show text after field
+        echo $field_text_after;
+
+    }
+
+
+    /**
+     * Get all blog ids of blogs in the current network that are:
+     * - not archived
+     * - not spam
+     * - not deleted
+     *
+     * @since    1.0.0
+     *
+     * @return   array|false    The blog ids, false if no matches.
+     */
+    private static function get_blog_ids()
+    {
+
+        global $wpdb;
+
+        // get an array of blog ids
+        $sql = "SELECT blog_id FROM $wpdb->blogs
+            WHERE archived = '0' AND spam = '0'
+            AND deleted = '0'";
+
+        return $wpdb->get_col($sql);
+
+    }
+
+    /**
+     * Fired for each blog when the plugin is activated.
+     *
+     * @since    1.0.0
+     */
+    private static function single_activate()
+    {
+        update_option(self::$VERSION_NAME, self::$VERSION);
+
+        // @TODO: Define activation functionality here
+    }
+
+    /**
+     * Fired for each blog when the plugin is deactivated.
+     *
+     * @since    1.0.0
+     */
+    private static function single_deactivate()
+    {
+        // @TODO: Define deactivation functionality here
+    }
+
+    /**
+     * Load the plugin text domain for translation.
+     *
+     * @since    1.0.0
+     */
+    public function load_plugin_textdomain()
+    {
+
+        $domain = self::$PLUGIN_SLUG;
+        $locale = apply_filters('plugin_locale', get_locale(), $domain);
+
+        load_textdomain($domain, trailingslashit(WP_LANG_DIR) . $domain . '/' . $domain . '-' . $locale . '.mo');
+        load_plugin_textdomain($domain, false, basename(plugin_dir_path(dirname(__FILE__))) . '/languages/');
+
+    }
+
+}
