@@ -1,0 +1,65 @@
+.cg_backup_paginate {
+	display: inline-block;
+	margin: 15px 0 0;
+	float: right;
+	font-size: 16px;
+	line-height: 1.714;
+	border: 1px solid #ddd;
+}
+.cg_backup_per_page {
+	float: right;
+	margin: 15px 0 0px 15px !important;
+}
+.cg_backup_per_page label {
+	display: inline-table !important;
+	font: 300 14px/2.3 "Open Sans", sans-serif !important;
+}
+.cg_backup_per_page select {
+    width: auto !important;
+    font-size: 14px !important;
+    height: auto !important;
+    background: transparent !important;
+}
+.cg_backup_paginate a, .cg_backup_paginate span {
+	color: #585b51;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 400;
+	cursor: pointer;
+	border-right: 1px solid #ddd;
+	font-size: 11px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	display: block;
+	float: left;
+	line-height: 30px;
+	margin: 0;
+}
+
+.cg_backup_paginate a:hover, .cg_backup_paginate span:hover {
+	background: #ececec;
+    cursor: pointer;
+}
+
+.cg_backup_paginate a.jp-previous, .cg_backup_paginate a.jp-next { }
+
+.cg_backup_paginate a.jp-current, a.jp-current:hover { 
+	color: #fff;
+    background: #00B073;
+    outline: none !important;
+}
+.cg_backup_paginate a.jp-current:focus, .cg_backup_paginate a.jp-current:active{ 
+    outline: none !important;
+    -moz-outline-style: none;
+    box-shadow:none;
+}
+
+.cg_backup_paginate a.jp-disabled, a.jp-disabled:hover {
+	color: #bbb;
+}
+
+.cg_backup_paginate a.jp-current, a.jp-current:hover,
+.cg_backup_paginate a.jp-disabled, a.jp-disabled:hover {
+	cursor: default; 
+}

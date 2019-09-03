@@ -1,0 +1,7 @@
+Name: Profile Progress Bar;
+Version: 1.0.6;
+Support Core: 16.0.0;
+Description: Дополнение для Wp-Recall, добавляющее прогресс бар заполненности своего профиля пользователем;
+Author: Гребенкин Игорь;
+Author URI: https://codeseller.ru/author/garry/;
+Add-on URI: https://codeseller.ru/products/profile-progress-bar/

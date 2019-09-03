@@ -1,0 +1,73 @@
+2019/09/03 08:35:21 Starting backup process
+2019/09/03 08:35:21 Blacklist: Array
+(
+    [0] => /homepages/0/d796185123/htdocs/findmaster/web/wp-content/plugins/codeguard/*
+)
+
+2019/09/03 08:35:21 6800000 memory found.
+2019/09/03 08:35:21 Connecting to database
+2019/09/03 08:35:21 Extracting database contents
+2019/09/03 08:35:21 Extracting contents from table: wp_2315_fng_comments
+2019/09/03 08:35:21 Extracting contents from table: wp_2315_fng_requests
+2019/09/03 08:35:21 Extracting contents from table: wp_commentmeta
+2019/09/03 08:35:21 Extracting contents from table: wp_comments
+2019/09/03 08:35:21 Extracting contents from table: wp_links
+2019/09/03 08:35:21 Extracting contents from table: wp_options
+2019/09/03 08:35:21 Extracting contents from table: wp_postmeta
+2019/09/03 08:35:21 Extracting contents from table: wp_posts
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_chat_messagemeta
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_chat_messages
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_chat_users
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_chats
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_feeds
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_rating_totals
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_rating_users
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_rating_values
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_reviews
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_user_action
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_wallet_history
+2019/09/03 08:35:21 Extracting contents from table: wp_rcl_wallet_request
+2019/09/03 08:35:21 Extracting contents from table: wp_rmag_pay_results
+2019/09/03 08:35:21 Extracting contents from table: wp_rmag_users_balance
+2019/09/03 08:35:21 Extracting contents from table: wp_term_relationships
+2019/09/03 08:35:21 Extracting contents from table: wp_term_taxonomy
+2019/09/03 08:35:21 Extracting contents from table: wp_termmeta
+2019/09/03 08:35:21 Extracting contents from table: wp_terms
+2019/09/03 08:35:21 Extracting contents from table: wp_universal_wordpress
+2019/09/03 08:35:21 Extracting contents from table: wp_usermeta
+2019/09/03 08:35:21 Extracting contents from table: wp_users
+2019/09/03 08:35:21 Finished extracting database contents
+2019/09/03 08:35:21 Database backup successfully created (0.98 Mb): wp-content/codeguard_backups/findmaster_ca-full-2019_09_03_08_35/mysqldump.sql
+2019/09/03 08:35:21 2019/09/03 08:35:21 Start get file list
+2019/09/03 08:35:21 2019/09/03 08:35:21 End get file list
+2019/09/03 08:35:21 Adding files to backup
+2019/09/03 08:35:21 Creating part: findmaster_ca-full-2019_09_03_08_35-1.zip
+2019/09/03 08:35:23 Creating part: findmaster_ca-full-2019_09_03_08_35-2.zip
+2019/09/03 08:35:24 Creating part: findmaster_ca-full-2019_09_03_08_35-3.zip
+2019/09/03 08:35:26 Creating part: findmaster_ca-full-2019_09_03_08_35-4.zip
+2019/09/03 08:35:29 Creating part: findmaster_ca-full-2019_09_03_08_35-5.zip
+2019/09/03 08:35:31 Creating part: findmaster_ca-full-2019_09_03_08_35-6.zip
+2019/09/03 08:35:33 Creating part: findmaster_ca-full-2019_09_03_08_35-7.zip
+2019/09/03 08:35:35 Creating part: findmaster_ca-full-2019_09_03_08_35-8.zip
+2019/09/03 08:35:38 Creating part: findmaster_ca-full-2019_09_03_08_35-9.zip
+2019/09/03 08:35:39 Creating part: findmaster_ca-full-2019_09_03_08_35-10.zip
+2019/09/03 08:35:41 Creating part: findmaster_ca-full-2019_09_03_08_35-11.zip
+2019/09/03 08:35:41 Creating part: findmaster_ca-full-2019_09_03_08_35-12.zip
+2019/09/03 08:35:43 Creating part: findmaster_ca-full-2019_09_03_08_35-13.zip
+2019/09/03 08:35:43 Removing temporary database dump file
+2019/09/03 08:35:43 Finished creating backup (33.68 Mb)
+2019/09/03 08:35:44 Starting upload to CodeGuard
+2019/09/03 08:35:44 Uploading part: findmaster_ca-full-2019_09_03_08_35-1.zip
+2019/09/03 08:35:44 Uploading part: findmaster_ca-full-2019_09_03_08_35-2.zip
+2019/09/03 08:35:45 Uploading part: findmaster_ca-full-2019_09_03_08_35-3.zip
+2019/09/03 08:35:46 Uploading part: findmaster_ca-full-2019_09_03_08_35-4.zip
+2019/09/03 08:35:46 Uploading part: findmaster_ca-full-2019_09_03_08_35-5.zip
+2019/09/03 08:35:47 Uploading part: findmaster_ca-full-2019_09_03_08_35-6.zip
+2019/09/03 08:35:47 Uploading part: findmaster_ca-full-2019_09_03_08_35-7.zip
+2019/09/03 08:35:48 Uploading part: findmaster_ca-full-2019_09_03_08_35-8.zip
+2019/09/03 08:35:49 Uploading part: findmaster_ca-full-2019_09_03_08_35-9.zip
+2019/09/03 08:35:49 Uploading part: findmaster_ca-full-2019_09_03_08_35-10.zip
+2019/09/03 08:35:50 Uploading part: findmaster_ca-full-2019_09_03_08_35-11.zip
+2019/09/03 08:35:51 Uploading part: findmaster_ca-full-2019_09_03_08_35-12.zip
+2019/09/03 08:35:51 Uploading part: findmaster_ca-full-2019_09_03_08_35-13.zip
+2019/09/03 08:35:52 Finished uploading backup

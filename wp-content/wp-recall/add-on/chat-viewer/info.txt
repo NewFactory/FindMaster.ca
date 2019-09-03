@@ -1,0 +1,8 @@
+Name: Chat Viewer;
+Parent Addon: rcl-chat;
+Version: 1.0.0;
+Support Core: 16.17.0;
+Item ID: 20960;
+Description: Смотрим переписку в общих и личных чатах из одного места;
+Author: Плечёв Андрей;
+Author URI: http://codeseller.ru/;
