@@ -265,12 +265,12 @@ function rcl_setup_datepicker_options() {
 	jQuery.datepicker.setDefaults( jQuery.extend( jQuery.datepicker.regional["ru"] ) );
 
 	var options = {
-		monthNames: [ "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
-			"Июль",
-			"Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь" ],
-		dayNamesMin: [ "Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб" ],
+		monthNames: [ "January", "February", "March", "April", "Май", "June",
+			"July",
+			"August", "September", "October", "November", "December" ],
+		dayNamesMin: [ "Mon", "Tue", "Wed", "Th", "Fri", "Sat" , "Sun" ],
 		firstDay: 1,
-		dateFormat: 'yy-mm-dd',
+		dateFormat: 'dd-mm-yyyy',
 		yearRange: "1950:c+3",
 		changeYear: true
 	};

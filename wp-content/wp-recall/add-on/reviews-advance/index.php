@@ -20,7 +20,7 @@ function rcl_init_default_types(){
 
     rcl_init_reviews_type(array(
             'rating_type' => 'review-profile',
-            'type_name' => __('Отзывы к профилю'),
+            'type_name' => __('Profile Reviews'),
             'style' => true,
             'add_form' => true,
             'init_tab' => true
@@ -66,7 +66,7 @@ function rcl_reviews_init(){
     rcl_tab(
         array(
             'id'=>'reviews',
-            'name'=>__('Отзывы'),
+            'name'=>__('Reviews'),
             'supports'=>array('ajax'),
             'public'=>1,
             'icon'=>'fa-comment',
@@ -114,7 +114,7 @@ function rcl_get_reviews_tab($args){
         'rating_type' => $rating_type
     ));
 
-    if(!$reviewsList) return $content . '<p>'.__('Ни одного отзыва пока не было оставлено.').'</p>';
+    if(!$reviewsList) return $content . '<p>'.__('No reviews have been left yet.').'</p>';
 
     $content .= $reviewsList;
 

@@ -109,7 +109,7 @@ function atbc_del_except_chat_tab($tabs){
         }
 
         if( $tab['id'] == 'chat' ){
-            $tab['name'] = 'Сообщения сайта';
+            $tab['name'] = 'Site Posts';
             $tab['order'] = 1;
             $tab['first'] = 1;
             if(!$user_ID){                                          // гость. ему свой текст
@@ -128,8 +128,8 @@ add_filter('rcl_tabs','atbc_del_except_chat_tab');
 // для гостя сменим текст с "Авторизуйтесь, чтобы написать пользователю сообщение"
 function atbc_change_guest_text(){
    $guest_text = '<div class="chat-notice">'
-                   . '<span class="notice-error">Этот бот сможет рассылать вам новости сайта, подписки и уведомления.<br/>'
-                       . 'Войдите на сайт и проверьте его работу</span>'
+                   . '<span class="notice-error">This bot will be able to send you site news, subscriptions and notifications.<br/>'
+                       . 'Log in to the site and check its operation.</span>'
                 . '</div>';
     return $guest_text;
 }
@@ -207,7 +207,7 @@ function atbc_chat_send_notify_messages(){
         $messages[$m->private_key][$m->user_id][] = $m->message_content;
     }
 
-    rcl_add_log('Дополнение автобота. Отправка непрочитанных сообщений личного чата');
+    rcl_add_log('Autobot addition. Sending unread private chat messages');
 
     foreach($messages as $addressat_id=>$data){
         $content = '';
@@ -219,25 +219,25 @@ function atbc_chat_send_notify_messages(){
             $url = rcl_get_tab_permalink($author_id,'chat');
             if($author_id == AUTOBOT_ID) $url = get_author_posts_url(AUTOBOT_ID);
             $content .= '<div style="overflow:hidden;clear:both;border-bottom:1px solid #e5e5e5;margin: 0 0 10px;">';
-                $content .= '<h3 style="margin: 0 0 10px;">Вам было отправлено сообщение:</h3>';
+                $content .= '<h3 style="margin: 0 0 10px;">A message was sent to you:</h3>';
                 $content .= '<div style="float:left;margin-right:15px;">'.get_avatar($author_id,55).'</div>';
-                $content .= '<p style="margin: 0 0 10px;">от пользователя: "'.get_the_author_meta('display_name',$author_id).'"</p>';
+                $content .= '<p style="margin: 0 0 10px;">from user: "'.get_the_author_meta('display_name',$author_id).'"</p>';
 
                 if($mailtext || $author_id == AUTOBOT_ID){ // в настройках стоит опция "отправлять полный текст сообщения", или это автобот
                     $message = implode('<br>',$array_messages);
 
-                    $content .= '<p style="margin: 0 0 10px;"><b>Текст сообщения:</b></p>';
+                    $content .= '<p style="margin: 0 0 10px;"><b>Message text:</b></p>';
                     $content .= '<p style="background-color: #f5f5f5;padding: 8px 12px;margin: 0;">'.wp_unslash($message).'</p>';
                 }
 
-                $content .= '<p>Вы можете прочитать сообщение перейдя по ссылке: <a href="'.$url.'">'.$url.'</a></p>';
+                $content .= '<p>You can read the message by clicking on the link: <a href="'.$url.'">'.$url.'</a></p>';
 
                 if(rcl_exist_addon('subscription-two')){
                     if($author_id == AUTOBOT_ID){
                         $user_cab = rcl_format_url(get_author_posts_url($addressat_id),'sbt_tab');
                         $content .= '<p><small>';
-                            $content .= 'Управление подпиской вам доступно в вашем личном кабинете: ';
-                            $content .= '<a href="'.$user_cab.'">Перейти к управлению подпиской</a>';
+                            $content .= 'Subscription management is available to you in your personal account: ';
+                            $content .= '<a href="'.$user_cab.'">Go to subscription management</a>';
                         $content .= '<small></p>';
                     }
                 }
@@ -245,7 +245,7 @@ function atbc_chat_send_notify_messages(){
             $content .= '</div>';
         }
 
-        $title = 'Для вас ' . atbc_counting($cnt,array('новое сообщение','новых сообщения','новых сообщений') );
+        $title = 'For you ' . atbc_counting($cnt,array('new message','new message','new message') );
 
         rcl_mail($to, $title, $content);
     }
@@ -274,10 +274,10 @@ function atbc_bar_add_chat_icon(){
 
     if( defined('OTFM') ){ // константа определена на моем домене в моем ВП шаблоне
         $autobot_url = '/author/autobot/';
-        $label = 'Подписки';
+        $label = 'Subscriptions';
     } else {
         $autobot_url = get_author_posts_url( AUTOBOT_ID ); // дает +2 запроса к бд. Поэтому напрямую его на своем домене
-        $label = 'Сообщения';
+        $label = 'Messages';
     }
 
     rcl_bar_add_icon('ac_autobot',
@@ -295,7 +295,7 @@ function atbc_bar_add_chat_icon(){
             array(
                 'icon'=>'fa-envelope',
                 'url'=>rcl_get_tab_permalink($user_ID,'chat'),
-                'label'=>'Личные сообщения',
+                'label'=>'Private messages',
                 'counter'=>$data['messages']
             )
         );

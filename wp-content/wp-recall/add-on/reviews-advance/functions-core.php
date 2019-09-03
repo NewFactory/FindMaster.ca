@@ -55,13 +55,13 @@ function rcl_get_review_form($atts){
         array(
             'type' => 'custom',
             'slug' => 'rvs-rating-box',
-            'title' => __('Укажите значение рейтинга и текст отзыва ниже'),
+            'title' => __('Indicate rating value and review text below'),
             'content' => $ratingBox->box_content()
         ),
         array(
             'slug' => 'rvs-review-content',
             'type' => 'textarea',
-            'title' => __('Текст отзыва'),
+            'title' => __('Review text'),
             'default' => $review_id? $review->review_content: '',
             'required' => 1
         ),
@@ -89,7 +89,7 @@ function rcl_get_review_form($atts){
 
     $content .= rcl_get_form(array(
         'fields' => $formFields,
-        'submit' => __('Отправить'),
+        'submit' => __('Submit'),
         'onclick' => 'rcl_send_form_data("rcl_send_review",this);return false;'
     ));
 
@@ -231,18 +231,18 @@ if($review->user_id == $user_ID || rcl_is_user_role($user_ID, 'administrator')){
 
         $items[] = array(
             'id' => 'rvs-review-remove',
-            'label' => __('Удалить'),
+            'label' => __('Delete'),
             'icon' => 'fa-remove',
             'onclick' => 'ra_ajax('.json_encode(array(
                 'action' => 'rcl_ajax_review_remove',
                 'review_id' => $review->review_id,
-                'confirm' => __('Вы уверены?')
+                'confirm' => __('Are you sure?')
             )).',this);return false;'
         );
 
         $items[] = array(
             'id' => 'rvs-review-edit',
-            'label' => __('Изменить'),
+            'label' => __('Edit'),
             'icon' => 'fa-pencil-square-o',
             'onclick' => 'ra_ajax('.json_encode(array(
                 'action' => 'rcl_ajax_get_review_edit_form',

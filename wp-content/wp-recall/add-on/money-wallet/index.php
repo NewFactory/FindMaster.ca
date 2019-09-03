@@ -104,7 +104,7 @@ function add_tab_wallet(){
         'content'=>array(
             array(
                 'id' => 'wallet',
-                'name' => __('История'),
+                'name' => __('Story'),
                 'callback' => array(
                     'name'=>'mw_wallet_history_tab'
                 )
@@ -117,7 +117,7 @@ function add_tab_wallet(){
     if(rcl_get_option('output_wallet_request')){
         $args['content'][] = array(
             'id' => 'wallet-request',
-            'name' => __('Вывод средств'),
+            'name' => __('Withdraw funds'),
             'callback' => array(
                 'name'=>'mw_wallet_requests_tab'
             )
@@ -170,7 +170,7 @@ function mw_wallet_history_tab($master_id){
                 'width' => 10, 'align' => 'center'
             ),
             array(
-                'title' => __('Дата','rcl-wallet'),
+                'title' => __('Date','rcl-wallet'),
                 'width' => 30, 'align' => 'center'
             ),
             array(
@@ -241,16 +241,16 @@ function mw_get_request_form(){
     $fields = array(
         array(
             'type' => 'select',
-            'title' => __('Платежная система'),
+            'title' => __('Payment system'),
             'slug' => 'pay_system',
-            'empty-first' => __('Выберите вариант вывода'),
+            'empty-first' => __('Choose output option'),
             'default' => $default->type,
             'required' => 1,
             'values' => $values
         ),
         array(
             'type' => 'text',
-            'title' => __('Номер кошелька/счета'),
+            'title' => __('Wallet / Account Number'),
             'slug' => 'wallet_system',
             'default' => $default->wallet,
             'required' => 1,
@@ -258,24 +258,24 @@ function mw_get_request_form(){
         array(
             'type' => 'number',
             'slug' => 'output_size',
-            'title' => __('Сумма запроса'),
+            'title' => __('Request Amount'),
             'default' => 0,
             'required' => 1,
             'value_min' => $min? $min: 0,
-            'notice' => $min? __('Минимальная сумма запроса').': '.$min.' '.rcl_get_primary_currency(1): ''
+            'notice' => $min? __('Minimum request amount').': '.$min.' '.rcl_get_primary_currency(1): ''
         )
     );
 
-    $content = '<h3>'.__('Форма запроса на вывод средств').'</h3>';
+    $content = '<h3>'.__('Withdrawal request form').'</h3>';
 
     $content .= rcl_get_form(array(
         'onclick' => 'rcl_send_form_data("mw_new_output_request", this);return false;',
         'fields' => $fields,
-        'submit' => __('Отправить'),
+        'submit' => __('Submit'),
     ));
 
     if($perc = rcl_get_option('percent_output_request', 0))
-        $content .= '<p>'.sprintf(__('Комиссия запроса на вывод: %s','rcl-wallet'), $perc.' %').'</p>';
+        $content .= '<p>'.sprintf(__('Withdrawal request commission: %s','rcl-wallet'), $perc.' %').'</p>';
 
     return $content;
 
@@ -283,14 +283,14 @@ function mw_get_request_form(){
 
 function mw_requests_history_tab($master_id){
 
-    $content = '<h3>'.__('История запросов на вывод средств','rcl-wallet').'</h3>';
+    $content = '<h3>'.__('Withdrawal Request History','rcl-wallet').'</h3>';
 
     $cnt = mw_count_requests(array(
         'user_rq' => $master_id
     ));
 
     if(!$cnt){
-        return $content . '<p>'.__('Запросов на вывод еще не было','rcl-wallet').'</p>';
+        return $content . '<p>'.__('No withdrawal requests yet','rcl-wallet').'</p>';
     }
 
     $rclnavi = new Rcl_PageNavi('rcl-wallet', $cnt);
@@ -310,23 +310,23 @@ function mw_requests_history_tab($master_id){
     $Table = new Rcl_Table(array(
         'cols' => array(
             array(
-                'title' => __('Дата','rcl-wallet'),
+                'title' => __('Date','rcl-wallet'),
                 'width' => 30, 'align' => 'center'
             ),
             array(
-                'title' => __('Cумма запроса','rcl-wallet'),
+                'title' => __('Request amount','rcl-wallet'),
                 'width' => 20, 'align' => 'center'
             ),
             array(
-                'title' => __('Сумма вывода','rcl-wallet'),
+                'title' => __('Withdrawal amount','rcl-wallet'),
                 'width' => 20, 'align' => 'center'
             ),
             array(
-                'title' => __('Комментарий','rcl-wallet'),
+                'title' => __('Comment','rcl-wallet'),
                 'width' => 30
             ),
             array(
-                'title' => __('Статус','rcl-wallet'),
+                'title' => __('Status','rcl-wallet'),
                 'width' => 30
             ),
             array(

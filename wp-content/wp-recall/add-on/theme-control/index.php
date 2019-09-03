@@ -130,20 +130,20 @@ function tc_author_menu($user_lk){
             }
             if(rcl_exist_addon('profile')){
                 $out .= '<div class="tc_line">';
-                    /*if(rcl_exist_addon('user-info-tab')){ // если активен доп - ajax загрузка ред. профиля
+                    if(rcl_exist_addon('user-info-tab')){ // если активен доп - ajax загрузка ред. профиля
                         $out .= '<a class="rcl-ajax" data-post="'.uit_ajax_data($user_lk,$uit_tab_id = 'profile').'" href="?tab=profile"><i class="rcli fa-pencil"></i><span>Редактировать профиль</span></a>';
                     } else {
-                        $out .= '<a href="?tab=profile"><i class="rcli fa-pencil"></i><span>Редактировать профиль</span></a>';
-                    }*/
+                        $out .= '<a href="?tab=profile"><i class="rcli fa-pencil"></i><span>Edit profile</span></a>';
+                    }
                 $out .= '</div>';
             }
             if(current_user_can('activate_plugins')){
                 $out .= '<div class="tc_line">';
-                    $out .= '<a href="'.admin_url().'"><i class="rcli fa-external-link-square"></i><span>В админку</span></a>';
+                    $out .= '<a href="'.admin_url().'"><i class="rcli fa-external-link-square"></i><span>To admin panel</span></a>';
                 $out .= '</div>';
             }
             $out .= '<div class="tc_line">';
-                $out .= '<a href="'.wp_logout_url('/').'"><i class="rcli fa-sign-out"></i><span>Выход</span></a>';
+                $out .= '<a href="'.wp_logout_url('/').'"><i class="rcli fa-sign-out"></i><span>Output</span></a>';
             $out .= '</div>';
         $out .= '</div>';
     $out .= '</div>';
